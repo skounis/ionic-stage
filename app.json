@@ -1,0 +1,7 @@
+{
+    "name": "Ionic Stage",
+    "description": "A NodeJS server for staging Ionic Application, built with Heroku in mind.",
+    "repository": "https://github.com/skounis/ionic-stage",
+    "logo": "",
+    "keywords": ["ionic"]
+}
