@@ -1,0 +1,20 @@
+<ion-view>
+	<ion-content scroll="false" class="text-center">
+		<div class="padding-horizontal" style="padding-top: 150px;">
+			<h1>Zino</h1>
+
+			<ion-list class="list-inset">
+				<p class="assertive" ng-if="vm.error">Ce code membre n'extiste pas.</p>
+				<label class="item item-input">
+					<input type="text" placeholder="Code membre" ng-model="vm.code" />
+				</label>
+				<ion-item class="login-button">
+					<button class="button button-block button-royal" ng-click="vm.login()">Valider</button>
+				</ion-item>
+			</ion-list>
+		</div>
+		<div class="login-info">
+			<p>Votre code membre contient 9 chiffres</p>
+		</div>
+	</ion-content>
+</ion-view>

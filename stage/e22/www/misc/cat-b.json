@@ -1,0 +1,137 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 10,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4eb1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-1-thumb.png",
+			"title": "4pc Wooden Plant Set",
+			"body": "This decorative set features 4 plant holders. The plant holders rest decoratively amid an attractive wood base.",
+			"tags": ["wood", "set"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-1.pdf",
+			"url" : "http://issuu.com/mortonhouston/docs/digital_catalogue_28ab5dc0261b6a",
+			"price" : "€21.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-1-1.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888b2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-2-thumb.png",
+			"title": "Accent Planter",
+			"body": "This decorative accessory is handmade of soft metal and can be used to hold plants and much more. This planter has a simple, yet modern design.",
+			"tags": ["planter", "handmade"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"price" : "€42.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-2-1.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4db3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-3-thumb.png",
+			"title": "Concrete Rectangle Planter",
+			"body": "This Concrete Rectangle Planter is perfect for outdoor plants and flowers, and will accentuate the hues of its contents. This piece truly embodies the concept of the collection with masculine, sturdy construction, without losing the beauty and attractiveness of natural elements. ",
+			"tags": ["concrete"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/zire9/docs/webuser_-_may_20__2015",
+			"price" : "€21.70",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-3-1.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fb4",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-4-thumb.png",
+			"title": "Ceramic Vases (Set of 2)",
+			"body": "Add an elegant two white accent to any room with this decor. Robust ceramic construction adds timeless style to your home.",
+			"tags": ["ceramic", "white"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"price" : "€57.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-4-1.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddb5",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-5-thumb.png",
+			"title": "Blue Glass Square Vases (Set of 3)",
+			"body": "This elegant trio stands as a bold accent. This set of three is accented with blue and white pieces for a gorgeous contrast.",
+			"tags": ["blue", "glass"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"price" : "€48.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-5-1.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b6",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-6-thumb.png",
+			"title": "Barel Stool",
+			"body": "Pair two at the end of a bed or follow interior designer trend of using two in place of a coffee table to get the most.",
+			"tags": ["red", "metalic"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€65.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-6-1.png"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b7",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-7-thumb.png",
+			"title": "Cushion Stool",
+			"body": "Lend a modern feel to your room with this cushion stool. This colorfull counter stool features a soft base for a contemporary, up-to-date look.",
+			"tags": ["cushion", "colorful birds"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€36.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-7-1.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b8",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-8-thumb.png",
+			"title": "Oval Metal Planter with Handles",
+			"body": "This beautiful planter is crafted from high-quality metal for long-lasting durability in your outdoor space. This gorgeous planter makes a wonderful accent to your yard or garden.",
+			"tags": ["metal", "oval"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€43.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-8-1.png"
+			]
+		}, {
+			"id": 9,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b9",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-9-thumb.png",
+			"title": "Silver Metal Box",
+			"body": "This silver metal cut-out container with side handles that make it stylish yet handy is a great gift for family and friends.",
+			"tags": ["silver", "metal"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€22.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-9-1.png"
+			]
+		}, {
+			"id": 10,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732b10",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-10-thumb.png",
+			"title": "Wooden Lantern",
+			"body": "Make your next garden party jump with this set of two red wooden lanterns designed to light up an exciting night.",
+			"tags": ["wood", "red"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€29.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-b-10-1.png"
+			]
+		}
+	]
+}

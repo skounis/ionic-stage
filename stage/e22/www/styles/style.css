@@ -1,0 +1,118 @@
+/*
+ * Common
+ */
+.align-right {
+  text-align: right;
+}
+
+.font-15x {
+  font-size: 150%;
+}
+
+.item-stacked-label .data {
+  display: block;
+  height: 24px;
+  padding-top: 2px;
+  padding-left: 0px;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-top: 4px;
+  color: #aaaaaa;
+}
+
+/* Empty. Add your own CSS if you like */
+img {max-width: 100%;}
+
+.content-inner{padding: 16px;}
+
+.content-horizontal-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.card.col{padding: 0;}
+
+/*
+ * Home
+ */
+ .home-hello{
+   position:relative;
+ }
+
+ .home img{
+   display: inherit;
+ }
+
+ .home-hello .item{
+   position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  border: 0;
+  background: rgba(255,255,255, 0.6);
+  padding-bottom: 40px;
+ }
+
+ .card.col.home h1{text-align: center;}
+ .card.col.home h2{text-align: center;}
+
+/*
+ * Map
+ */
+
+ #map-view .scroll {
+ 	height: 100%;
+ }
+
+ .gmaps {
+ 	height: 100%;
+ }
+
+/*
+ * Android. Action sheet
+ */
+
+.platform-android .action-sheet .button {
+  padding-left: 16px;
+}
+
+/*
+ *
+ */
+.product-price {
+  font-size: 80%;
+  right: 16px;
+  position: absolute;
+  margin-top: 2px;
+}
+
+/*
+ * Welcome
+ */
+.next-button {
+	bottom: 10px;
+	position: absolute;
+	width: 100%;
+}
+
+/*
+ * Login
+ */
+
+.login-button {
+	padding: 0;
+	border: 0;
+}
+
+.login-button button {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.login-info {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}

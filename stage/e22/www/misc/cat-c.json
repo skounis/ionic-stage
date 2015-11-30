@@ -1,0 +1,154 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 11,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebc1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-1-thumb.png",
+			"title": "3-light Flush Mount",
+			"body": "The flush-mount installation means that this modern light fixture takes up less space than a traditional chandelier. This arresting brushed nickel light fixture creates a style of its own.",
+			"tags": ["nickel", "3-light"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-1.pdf",
+			"url" : "http://issuu.com/mortonhouston/docs/digital_catalogue_28ab5dc0261b6a",
+			"price" : "€60.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-1-1.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888c2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-2-thumb.png",
+			"title": "5-light Flush Mount",
+			"body": "This ceiling lighting features five lights with white marble glass for ample illumination perfect for any room in your home.",
+			"tags": ["nickel", "5-light"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"price" : "€53.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-2-1.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dc3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-3-thumb.png",
+			"title": "Fabric 19-inch Table Lamp",
+			"body": "This handmade lamp will make a subtle and versatile addition to any setting. With a smooth appearance and fabric shade to provide plenty of modern appeal, this lamp will beautifully light up any room.",
+			"tags": ["fabric","handmade"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/zire9/docs/webuser_-_may_20__2015",
+			"price" : "€26.69",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-3-1.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fc4",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-4-thumb.png",
+			"title": "Modern Hanging Lamp",
+			"body": "This paper hanging lamp has a smooth shade that help to evenly distribute the light over your room. Add a contemporary look to your home with this stunning light.",
+			"tags": ["paper", "pendant"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"price" : "€20.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-4-1.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddc5",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-5-thumb.png",
+			"title": "Polished Glass Bell Pendant",
+			"body": "This pendant in polished glass provides abundant light to your home, while adding style and interest.",
+			"tags": ["white", "bell"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"price" : "€128.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-5-1.png",
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-5-2.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c6",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-6-thumb.png",
+			"title": "4-light Bamboo Pendant",
+			"body": "Close your eyes and picture your favorite city at sunset. Think dark buildings silhouetted against the ethereal glow of the fading sun, and you will see the inspiration for this bamboo pendant.",
+			"tags": ["bamboo", "4-light"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€267.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-6-1.png",
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-6-2.png"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c7",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-7-thumb.png",
+			"title": "Bamboo 19-inch Table Lamp",
+			"body": "A cylindrical bamboo shade brings modern flair to this table lamp. This trendy light will blend with a variety of decor motifs to brighten your bedroom, office or living area.",
+			"tags": ["bamboo", "dark brown"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€82.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-7-1.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c8",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-8-thumb.png",
+			"title": "Transparent Glass Shade Modern Table Lamp",
+			"body": "Let the natural radiance of light shine in your home with this cheer modern table lamp. This polished table lamp features a transparent glass shade positioned on a semi-transparent glass frame.",
+			"tags": ["glass", "blue"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€118.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-8-1.png",
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-8-2.png"
+			]
+		}, {
+			"id": 9,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c9",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-9-thumb.png",
+			"title": "1-light Purple Glass Table Lamp",
+			"body": "Reflect an aura of sophistication with this glimmering dark purple glass lamp with a crafted striped pattern.",
+			"tags": ["purple", "glass"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€42.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-9-1.png",
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-9-2.png"
+			]
+		}, {
+			"id": 10,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732c10",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-10-thumb.png",
+			"title": "Internal Table Lamp",
+			"body": "Illuminate your home or office in style with this table lamp. This light features a chrome finish and a pink linen lampshade.",
+			"tags": ["pink", "linen"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€98.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-10-1.png"
+			]
+		}, {
+			"id": 11,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732c11",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-11-thumb.png",
+			"title": "Basketwork Pendant",
+			"body": "Bring elegance into your home with this classically inspired yet modern-styled chandelier. This classical chandelier is a beautiful accent for any indoor space.",
+			"tags": ["basketwork"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€118.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-c-11-1.png"
+			]
+		}
+	]
+}

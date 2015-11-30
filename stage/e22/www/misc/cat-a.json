@@ -1,0 +1,111 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 8,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ea1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-1-thumb.png",
+			"title": "Traditional Rug (7'10 x 11')",
+			"body": "Add a classic touch to your room decor with this traditional rug. A product of polypropylene, this rug stands up well against heavy foot traffic and daily use, and the finished edges add clean lines to the design.",
+			"tags": ["traditional", "polypropylene"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-1.pdf",
+			"url" : "http://issuu.com/mortonhouston/docs/digital_catalogue_28ab5dc0261b6a",
+			"price" : "€268.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-1-1.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888a2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-2-thumb.png",
+			"title": "Rug Moroccan Rug (5'3 x 7'6)",
+			"body": "Liven up your space with this synthetic fiber rug. Adds visual interest to your floor and its shag construction feels soft and comfortable underfoot. Synthetic fiber construction ensures long-lasting durability and prevent wear and tear to the loft and pile height.",
+			"tags": ["synthetic", "moroccan"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"price" : "€184.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-2-1.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4da3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-3-thumb.png",
+			"title": "Solid Wool Rug (5' x 8')",
+			"body": "Make your contemporary space more comfortable with this sumptuous hand-loomed wool rug.  Made with 100-percent wool and containing latex, this rug features a soft and elegant appearance. This handmade, rectangular rug has a casual appeal that accents just about any decor.",
+			"tags": ["wool", "handmade"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/zire9/docs/webuser_-_may_20__2015",
+			"price" : "€148.70",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-3-1.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fa4",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-4-thumb.png",
+			"title": "Cozy Solid Yellow Rug (8' x 10')",
+			"body": "This power-loomed cozy solid rug offers luxurious comfort and easy-to-design styling. With casual styling this indoor accent piece will brighten any space. A non-skid pad is recommended for use on smooth, or slick flooring surfaces.",
+			"tags": ["solid", "polypropylene"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"price" : "€99.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-4-1.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728dda5",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-5-thumb.png",
+			"title": "Cozy Grey Rug (8' x 10')",
+			"body": "Cultivate a soft spot on your living room or dining room floor with this sumptuous grey area rug. This contemporary rectangular rug is made of soft polypropylene and works well in both transitional and modern decor schemes. Place the piece in your bedroom and sink your feet into its lush shag pile every time you get in or out of bed.",
+			"tags": ["grey", "polypropylene"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"price" : "€242.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-5-1.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324a6",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-6-thumb.png",
+			"title": "Silken Rug (5' x 7')",
+			"body": "Bring textural dimension to your home, office or studio with this soft rug, rendered in a neutral hue to complement a variety of color schemes. The medium pile offers a luxurious texture for your feet to sink into; place it near your bed for a plush landing on those chilly mornings.",
+			"tags": ["Polyester"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€136.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-6-1.png"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324a7",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-7-thumb.png",
+			"title": "My Soft and Plush Rug (5'3 x 7'6)",
+			"body": "Add a pop of color to any living space with this rug. Machine-made from soft polypropylene synthetic fiber, this indoor rug has a classic rectangular shape and a generous one-inch pile height.",
+			"tags": ["polypropylene"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€103.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-7-1.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324a8",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-8-thumb.png",
+			"title": "Ultimate Red Power-Loomed Rug (8' x 10')",
+			"body": "Combining functionality with chic style, this modern rug enhances your decor and home comfort. A polypropylene construction and cotton canvas backing make this rug extra durable, and a high-low power-loomed design gives texture to this floor covering.",
+			"tags": ["polypropylene", "red"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/pdf/cat-a-2.pdf",
+			"url" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"price" : "€231.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/assets/cat-a-8-1.png"
+			]
+		}
+	]
+}
