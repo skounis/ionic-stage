@@ -1,0 +1,18 @@
+<ion-view view-title="LAKELAND">
+	<ion-content class="home-content">
+		<div class="home-hello">
+			<img src="http://lorempixel.com/1024/768/"/>
+		</div>
+
+		<div class="list">
+			<a class="item item-icon-left" ng-repeat="e in vm.entries" ng-click="vm.go(e.path)">
+	 			<i class="icon {{e.icon}}"></i>
+			 	{{e.title}}
+				<span class="item-note">
+					{{e.titleSecondary}}
+				</span>
+		 	</a>
+		</div>
+
+	</ion-content>
+</ion-view>

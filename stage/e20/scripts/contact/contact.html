@@ -1,0 +1,19 @@
+<ion-view view-title="Contact">
+	<ion-content>
+		<div class="list">
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Full Name</span>
+		    <input type="text" placeholder="John Smith" ng-model="vm.fullname">
+		  </label>
+		  <label class="item item-input item-stacked-label">
+		    <span class="input-label">Message</span>
+		    <textarea type="text" placeholder="Enter your message ..." style="height: 30vh;" ng-model="vm.message"></textarea>
+		  </label>
+		</div>
+		<div class="padding" ng-click="vm.send()">
+			<button class="button button-block button-positive">
+	  		Send email
+			</button>
+		</div>
+	</ion-content>
+</ion-view>
