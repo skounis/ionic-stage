@@ -35,16 +35,13 @@ IonicModule
     template:
       '<label class="item item-radio">' +
         '<input type="radio" name="radio-group">' +
-        '<div class="radio-content">' +
-          '<div class="item-content disable-pointer-events" ng-transclude></div>' +
-          '<i class="radio-icon disable-pointer-events icon ion-checkmark"></i>' +
-        '</div>' +
+        '<div class="item-content disable-pointer-events" ng-transclude></div>' +
+        '<i class="radio-icon disable-pointer-events icon ion-checkmark"></i>' +
       '</label>',
 
     compile: function(element, attr) {
       if (attr.icon) {
-        var iconElm = element.find('i');
-        iconElm.removeClass('ion-checkmark').addClass(attr.icon);
+        element.children().eq(2).removeClass('ion-checkmark').addClass(attr.icon);
       }
 
       var input = element.find('input');

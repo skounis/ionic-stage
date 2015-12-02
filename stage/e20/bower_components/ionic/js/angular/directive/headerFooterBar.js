@@ -164,12 +164,6 @@ function headerFooterBarDirective(isHeader) {
             $scope.$watch('$hasTabs', function(val) {
               $element.toggleClass('has-tabs', !!val);
             });
-            ctrl.align();
-            $scope.$on('$ionicFooter.align', function() {
-              ionic.requestAnimationFrame(function() {
-                ctrl.align();
-              });
-            });
           }
         }
       }

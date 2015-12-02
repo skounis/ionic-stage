@@ -5,10 +5,19 @@
 		.module('localbiz.menu')
 		.controller('MenuController', MenuController);
 
-	MenuController.$inject = [];
+	MenuController.$inject = ['externalAppsService'];
 
 	/* @ngInject */
-	function MenuController() {
+	function MenuController(externalAppsService) {
+
+		var vm = angular.extend(this, {
+			go: go
+		});
+
+		function go(target) {
+			externalAppsService.openExternalUrl(target);
+		}
+
 
 	}
 })();
