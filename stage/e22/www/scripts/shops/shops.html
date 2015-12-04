@@ -1,0 +1,16 @@
+<ion-view view-title="Our shops">
+	<ion-content>
+		<ion-slide-box show-pager="false">
+			<ion-slide ng-repeat="shop in vm.shops">
+				<div class="box">
+					<img ng-src="{{shop.pictures[0]}}" />
+					<div>
+						<h1 class="center">{{shop.title}}</h1>
+						<h4 class="center">{{shop.body}}</h4>
+					</div>
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+		</div>
+	</ion-content>
+</ion-view>

@@ -18,12 +18,12 @@
 
 		// ******************************************************************
 
-		function all(categoryGuid) {
-			return dataService.getProducts(categoryGuid)
+		function all() {
+			return dataService.getProducts()
 		}
 
-		function get(categoryGuid, productGuid) {
-			return dataService.getProduct(categoryGuid, productGuid);
+		function get(productGuid) {
+			return dataService.getProduct(productGuid);
 		}
 
 		function getFeatured(productGuid) {

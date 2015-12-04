@@ -11,8 +11,10 @@
 	function dataService(ENV, $injector) {
 		switch(ENV.dataProvider) {
 			case 'LOCAL':
+				console.log('Using LOCAL data service');
 				return $injector.get('localDataService');
 			case 'REMOTE':
+				console.log('Using REMOTE data service');
 				return $injector.get('remoteDataService');
 		}
 		

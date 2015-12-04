@@ -1,35 +1,28 @@
-<ion-view view-title="{{vm.category}}">
+<ion-view view-title="Products">
 	<ion-content>
-		<ion-refresher
-			pulling-text="Pull to refresh..."
-			on-refresh="vm.doRefresh()">
-		</ion-refresher>
-
-		<div ng-repeat="p in vm.products" ng-if="$index%2 == 0" class="row">
-			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index].guid)">
-				<div class="item item-image">
-					<img ng-src="{{vm.products[$index].thumb}}">
-				</div>
-
-				<a class="item">
-					<h3>{{vm.products[$index].title}}</h3>
-					<h4>{{vm.products[$index].price}}</h4>
-				</a>
+		<div class="row">
+			<div class="col" style="padding-top: 15px;">POINTS: </div>
+			<div class="col col-80">
+				<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="wide-as-needed">
+					<span ng-repeat="point in [500, 1000, 1500, 2000, 5000, 10000, 20000]">
+						<button class="button" style="width: 80px;">{{point}}</button>
+					</span>
+				</ion-scroll>
 			</div>
-
-			<div ng-style="{'visibility': !!vm.products[$index + 1] ? 'visible' : 'hidden'}" class="card col"
-				ng-click="vm.showProductDetails(vm.products[$index + 1].guid)">
-				<div class="item item-image">
-					<img ng-src="{{vm.products[$index + 1].thumb}}">
-				</div>
-
-				<a class="item">
-					<h3>{{vm.products[$index + 1].title}}</h3>
-					<h4>{{vm.products[$index + 1].price}}</h4>
-				</a>
-			</div>
-
 		</div>
 
+		<ion-slide-box show-pager="false">
+			<ion-slide ng-repeat="product in vm.products">
+				<div class="box">
+					<img ng-src="{{product.pictures[0]}}" />
+					<div>
+						<h1 class="center">{{product.title}}</h1>
+						<h4 class="center">{{product.body}}</h4>
+						<h6 class="center">{{product.price}} points</h6>
+					</div>
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+		</div>
 	</ion-content>
 </ion-view>

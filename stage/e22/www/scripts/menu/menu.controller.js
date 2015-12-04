@@ -5,12 +5,11 @@
 		.module('catalogue.menu')
 		.controller('MenuController', MenuController);
 
-	MenuController.$inject = ['categories'];
+	MenuController.$inject = [];
 
 	/* @ngInject */
-	function MenuController(categories) {
+	function MenuController() {
 		var vm = angular.extend(this, {
-			categories: categories
 		});
 	}
 })();

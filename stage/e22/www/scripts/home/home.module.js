@@ -20,9 +20,6 @@
 					resolve: {
 						products: function(homeService) {
 							return homeService.getFeaturedProducts();
-						},
-						categories: function(homeService) {
-							return homeService.getFeaturedCategories();
 						}
 					}
 				});

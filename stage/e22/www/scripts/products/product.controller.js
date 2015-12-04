@@ -6,12 +6,10 @@
 		.controller('ProductController', ProductController);
 
 	ProductController.$inject = [
-		'$scope', '$stateParams', '$state', 'product', 'externalAppsService', 'favoritesService', 'ionicToast'];
+		'$scope', '$state', 'product', 'externalAppsService', 'favoritesService', 'ionicToast'];
 
 	/* @ngInject */
-	function ProductController($scope, $stateParams, $state, product, externalAppsService, favoritesService, ionicToast) {
-		var categoryId = $stateParams.categoryId;
-
+	function ProductController($scope, $state, product, externalAppsService, favoritesService, ionicToast) {
 		var vm = angular.extend(this, {
 			product: product,
 			buy: buy,
@@ -51,7 +49,6 @@
 			} else {
 				favoritesService.addItem({
 					guid: vm.product.guid,
-					categoryId: categoryId,
 					thumb: vm.product.thumb,
 					name: vm.product.title,
 					description: vm.product.body

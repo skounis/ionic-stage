@@ -5,12 +5,11 @@
 		.module('catalogue.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$state', 'products', 'categories'];
+	HomeController.$inject = ['$state', 'products'];
 
 	/* @ngInject */
-	function HomeController($state, products, categories) {
+	function HomeController($state, products) {
 		var vm = angular.extend(this, {
-			categories: categories,
 			products: products,
 			showProducts: showProducts,
 			showProductDetails: showProductDetails
@@ -27,11 +26,8 @@
 			});
 		}
 
-		function showProducts(category) {
-			$state.go('app.products', {
-				categoryId: category.guid,
-				categoryName: category.title
-			});
+		function showProducts() {
+			$state.go('app.products');
 		}
 	}
 })();

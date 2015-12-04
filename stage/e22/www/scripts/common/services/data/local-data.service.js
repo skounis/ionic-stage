@@ -10,49 +10,31 @@
 	/* @ngInject */
 	function localDataService($http, $q, _) {
 		var urlPrefix = 'misc/';
-		var categoriesUrl = urlPrefix + 'categories.json';
+		var productsUrl = urlPrefix + 'cat-a.json';
+		var shopsUrl = urlPrefix + 'shops.json';
 		var featuredProductsUrl = urlPrefix + 'featured.json';
-		var categories = [];
 		var featuredProducts = [];
-		var products = {};
+		var products;
 
 		var service = {
-			getCategories: getCategories,
 			getProducts: getProducts,
 			getProduct: getProduct,
-			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
 			getFeaturedProduct: getFeaturedProduct,
-
+			getShops: getShops
 		}
 		return service;
 
-		function getCategories() {
-			return $http.get(categoriesUrl).then(function(response) {
-				categories = response.data.result;
-
-				_.each(categories, function(category) {
-					var index = category.url.lastIndexOf('/')
-					category.url = urlPrefix + category.url.substring(index + 1);
-				});
-
-				return categories;
+		function getProducts() {
+			return $http.get(productsUrl).then(function(response) {
+				products = response.data.result;
+				return products;
 			});
 		}
 
-		function getFeaturedCategories() {
-			return getCategories().then(function(categories) {
-				return _.filter(categories, 'featured', true);
-			});
-		}
-
-		function getProducts(categoryGuid) {
-			var category = _.find(categories, function(category) {
-				return category.guid === categoryGuid;
-			});
-			return $http.get(category.url).then(function(response) {
-				products[categoryGuid] = response.data.result;
-				return products[categoryGuid];
+		function getShops() {
+			return $http.get(shopsUrl).then(function(response) {
+				return response.data.result;
 			});
 		}
 
@@ -63,12 +45,12 @@
 			});
 		}
 
-		function getProduct(categoryGuid, productGuid) {
+		function getProduct(productGuid) {
 			var promise;
-			if (!products[categoryGuid]) {
-				promise = getProducts(categoryGuid);
+			if (!products) {
+				promise = getProducts();
 			} else {
-				promise = $q.when(products[categoryGuid]);
+				promise = $q.when(products);
 			}
 
 			return promise.then(function(products) {

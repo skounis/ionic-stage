@@ -21,8 +21,8 @@ angular.module('catalogue', [
 	// components
 	'catalogue.welcome',
 	'catalogue.login',
-	'catalogue.categories',
 	'catalogue.products',
+	'catalogue.shops',
 	'catalogue.news',
 	'catalogue.map',
 	'catalogue.home',

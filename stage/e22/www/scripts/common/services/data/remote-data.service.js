@@ -2,74 +2,55 @@
 	'use strict';
 
 	angular
-		.module('catalogue.common')
-		.factory('remoteDataService', remoteDataService);
+			.module('catalogue.common')
+			.factory('remoteDataService', remoteDataService);
 
 	remoteDataService.$inject = ['$http', '$q', '_'];
 
 	/* @ngInject */
 	function remoteDataService($http, $q, _) {
-		var categoriesUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/categories.json';
+		var productsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/cat-a.json';
+		var shopsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/shops.json';
 		var featuredProductsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/featured.json';
-		var categories = [];
-		var featuredProducts;
-
-		var products = {};
+		var featuredProducts = [];
+		var products;
 
 		var service = {
-			getCategories: getCategories,
 			getProducts: getProducts,
 			getProduct: getProduct,
-			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
-			getFeaturedProduct: getFeaturedProduct
+			getFeaturedProduct: getFeaturedProduct,
+			getShops: getShops
 		}
+		
 		return service;
 
-		function getCategories() {
-			if (categories && categories.length > 0) {
-				return $q.when(categories);
-			}
-
-			return $http.get(categoriesUrl).then(function(response) {
-				categories = response.data.result;
-				return categories;
+		function getShops() {
+			return $http.get(shopsUrl).then(function(response) {
+				return response.data.result;
 			});
 		}
 
-		function getFeaturedCategories() {
-			return getCategories().then(function(categories) {
-				return _.filter(categories, 'featured', true);
-			});
-		}
-
-		function getProducts(categoryGuid) {
-			var category = _.find(categories, function(category) {
-				return category.guid === categoryGuid;
-			});
-			return $http.get(category.url).then(function(response) {
-				products[categoryGuid] = response.data.result;
-				return products[categoryGuid];
+		function getProducts() {
+			return $http.get(productsUrl).then(function(response) {
+				products = response.data.result;
+				return products;
 			});
 		}
 
 		function getFeaturedProducts() {
-			if (featuredProducts) {
-				return $q.when(featuredProducts);
-			}
-
 			return $http.get(featuredProductsUrl).then(function(response) {
 				featuredProducts = response.data.result;
 				return featuredProducts;
 			});
 		}
 
-		function getProduct(categoryGuid, productGuid) {
+		function getProduct(productGuid) {
 			var promise;
-			if (!products[categoryGuid]) {
-				promise = getProducts(categoryGuid);
+			if (!products) {
+				promise = getProducts();
 			} else {
-				promise = $q.when(products[categoryGuid]);
+				promise = $q.when(products);
 			}
 
 			return promise.then(function(products) {

@@ -8,11 +8,16 @@
 		.config(function($stateProvider) {
 			$stateProvider
 				.state('app.products', {
-					url: '/products/:categoryId?categoryName',
+					url: '/products',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/products/products.html',
 							controller: 'ProductsController as vm'
+						}
+					},
+					resolve: {
+						products: function(productsService) {
+							return productsService.all();
 						}
 					}
 				})
@@ -32,7 +37,7 @@
 					}
 				})
 				.state('app.product', {
-					url: '/products/:categoryId/:productId',
+					url: '/products/:productId',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/products/product.html',
@@ -41,9 +46,8 @@
 					},
 					resolve: {
 						product: function($stateParams, $state, productsService) {
-							var categoryId = $stateParams.categoryId;
 							var productId = $stateParams.productId;
-							return productsService.get(categoryId, productId);
+							return productsService.get(productId);
 						}
 					}
 				});

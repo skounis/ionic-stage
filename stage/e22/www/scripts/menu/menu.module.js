@@ -11,12 +11,7 @@
 					url: '/app',
 					abstract: true,
 					templateUrl: 'scripts/menu/menu.html',
-					controller: 'MenuController as vm',
-					resolve: {
-						categories: function(menuService) {
-							return menuService.getCategoriesMenuItem();
-						}
-					}
+					controller: 'MenuController as vm'
 				});
 		});
 })();

@@ -1,6 +1,17 @@
 /*
  * Common
  */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.wide-as-needed {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
 .align-right {
   text-align: right;
 }

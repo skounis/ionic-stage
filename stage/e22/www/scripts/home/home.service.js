@@ -20,7 +20,6 @@
 		};
 
 		var service = {
-			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
 			officeLocation: officeLocation,
 			getDistanceToOrigin: getDistanceToOrigin
@@ -28,10 +27,6 @@
 		return service;
 
 		// ***************************************************************
-
-		function getFeaturedCategories() {
-			return dataService.getFeaturedCategories();
-		}
 
 		function getFeaturedProducts() {
 			return dataService.getFeaturedProducts();
