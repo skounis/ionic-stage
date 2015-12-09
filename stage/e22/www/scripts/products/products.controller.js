@@ -5,11 +5,12 @@
 		.module('catalogue.products')
 		.controller('ProductsController', ProductsController);
 
-	ProductsController.$inject = ['$state', 'products'];
+	ProductsController.$inject = ['$state', 'products', 'points'];
 
 	/* @ngInject */
-	function ProductsController($state, products) {
+	function ProductsController($state, products, points) {
 		var vm = angular.extend(this, {
+			points: points,
 			products: products,
 			showProductDetails: showProductDetails
 		});

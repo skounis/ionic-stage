@@ -2,39 +2,52 @@
 	'use strict';
 
 	angular
-			.module('catalogue.common')
-			.factory('remoteDataService', remoteDataService);
+		.module('catalogue.common')
+		.factory('remoteDataService', remoteDataService);
 
-	remoteDataService.$inject = ['$http', '$q', '_'];
+	remoteDataService.$inject = ['$http', '$q', '_', 'ENV'];
 
 	/* @ngInject */
-	function remoteDataService($http, $q, _) {
-		var productsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/cat-a.json';
-		var shopsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/shops.json';
-		var featuredProductsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/catalogue/featured.json';
+	function remoteDataService($http, $q, _, ENV) {
+		var remoteUrlPrefix = ENV.apiEndpoint + 'index.php?option=com_zinoapi&task=';
+		var pointsUrl = remoteUrlPrefix + 'getPointsValues';
+		var productsUrl = remoteUrlPrefix + 'getCatalogItems';
+
+		var urlPrefix = 'misc/';
+		var shopsUrl = urlPrefix + 'shops.json';
+		var featuredProductsUrl = urlPrefix + 'featured.json';
 		var featuredProducts = [];
 		var products;
 
 		var service = {
+			getPoints: getPoints,
 			getProducts: getProducts,
 			getProduct: getProduct,
 			getFeaturedProducts: getFeaturedProducts,
 			getFeaturedProduct: getFeaturedProduct,
 			getShops: getShops
 		}
-		
 		return service;
 
-		function getShops() {
-			return $http.get(shopsUrl).then(function(response) {
-				return response.data.result;
+		function getPoints() {
+			return $http.get(pointsUrl).then(function(response) {
+				return response.data;
 			});
 		}
 
 		function getProducts() {
 			return $http.get(productsUrl).then(function(response) {
-				products = response.data.result;
+				products = response.data;
+				_.each(products, function(product) {
+					product.image = ENV.apiEndpoint + product.image;
+				});
 				return products;
+			});
+		}
+
+		function getShops() {
+			return $http.get(shopsUrl).then(function(response) {
+				return response.data.result;
 			});
 		}
 

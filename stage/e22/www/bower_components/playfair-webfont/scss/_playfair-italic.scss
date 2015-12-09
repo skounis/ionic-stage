@@ -1,0 +1,15 @@
+//
+// Playfair Display Italic
+// https://github.com/clauseggers/Playfair-Display
+// ------------------------------------------------------
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('#{$playfair-font-path}/PlayfairDisplay-Italic.eot');
+  src: url('#{$playfair-font-path}/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Italic.woff2') format('woff2'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Italic.woff') format('woff'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: Italic;
+}

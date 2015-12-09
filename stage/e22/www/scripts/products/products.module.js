@@ -18,6 +18,9 @@
 					resolve: {
 						products: function(productsService) {
 							return productsService.all();
+						},
+						points: function(productsService) {
+							return productsService.points()
 						}
 					}
 				})

@@ -1,12 +1,15 @@
 <ion-view>
-	<ion-content scroll="false" class="text-center">
+	<ion-content scroll="false" class="watermark text-center">
 		<div class="padding-horizontal" style="padding-top: 150px;">
-			<h1>Zino</h1>
+			<img src="images/logo-large.png" class="logo">
 
 			<ion-list class="list-inset">
 				<p class="assertive" ng-if="vm.error">Ce code membre n'extiste pas.</p>
 				<label class="item item-input">
 					<input type="text" placeholder="Code membre" ng-model="vm.code" />
+				</label>
+				<label class="item item-input">
+					<input type="email" placeholder="Email" ng-model="vm.email" />
 				</label>
 				<ion-item class="login-button">
 					<button class="button button-block button-royal" ng-click="vm.login()">Valider</button>

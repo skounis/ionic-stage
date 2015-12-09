@@ -1,13 +1,14 @@
-<ion-view view-title="Our shops">
+<ion-view view-title="Our shops" class="shops">
 	<ion-content>
 		<ion-slide-box show-pager="false">
 			<ion-slide ng-repeat="shop in vm.shops">
-				<div class="box">
-					<img ng-src="{{shop.pictures[0]}}" />
-					<div>
-						<h1 class="center">{{shop.title}}</h1>
-						<h4 class="center">{{shop.body}}</h4>
-					</div>
+				<div class="shops-wrapper" style="background-image: url({{shop.pictures[0]}})">
+					<img class="logo" src="images/logo-large.png">
+					<p class="category">Parfumerie</p>
+					<h1>{{shop.title}}</h1>
+					<p class="address">45 rue des Jardins, Abidjan</p>
+					<p class="phone">+225 78 56 98 78</p>
+					<img src="images/pin.png" style="width: 70px">
 				</div>
 			</ion-slide>
 		</ion-slide-box>

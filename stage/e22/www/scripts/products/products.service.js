@@ -12,7 +12,8 @@
 		var service = {
 			all: all,
 			get: get,
-			getFeatured: getFeatured
+			getFeatured: getFeatured,
+			points: points
 		};
 		return service;
 
@@ -28,6 +29,10 @@
 
 		function getFeatured(productGuid) {
 			return dataService.getFeaturedProduct(productGuid);
+		}
+		
+		function points() {
+			return dataService.getPoints();
 		}
 	}
 })();

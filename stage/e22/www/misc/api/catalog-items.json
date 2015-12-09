@@ -1,0 +1,41 @@
+[{
+	"id": "18",
+	"title": "Montre Swatch",
+	"tagline": "Gen Golden Talc",
+	"image": "images\/catalogue\/18\/p1.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br \/><br \/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+	"points": "800000.00",
+	"points_id": "13"
+}, {
+	"id": "17",
+	"title": "Fond de Teint M.A.C",
+	"tagline": "Studio Fix Fluid",
+	"image": "images\/catalogue\/17\/p2.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br \/><br \/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+	"points": "20000.00",
+	"points_id": "11"
+}, {
+	"id": "16",
+	"title": "Broche Swarovski",
+	"tagline": "Coeur en cristal",
+	"image": "images\/catalogue\/16\/p3.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br \/><br \/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+	"points": "100000.00",
+	"points_id": "12"
+}, {
+	"id": "15",
+	"title": "Porte Carte Tumi",
+	"tagline": "Edition Monte Carlo",
+	"image": "images\/catalogue\/15\/p4.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br \/><br \/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+	"points": "20000.00",
+	"points_id": "11"
+}, {
+	"id": "14",
+	"title": "Gloss M.A.C",
+	"tagline": "Pink Everything Edition",
+	"image": "images\/catalogue\/14\/p5.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br \/><br \/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.FIN<\/p>",
+	"points": "5000.00",
+	"points_id": "10"
+}]

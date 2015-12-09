@@ -16,11 +16,6 @@
 							templateUrl: 'scripts/home/home.html',
 							controller: 'HomeController as vm'
 						}
-					},
-					resolve: {
-						products: function(homeService) {
-							return homeService.getFeaturedProducts();
-						}
 					}
 				});
 		});

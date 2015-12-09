@@ -1,0 +1,15 @@
+//
+// Playfair Display Regular
+// https://github.com/clauseggers/Playfair-Display
+// ------------------------------------------------------
+
+@font-face {
+  font-family: 'Playfair Display SC';
+  src: url('#{$playfair-font-path}/PlayfairDisplaySC-Regular.eot');
+  src: url('#{$playfair-font-path}/PlayfairDisplaySC-Regular.eot?#iefix') format('embedded-opentype'),
+       url('#{$playfair-font-path}/PlayfairDisplaySC-Regular.woff2') format('woff2'),
+       url('#{$playfair-font-path}/PlayfairDisplaySC-Regular.woff') format('woff'),
+       url('#{$playfair-font-path}/PlayfairDisplaySC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

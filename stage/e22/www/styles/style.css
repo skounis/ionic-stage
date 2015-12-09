@@ -1,6 +1,316 @@
 /*
+ * Typography
+ */
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+h1.dark, h2.dark, h3.dark, h4.dark {
+  color: #000000;
+}
+
+h1{
+  font-family: 'Playfair Display';
+  /*font-size: 70px;*/
+}
+
+h2, h3, h4{
+  font-family: Montserrat;
+  /*font-size: 28px;*/
+}
+
+p{
+  font-family: Montserrat;
+  color: #ffffff;
+}
+
+p.dark,
+.dark > p {
+  color: #000000;
+}
+
+/*
+ * Buttons / Inputs
+ */
+ button{
+   font-family: Montserrat;
+ }
+
+.button.button-royal{
+  background-color: #ba77ff;
+  border-color: #ba77ff;
+}
+
+input{
+  color: #808080;
+  font-family: Montserrat;
+}
+
+/*
+ * Messages
+ */
+ .assertive, a.assertive {
+    color: #e50036;
+}
+
+/*
+ * Common style classes based on the provided .psd
+ */
+ion-content.watermark{
+  background: url(../images/splash-background.png) transparent center center;
+  background-size: cover;
+}
+
+ion-content.watermark img.logo{
+  width: 50%;
+  max-width: 334px;
+  margin-bottom: 30px;
+}
+
+ion-view.skeuomorphic,
+ion-content.skeuomorphic{
+  background: url(../images/home-background.png) transparent center center;
+  background-size: cover;
+}
+
+ion-view
+
+/*
+ * Screens
+ */
+
+/* == Welcome == */
+
+
+/* == Login == */
+
+.login-button {
+	padding: 0;
+	border: 0;
+}
+
+.login-button button {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.login-info {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+
+/* == Home == */
+
+.home-hello{
+ padding: 100px 0;
+ text-align: center;
+ background: url(../images/splash-background.png) transparent center center;
+ background-size: cover;
+}
+
+.home-card{
+  text-align: center;
+  position: relative;
+}
+
+.home-card .home-card-inner{
+  display: inline-block;
+  position: absolute;
+  top:83px;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+}
+
+.home-card .home-card-inner p.name{
+  font-family: Roboto;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px
+}
+
+.home-card .home-card-inner p.points{
+  font-family: 'Roboto-Thin';
+  font-size: 62px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  top: 50%;
+	transform: 			translateY(-50%)
+}
+
+.home-card img{
+  top: 40px;
+  left: -5px;
+  position: relative;
+}
+
+ion-footer-bar.bar-transparent{
+  background: transparent;
+  height: 70px;
+}
+
+ion-footer-bar.bar-transparent button{
+  height: 50px;
+  font-size: 16px !important;
+}
+
+/* == Catalog / Products == */
+
+.catalog {}
+
+.catalog .row.points-strip {
+  background-color: #f7f7f7;
+  padding: 0;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  font-family: 'Roboto-Light';
+}
+
+.catalog .row.points-strip .col:nth-child(2){
+  padding-right: 0;
+}
+
+.catalog .row.points-strip .points-label{
+  padding-top: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.catalog .row.points-strip .button{
+  font-family: 'Roboto-Light';
+  border-color: #c5c5c5;
+  background-color: #f7f7f7;
+}
+
+.catalog .row.points-strip .button.active{
+  border-color: #0c0c0c;
+}
+
+.catalog .slider-slide{
+  min-height: 700px;
+  border-right: 1px solid #000000;
+}
+
+.catalog .slider-slide:nth-child(1){
+  border-left: 1px solid #000000;
+}
+
+.catalog .slider-slide .product-wrapper{
+  text-align: center;
+}
+
+.catalog .slider-slide .description p{
+  font-family: 'Playfair Display';
+  color: #000000;
+  font-size: 18px;
+}
+
+.catalog .slider-slide .price{
+  font-family: Roboto;
+  color: #000000;
+  font-size: 14px;
+}
+
+/* == Shops == */
+
+.shops{}
+
+.shops .slider-slide .shops-wrapper{
+  background-size: cover;
+  height: 100vh;
+}
+
+.shops .slider-slide .shops-wrapper{
+  text-align: center;
+}
+
+.shops .slider-slide .shops-wrapper img.logo{
+  width: 50%;
+  padding-top: 140px;
+}
+
+.shops .slider-slide .shops-wrapper p.category{
+  font-family: 'Roboto-Light';
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.shops .slider-slide .shops-wrapper h1{
+  font-family: 'Roboto-Light';
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+.shops .slider-slide .shops-wrapper p.address{
+  font-family: 'Roboto-Regular';
+  font-size: 14px;
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+
+.shops .slider-slide .shops-wrapper p.phone{
+  font-family: 'Roboto-Regular';
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* == Map == */
+
+ #map-view .scroll {
+ 	height: 100%;
+ }
+
+ .gmaps {
+ 	height: 100%;
+ }
+
+/*
+ * Android. Action sheet
+ */
+
+.platform-android .action-sheet .button {
+  padding-left: 16px;
+}
+
+/*
+ *
+ */
+.product-price {
+  font-size: 80%;
+  right: 16px;
+  position: absolute;
+  margin-top: 2px;
+}
+
+/* == Menu == */
+.menu{}
+
+.menu ion-content img.logo{
+  width: 100px;
+  margin: 50px 0 50px 45px;
+}
+
+.menu ion-item{
+  color: #1d1d26;
+  font-family: Montserrat;
+  text-transform: uppercase;
+}
+
+.menu ion-item a{
+  margin-left: 30px;
+}
+/*
  * Common
  */
+
+.footer-button {
+ 	bottom: 10px;
+ 	position: absolute;
+ 	width: 100%;
+}
+
 
 .center {
     display: flex;
@@ -43,87 +353,3 @@ img {max-width: 100%;}
 }
 
 .card.col{padding: 0;}
-
-/*
- * Home
- */
- .home-hello{
-   position:relative;
- }
-
- .home img{
-   display: inherit;
- }
-
- .home-hello .item{
-   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  border: 0;
-  background: rgba(255,255,255, 0.6);
-  padding-bottom: 40px;
- }
-
- .card.col.home h1{text-align: center;}
- .card.col.home h2{text-align: center;}
-
-/*
- * Map
- */
-
- #map-view .scroll {
- 	height: 100%;
- }
-
- .gmaps {
- 	height: 100%;
- }
-
-/*
- * Android. Action sheet
- */
-
-.platform-android .action-sheet .button {
-  padding-left: 16px;
-}
-
-/*
- *
- */
-.product-price {
-  font-size: 80%;
-  right: 16px;
-  position: absolute;
-  margin-top: 2px;
-}
-
-/*
- * Welcome
- */
-.next-button {
-	bottom: 10px;
-	position: absolute;
-	width: 100%;
-}
-
-/*
- * Login
- */
-
-.login-button {
-	padding: 0;
-	border: 0;
-}
-
-.login-button button {
-	padding: 0 !important;
-	margin: 0 !important;
-}
-
-.login-info {
-	position: absolute;
-	bottom: 10px;
-	width: 100%;
-}

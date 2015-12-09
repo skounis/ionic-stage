@@ -1,0 +1,15 @@
+//
+// Playfair Display Bold
+// https://github.com/clauseggers/Playfair-Display
+// ------------------------------------------------------
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('#{$playfair-font-path}/PlayfairDisplay-Bold.eot');
+  src: url('#{$playfair-font-path}/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Bold.woff2') format('woff2'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Bold.woff') format('woff'),
+       url('#{$playfair-font-path}/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
