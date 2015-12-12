@@ -1,0 +1,26 @@
+<ion-view view-title="Featured products" class="featured">
+	<ion-nav-title>
+	 <img src="images/logo-large.png" class="logo">
+	</ion-nav-title>
+	<ion-content>
+		<div class="header">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare finibus erat, vel pharetra justo vehicula et.</p>
+		</div>
+		<div ng-repeat="product in vm.products">
+			<div class="list" ng-click="vm.navigate(product.id)">
+				<div class="item item-text-wrap {{product.category}}">
+					<!--
+					<img ng-src="{{product.image}}">
+					-->
+					<p class="homme">Homme</p>
+					<p class="femme">Femme</p>
+					<!--
+					<h2>{{product.title}}</h2>
+					<h4>{{product.category}}</h4>
+					-->
+				</div>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

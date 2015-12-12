@@ -1,9 +1,23 @@
-<ion-view view-title="Article">
+<ion-view view-title="Article" class="article">
 	<ion-content>
-		<img ng-src="{{vm.article.picture}}" />
-		<div class="content-inner">
-			<h1>{{vm.article.title}}</h1>
-			<p>{{vm.article.body}}</p>
+		<div class="header" style="background-image: url({{vm.article.picture}})">
+			<p class="tag"><span>Lounge</span></p>
+			<h1>H1</h1>
+			<p class="intro">{{'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' | limitTo: 40 }}{{article.body.length > 40 ? '...' : ''}}</p>
 		</div>
+		<div class="content-inner">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare
+				finibus erat, vel pharetra justo vehicula et. Quisque tincidunt justo a
+				dolor hendrerit, vel aliquet lectus laoreet. In at tempor enim.
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+				cubilia Curae.n at tempor enim. Vestibulum ante ipsum primis in faucibus
+				orci luctus et ultrices posuere cubilia Curae.
+			</p>
+		</div>
+
+
+
+		<img ng-src="{{vm.article.picture}}" />
+
 	</ion-content>
 </ion-view>

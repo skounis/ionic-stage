@@ -1,0 +1,17 @@
+<ion-view class="featured-details">
+	<!--
+	<ion-nav-title>
+		{{vm.product.title}}
+	</ion-nav-title>
+	-->
+	<ion-nav-title>
+		<img src="images/logo-large.png" class="logo">
+	</ion-nav-title>
+	<ion-content>
+		<img ng-src="{{vm.product.image}}" class="main"/>
+		<div class="content-inner">
+			<h1>{{vm.product.title}}</h1>
+			<div ng-bind-html="vm.product.description"></div>
+		</div>
+	</ion-content>
+</ion-view>

@@ -1,0 +1,17 @@
+<ion-view view-title="Univers" class="articles">
+	<ion-nav-title>
+	 <img src="images/logo-large.png" class="logo">
+	</ion-nav-title>
+	<ion-content>
+		<div ng-repeat="univer in vm.univers">
+			<div class="list" ng-click="vm.navigate(univer.id)">
+				<div class="item item-text-wrap" style="background-image: url({{univer.image}})">
+					<p class="tag"><span>{{univer.category_name}}</span></p>
+					<h1>{{univer.title}}</h1>
+					<p class="intro">{{univer.introtext}}</p>
+				</div>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

@@ -103,48 +103,43 @@ ion-view
 /* == Home == */
 
 .home-hello{
- padding: 100px 0;
+ padding: 90px 0;
  text-align: center;
  background: url(../images/splash-background.png) transparent center center;
  background-size: cover;
 }
 
 .home-card{
-  text-align: center;
-  position: relative;
+  background: url(../images/home-card.png) no-repeat center center;
+  width: 360px;
+  height: 250px;
+  background-size: contain;
+  margin: 15px auto;
 }
 
-.home-card .home-card-inner{
-  display: inline-block;
-  position: absolute;
-  top:83px;
-  right: 0;
-  bottom: 20px;
-  left: 0;
-}
-
-.home-card .home-card-inner p.name{
+.home-card p.name{
   font-family: Roboto;
   font-size: 10px;
-  text-align: center;
-  padding: 20px
+  padding: 34px 96px;
 }
 
-.home-card .home-card-inner p.points{
+.home-card p.points{
   font-family: 'Roboto-Thin';
   font-size: 62px;
   text-align: center;
   margin: 20px;
   position: relative;
-  top: 50%;
-	transform: 			translateY(-50%)
+	transform: 			translateY(-63%)
 }
 
+/*
 .home-card img{
   top: 40px;
   left: -5px;
   position: relative;
 }
+*/
+
 
 ion-footer-bar.bar-transparent{
   background: transparent;
@@ -256,6 +251,149 @@ ion-footer-bar.bar-transparent button{
   margin-bottom: 20px;
 }
 
+/* == Articles / Univers == */
+.articles{}
+
+.articles .item,
+.article .header {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.articles .item,
+.article .header{
+  border: none;
+}
+
+.articles .item p.tag,
+.article .header p.tag{
+  color: #fff;
+  font-family: 'Roboto-Light';
+  font-size: 8pt;
+  text-transform: uppercase;
+}
+.articles .item p.tag span,
+.article .header p.tag span{
+  border: 1px solid #fff;
+  padding: 3px;
+}
+
+.articles .item h1,
+.article .header h1 {
+  font-family: 'Roboto-Thin';
+  font-size: 30pt;
+}
+
+.articles .item p.intro,
+.article .header p.intro{
+  color: #fff;
+  font-family: 'Roboto-Light';
+  font-size: 13pt;
+}
+
+ion-view.article{
+  background: #000;
+}
+.article .header{
+  padding: 16px;
+}
+
+.article .content-inner{
+  color: #fff;
+  padding: 25px;
+}
+
+.article .content-inner p,
+.article .content-inner *{
+  font-family: 'Roboto-Light';
+  font-size: 13pt;
+}
+
+/* == Featured == */
+.featured{}
+
+ion-view.featured{
+  background: #000;
+}
+
+.featured .header,
+.featured .header p{
+  text-align: center;
+  font-family: 'Roboto-Light';
+  font-size: 13px;
+}
+
+.featured .header{
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.featured .list .item{
+  height: 170px;
+  background: #000 url(../images/homme-femme-bg.png) no-repeat center center;
+  background-size: contain;
+  border: 0;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.featured .list .item p {
+  font-family: 'Playfair Display';
+  font-size: 21pt;
+  color: #fff;
+  position: relative;
+  top: 50%;
+  transform: translate(-4%,-63%);
+  -webkit-transform: translate(-4%,-63%);
+  -o-transform: translate(-4%,-63%);
+  -moz-transform: translate(-4%,-63%);
+}
+
+.featured .list .item p{
+  display: none;
+}
+
+.featured .list .item.Homme p.homme,
+.featured .list .item.Femme p.femme{
+  display: inherit;
+}
+
+.featured-details{}
+
+ion-view.featured-details{
+  background: #000;
+}
+
+.featured-details img.main{
+  border-radius: 50%;
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin: 20px auto 10px;
+}
+
+
+
+.featured-details h1{
+  font-size: 35pt;
+}
+
+.featured-details .content-inner,
+.featured-details .content-inner *{
+  font-family: 'Roboto-Light';
+  font-size: 13pt;
+}
+
+.featured-details .content-inner h1{
+  font-family: 'Playfair Display';
+  font-size: 35pt;
+}
+
+
+
+
+
 /* == Map == */
 
  #map-view .scroll {
@@ -353,3 +491,52 @@ img {max-width: 100%;}
 }
 
 .card.col{padding: 0;}
+
+/*
+ * Navigation logo
+ */
+.nav-bar-title img.logo{
+  height: 70%;
+  top: 6px;
+  position: relative;
+}
+
+/*
+ * Transparent navigation bar
+ */
+.bar.bar-light {
+
+  background-color: #000;
+
+  /* background-color: rgba(255,255,255,.66) !important;  */ /* or transparent, or background:none */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b2b2b2+0,000000+100&0.65+0,0+100 */
+  /* background: -moz-linear-gradient(top,  rgba(178,178,178,0.65) 0%, rgba(0,0,0,0) 100%);    */  /* FF3.6-15 */
+  /* background: -webkit-linear-gradient(top,  rgba(178,178,178,0.65) 0%,rgba(0,0,0,0) 100%);  */ /* Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(to bottom,  rgba(178,178,178,0.65) 0%,rgba(0,0,0,0) 100%);    */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6b2b2b2', endColorstr='#00000000',GradientType=0 ); */ /* IE6-9 */
+
+}
+
+/*
+ * remove border bottom in ion header
+ * http://stackoverflow.com/questions/27123773/remove-border-bottom-in-ion-header
+ */
+.bar-header{
+  border: 0 !important;
+  border-color: transparent !important;
+  background-image: none !important;
+  border-bottom: none !important;
+}
+
+.bar-header .button,
+.bar-header .button *,
+.bar-header .left-buttons .button{
+  color: #fff
+}
+
+/*
+.scroll-content {
+  overflow: visible !important;
+}
+*/

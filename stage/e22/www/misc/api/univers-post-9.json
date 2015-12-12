@@ -1,0 +1,14 @@
+[{
+	"id": "4",
+	"title": "Cohiba cigares event",
+	"introtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"fulltext": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p> \r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p> \r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<\/p> \r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <\/p>",
+	"category_id": "3",
+	"category_name": "Lounge",
+	"image": "http:\/\/zino.demo-web.net\/media\/k2\/items\/src\/2ff2ba0051687eef5ca0459cf942940c.jpg",
+	"image_xl": "http:\/\/zino.demo-web.net\/media\/k2\/items\/cache\/2ff2ba0051687eef5ca0459cf942940c_XL.jpg",
+	"image_m": "http:\/\/zino.demo-web.net\/media\/k2\/items\/cache\/2ff2ba0051687eef5ca0459cf942940c_M.jpg",
+	"image_s": "http:\/\/zino.demo-web.net\/media\/k2\/items\/cache\/2ff2ba0051687eef5ca0459cf942940c_S.jpg",
+	"video": "YQHsXMglC9A",
+	"gallery": ["http:\/\/zino.demo-web.net\/media\/k2\/galleries\/4\/galerie1.jpg", "http:\/\/zino.demo-web.net\/media\/k2\/galleries\/4\/galerie2.jpg", "http:\/\/zino.demo-web.net\/media\/k2\/galleries\/4\/galerie3.jpg"]
+}]

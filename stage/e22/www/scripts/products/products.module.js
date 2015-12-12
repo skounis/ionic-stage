@@ -24,21 +24,6 @@
 						}
 					}
 				})
-				.state('app.featured-product', {
-					url: '/products/featured/:productId',
-					views: {
-						'menuContent': {
-							templateUrl: 'scripts/products/product.html',
-							controller: 'ProductController as vm'
-						}
-					},
-					resolve: {
-						product: function($stateParams, $state, productsService) {
-							var productId = $stateParams.productId;
-							return productsService.getFeatured(productId);
-						}
-					}
-				})
 				.state('app.product', {
 					url: '/products/:productId',
 					views: {

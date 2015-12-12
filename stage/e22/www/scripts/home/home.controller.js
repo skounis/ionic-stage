@@ -9,9 +9,8 @@
 
 	/* @ngInject */
 	function HomeController($state) {
-		var vm = angular.extend(this, {			
-			showProducts: showProducts,
-			showProductDetails: showProductDetails
+		var vm = angular.extend(this, {
+			showCatalog: showCatalog
 		});
 
 		(function activate() {
@@ -19,13 +18,7 @@
 
 		// ******************************************************
 
-		function showProductDetails(product) {
-			$state.go('app.featured-product', {
-				productId: product.guid
-			});
-		}
-
-		function showProducts() {
+		function showCatalog() {
 			$state.go('app.products');
 		}
 	}

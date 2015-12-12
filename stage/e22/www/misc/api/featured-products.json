@@ -1,0 +1,15 @@
+[{
+	"id": "22",
+	"title": "Mont Blanc \u00e9dition sp\u00e9ciale  60 ans",
+	"image": "images\/featured_product\/22\/cchomme.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare finibus erat, vel pharetra justo vehicula et. Quisque tincidunt justo a dolor hendrerit, vel aliquet lectus laoreet. In at tempor enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<\/p>\r\n<p>-<\/p>\r\n<p>n at tempor enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<\/p>",
+	"category": "Homme",
+	"category_id": "1"
+}, {
+	"id": "23",
+	"title": "Broche Swarovski",
+	"image": "images\/featured_product\/23\/ccfemme.jpg",
+	"description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare finibus erat, vel pharetra justo vehicula et. Quisque tincidunt justo a dolor hendrerit, vel aliquet lectus laoreet. In at tempor enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<\/p>\r\n<p>-<\/p>\r\n<p>n at tempor enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.<\/p>",
+	"category": "Femme",
+	"category_id": "2"
+}]

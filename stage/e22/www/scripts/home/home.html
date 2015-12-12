@@ -1,4 +1,7 @@
 <ion-view view-title="Home" class="skeuomorphic">
+	<ion-nav-title>
+		 <img src="images/logo-large.png" class="logo">
+	 </ion-nav-title>
 	<ion-content>
 
 		<div class="home-hello">
@@ -7,16 +10,12 @@
 		</div>
 
 		<div class="home-card">
-				<img src="images/home-card.png">
-				<div class="home-card-inner">
-					<div style="position: relative; top: 50">
-						<p class="name">Mme Bamba</p>
-						<p class="points">15500</p>
-					</div>
-				</div>
+			<p class="name">Mme Bamba</p>
+			<p class="points">15500</p>
 		</div>
+
 	</ion-content>
 	<ion-footer-bar align-title="left" class="bar-transparent">
-		<button class="button button-block button-royal">Catalogue</button>
+		<button class="button button-block button-royal" ng-click="vm.showCatalog()">Catalogue</button>
 	</ion-footer-bar>
 </ion-view>
