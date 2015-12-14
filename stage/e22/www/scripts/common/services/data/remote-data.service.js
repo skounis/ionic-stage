@@ -47,7 +47,7 @@
 				return products;
 			});
 		}
-		
+
 		function getProduct(productGuid) {
 			var promise;
 			if (!products) {
@@ -69,7 +69,7 @@
 				_.each(response.data, function(shop) {
 					shops.push({
 						category: shop["shop_type"],
-						title: shop["shop_name"],
+						title: shop["shop_zone"],
 						address: shop["shop_adress"],
 						phone: shop["shop_tel"],
 						cover: ENV.apiEndpoint + shop["shop_cover"]
@@ -94,7 +94,7 @@
 				return featuredProducts;
 			});
 		}
-		
+
 		function getFeaturedProduct(productId) {
 			var promise;
 			if (!featuredProducts) {

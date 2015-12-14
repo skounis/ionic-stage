@@ -1,23 +1,23 @@
 <ion-view>
 	<ion-content scroll="false" class="watermark text-center">
-		<div class="padding-horizontal" style="padding-top: 150px;">
+		<div class="padding-horizontal padding-20" style="padding-top: 96px;">
 			<img src="images/logo-large.png" class="logo">
 
 			<ion-list class="list-inset">
 				<p class="assertive" ng-if="vm.error">Ce code membre n'extiste pas.</p>
 				<label class="item item-input">
-					<input type="text" placeholder="Code membre" ng-model="vm.code" />
+					<input type="text" placeholder="Email ou Téléphone" ng-model="vm.code" />
 				</label>
 				<label class="item item-input">
-					<input type="email" placeholder="Email" ng-model="vm.email" />
+					<input type="email" placeholder="Numéro de carte" ng-model="vm.email" />
 				</label>
 				<ion-item class="login-button">
 					<button class="button button-block button-royal" ng-click="vm.login()">Valider</button>
 				</ion-item>
 			</ion-list>
 		</div>
-		<div class="login-info">
-			<p>Votre code membre contient 9 chiffres</p>
+		<div class="login-info padding-horizontal padding-20">
+			<p>Votre code membre est de 9 chiffres. Il est situé au verso de votre carte Zino Privilèges.</p>
 		</div>
 	</ion-content>
 </ion-view>

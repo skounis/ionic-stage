@@ -11,7 +11,7 @@ h1.dark, h2.dark, h3.dark, h4.dark {
 
 h1{
   font-family: 'Playfair Display';
-  /*font-size: 70px;*/
+  font-size: 35pt;
 }
 
 h2, h3, h4{
@@ -62,9 +62,9 @@ ion-content.watermark{
 }
 
 ion-content.watermark img.logo{
-  width: 50%;
+  width: 46%;
   max-width: 334px;
-  margin-bottom: 30px;
+  margin-bottom: 86px;
 }
 
 ion-view.skeuomorphic,
@@ -94,19 +94,31 @@ ion-view
 	margin: 0 !important;
 }
 
-.login-info {
-	position: absolute;
-	bottom: 10px;
-	width: 100%;
+.login-info,
+.login-info * {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 13px;
+  right: 10px;
 }
 
 /* == Home == */
 
 .home-hello{
- padding: 90px 0;
+ padding: 94px 0;
  text-align: center;
  background: url(../images/splash-background.png) transparent center center;
  background-size: cover;
+}
+
+.home-hello h1{
+  line-height: 100%;
+  margin: 0;
+}
+
+.home-hello p{
+  font-family: 'Roboto-Light';
 }
 
 .home-card{
@@ -115,6 +127,7 @@ ion-view
   height: 250px;
   background-size: contain;
   margin: 15px auto;
+  transform: translateX(-1%);
 }
 
 .home-card p.name{
@@ -143,7 +156,8 @@ ion-view
 
 ion-footer-bar.bar-transparent{
   background: transparent;
-  height: 70px;
+  height: 100px;
+  padding: 20px;
 }
 
 ion-footer-bar.bar-transparent button{
@@ -157,7 +171,7 @@ ion-footer-bar.bar-transparent button{
 
 .catalog .row.points-strip {
   background-color: #f7f7f7;
-  padding: 0;
+  padding: 10px 0;
   border-right: 1px solid #000000;
   border-left: 1px solid #000000;
   font-family: 'Roboto-Light';
@@ -168,7 +182,7 @@ ion-footer-bar.bar-transparent button{
 }
 
 .catalog .row.points-strip .points-label{
-  padding-top: 15px;
+  padding-top: 9px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -177,6 +191,8 @@ ion-footer-bar.bar-transparent button{
   font-family: 'Roboto-Light';
   border-color: #c5c5c5;
   background-color: #f7f7f7;
+  line-height: 100%;
+  min-height: 30px;
 }
 
 .catalog .row.points-strip .button.active{
@@ -196,6 +212,11 @@ ion-footer-bar.bar-transparent button{
   text-align: center;
 }
 
+.catalog .slider-slide h1{
+  line-height: 90%;
+}
+
+.catalog .slider-slide .description,
 .catalog .slider-slide .description p{
   font-family: 'Playfair Display';
   color: #000000;
@@ -222,7 +243,7 @@ ion-footer-bar.bar-transparent button{
 }
 
 .shops .slider-slide .shops-wrapper img.logo{
-  width: 50%;
+  width: 31%;
   padding-top: 140px;
 }
 
@@ -230,12 +251,14 @@ ion-footer-bar.bar-transparent button{
   font-family: 'Roboto-Light';
   font-size: 18px;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 .shops .slider-slide .shops-wrapper h1{
   font-family: 'Roboto-Light';
   font-size: 35px;
   margin: 10px 0;
+  font-weight: bold;
 }
 
 .shops .slider-slide .shops-wrapper p.address{
@@ -259,7 +282,10 @@ ion-footer-bar.bar-transparent button{
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
 
 .articles .item,
 .article .header{
@@ -283,6 +309,7 @@ ion-footer-bar.bar-transparent button{
 .article .header h1 {
   font-family: 'Roboto-Thin';
   font-size: 30pt;
+  line-height: 100%;
 }
 
 .articles .item p.intro,
@@ -296,7 +323,7 @@ ion-view.article{
   background: #000;
 }
 .article .header{
-  padding: 16px;
+  padding: 30px 16px;
 }
 
 .article .content-inner{
@@ -388,6 +415,7 @@ ion-view.featured-details{
 .featured-details .content-inner h1{
   font-family: 'Playfair Display';
   font-size: 35pt;
+  line-height: 100%;
 }
 
 
@@ -436,6 +464,16 @@ ion-view.featured-details{
   text-transform: uppercase;
 }
 
+.menu ion-item.terms{
+  color: #a8a8a8;
+  font-size: 9pt;
+  text-transform: capitalize;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    padding: 20px 49px 20px 16px;
+}
+
 .menu ion-item a{
   margin-left: 30px;
 }
@@ -449,6 +487,14 @@ ion-view.featured-details{
  	width: 100%;
 }
 
+.padding-horizontal.padding-20{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button{
+  line-height: 52px;
+}
 
 .center {
     display: flex;
