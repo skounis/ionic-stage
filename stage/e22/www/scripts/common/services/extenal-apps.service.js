@@ -28,6 +28,11 @@
 		}
 
 		function openMapsApp(coords) {
+
+			if (angular.isObject(coords)) {
+				coords = coords.longitude + ',' + coords.latitude;
+			}
+
 			var q;
 			if (ionic.Platform.isAndroid()) {
 				q = 'geo:' + coords;

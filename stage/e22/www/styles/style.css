@@ -477,6 +477,22 @@ ion-view.featured-details{
 .menu ion-item a{
   margin-left: 30px;
 }
+
+ion-side-menu .bar-footer.bar-light.logout{
+  background: #ffffff;
+  bottom: 26px;
+  left: 20px;
+}
+
+.button.button-light.logout {
+    font-family: Montserrat;
+    color: #000000;
+    border-color: #cccccc;
+    background-color: #cccccc;
+    line-height: 100%;
+    min-height: 45px;
+    padding: 17px 55px
+}
 /*
  * Common
  */
@@ -577,7 +593,8 @@ img {max-width: 100%;}
 
 .bar-header .button,
 .bar-header .button *,
-.bar-header .left-buttons .button{
+.bar-header .left-buttons .button,
+.bar-light .button.button-clear{
   color: #fff
 }
 
