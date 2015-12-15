@@ -8,7 +8,7 @@
 			<div class="col col-80">
 				<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="wide-as-needed">
 					<span ng-repeat="point in vm.points">
-						<button class="button" style="width: 80px;">
+						<button class="button" style="width: 80px;" ng-click="vm.filterByPoints($index)">
 							{{point.value.substring(0, point.value.length - 3)}}
 						</button>
 					</span>

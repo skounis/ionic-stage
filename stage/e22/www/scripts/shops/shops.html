@@ -6,7 +6,10 @@
 		<ion-slide-box show-pager="false">
 			<ion-slide ng-repeat="shop in vm.shops">
 				<div class="shops-wrapper" style="background-image: url({{shop.cover}})">
+					<!--
 					<img class="logo" src="images/logo-large.png">
+					-->
+					<img class="logo" ng-src="{{shop.logo}}">
 					<div class="padding-horizontal padding-20">
 						<p class="category">{{shop.category}}</p>
 						<h1>{{shop.title}}</h1>

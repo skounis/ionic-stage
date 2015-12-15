@@ -21,8 +21,8 @@
 			var shop = vm.shops[index];
 
 			var coords = {
-				latitude: shop.shop_lat || 0,
-				longitude: shop.shop_long || 0,
+				latitude: shop.lat || 0,
+				longitude: shop.long || 0,
 			}
 			externalAppsService.openMapsApp(coords);
 		}

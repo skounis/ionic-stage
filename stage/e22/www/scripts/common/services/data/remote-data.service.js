@@ -68,11 +68,14 @@
 				var shops = [];
 				_.each(response.data, function(shop) {
 					shops.push({
+						logo: ENV.apiEndpoint + shop["shop_logo"],
 						category: shop["shop_type"],
 						title: shop["shop_zone"],
 						address: shop["shop_adress"],
 						phone: shop["shop_tel"],
-						cover: ENV.apiEndpoint + shop["shop_cover"]
+						cover: ENV.apiEndpoint + shop["shop_cover"],
+						lat: shop["shop_lat"],
+						long: shop["shop_long"]
 					});
 				});
 				return shops;

@@ -30,7 +30,7 @@
 		function openMapsApp(coords) {
 
 			if (angular.isObject(coords)) {
-				coords = coords.longitude + ',' + coords.latitude;
+				coords = coords.latitude + ',' + coords.longitude;
 			}
 
 			var q;
