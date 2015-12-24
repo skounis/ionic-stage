@@ -1,0 +1,146 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 10,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4eb1",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-1-thumb.png",
+			"title": "Mastercraft Wood Pedestal Set For Your Decor Items",
+			"body": "Mastercraft wood pedestal set for your decor items. Although lovely piece of decor all on its own, these pedestals are a beautiful blank slate, on which to place virtually any decor item, or even plants.",
+			"tags": ["wood", "rustic"],
+			"pdf" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"url" : "http://www.houzz.com/photos/14053757/Mastercraft-Wood-Pedestal-Set-For-Your-Decor-Items-rustic-home-decor",
+			"price" : "$280.60",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-1-1.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888b2",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-2-thumb.png",
+			"title": "Alen Industrial Pendant Light",
+			"body": "Mixed media lighting adds the perfect finishing touch to any decor. Neo-traditional styling balances traditional shapes with contemporary materials from concrete to mango wood. Lustrous glass finishes like charcoal recall the patina of treasured antiques. Electroplated metals play off glass forms. Beautiful when used singly or as a repeated design element.",
+			"tags": ["industrial", "steel"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/36946891/Alen-Industrial-Pendant-Light-industrial-pendant-lighting",
+			"price" : "$400.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-2-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-2-2.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-2-3.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4db3",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-3-thumb.png",
+			"title": "Blas Coffee Table",
+			"body": "Rustic and industrial styling combine to create this intriguing round coffee table from our MIXT collection. Featuring a textured black and brown top made from planks of recycled pine, with unique spider-like iron legs.",
+			"tags": ["industrial", "pine"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/41060339/Blas-Coffee-Table-industrial-coffee-tables",
+			"price" : "$1,500.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-3-1.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fb4",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-4-thumb.png",
+			"title": "Reed Coffee Table",
+			"body": "Function meets unique design in the Element collection. The occasional collection is crafted of iron and steel that features a raw black finish or an antique nickel finish. The quirky and unique bistro crank tables are definitely standouts that are sure to draw attention in any room.",
+			"tags": ["iron", "steel", "industrial"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/32671001/Reed-Coffee-Table-industrial-coffee-tables",
+			"price" : "$1,100.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-4-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-4-2.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddb5",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-5-thumb.png",
+			"title": "Nevil Side Table",
+			"body": "Discover dining and occasional tables with exclusive, artisan finishes. Oxidation transforms iron, acid-washed and sealed to preserve the moment in time. Geometric and flatstock underpinnings feel ahead of the curve. Heavily distressed, reclaimed oak contrasts with smooth, splayed Roble wood legs.",
+			"tags": ["oak", "distressed"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/34786728/Nevil-Side-Table-industrial-side-tables-and-end-tables",
+			"price" : "$1,100.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-5-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-5-2.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b6",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-6-thumb.png",
+			"title": "Carlton Table Clock",
+			"body": "Gearheads everywhere will love this aluminum table clock. With its black face and clean lines, the gear tooth framing makes this clock perfect for an industrial or urban loft decor. Item Dimensions: (9.75'h x 9.5'w x 4.5')",
+			"tags": ["aluminum", "industrial"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/16365607/Carlton-Table-Clock-industrial-desk-and-mantel-clocks",
+			"price" : "$87.60",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-6-1.png"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b7",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-7-thumb.png",
+			"title": "Vintage Brownie Target Camera Clock",
+			"body": "This is a great and distinctive gift for family, friends and co-workers. A “must-have” for any photo and camera fan. This clock looks stunning on a fireplace mantel, living room shelf or office.",
+			"tags": ["vintage", "industrial"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/11911276/Vintage-Brownie-Target-Camera-Clock-industrial-clocks",
+			"price" : "$83.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-7-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-7-2.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b8",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-8-thumb.png",
+			"title": "Lassus Industrial Loft Nickel Polyhedron Sculpture - Set of 2",
+			"body": "This nickel polyhedron expresses the brains and beauty to perfection. As a display piece, this one gets straight A's. Set comes with small and large polyhedron.",
+			"tags": ["nickel", "geometry"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/8329182/Lassus-Industrial-Loft-Nickel-Polyhedron-Sculpture-Set-of-2-industrial-sculptures",
+			"price" : "$188.10",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-8-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-8-2.png"
+			]
+		}, {
+			"id": 9,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324b9",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-9-thumb.png",
+			"title": "Rustic Iron Hand-Forged Sculpted Spectacles Paper Weight",
+			"body": "Used as sculptural elements or as functional paper weights, this pair of glasses makes a bookish yet playful statement. Great for your favorite bookworm, librarian or statement spectacle wearer!",
+			"tags": ["iron"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/8250057/Rustic-Iron-Hand-Forged-Sculpted-Spectacles-Paper-Weight-industrial-sculptures",
+			"price" : "$57.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-9-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-9-2.png"
+			]
+		}, {
+			"id": 10,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732b10",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-10-thumb.png",
+			"title": "The Sullivan Industrial Lamp, Red Twisted Cord, Pendant",
+			"body": "THE SULLIVAN LAMP is a vintage-inspired industrial hanging pendant shade lamp handmade in Philadelphia, PA. Each features a hand-spun red enamel-coated dome metal shade with white interior, black trim, and durable cotton cording in the color of your choice. Quickly and easily install this lamp anywhere you need some extra light with the included 2-inch screw hook.",
+			"tags": ["red-enamel", "steel", "vintage"],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.houzz.com/photos/16343402/The-Sullivan-Industrial-Lamp-Red-Twisted-Cord-Pendant-industrial-pendant-lighting",
+			"price" : "$66.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-10-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-b-10-2.png"
+			]
+		}
+	]
+}

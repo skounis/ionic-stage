@@ -1,0 +1,19 @@
+<ion-view view-title="News">
+	<ion-content>
+		<ion-refresher
+			pulling-text="Pull to refresh..."
+			on-refresh="vm.doRefresh()">
+		</ion-refresher>
+
+		<div ng-repeat="article in vm.articles">
+			<div class="card" ng-click="vm.navigate(article.id)">
+				<div class="item item-text-wrap item-thumbnail-left">
+					<img ng-src="{{article.thumb}}">
+					<h2>{{article.title}}</h2>
+					<p>{{article.body | limitTo: 40 }}{{article.body.length > 40 ? '...' : ''}}</p>
+				</div>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

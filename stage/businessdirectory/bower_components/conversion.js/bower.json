@@ -1,0 +1,21 @@
+{
+  "name": "Conversion.js",
+  "private": false,
+  "dependencies": {
+    "chai": "~1.8.0",
+    "mocha": "~1.14.0"
+  },
+  "devDependencies": {},
+  "ignore": [
+      "test",
+      "spec",
+      ".bowerrc",
+      ".gitignore",
+      ".jshintignore",
+      ".jshintrc",
+      "bower.json",
+      "Gruntfile.js",
+      "package.json",
+      "README.md"
+  ]
+}

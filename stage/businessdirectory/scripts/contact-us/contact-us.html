@@ -1,0 +1,58 @@
+<ion-view view-title="Contact us">
+	<ion-content>
+		<div class="home-hello">
+			<ion-slide-box show-pager="false">
+				<ion-slide ng-repeat="i in [1,2,3,4,5]">
+					<div class="box blue"><img ng-src="http://lorempixel.com/1024/768/?q={{i}}"/></div>
+				</ion-slide>
+			</ion-slide-box>
+
+			<div class="item item-text-wrap">
+				<h1>ABC Corp Inc.</h1>
+				50 Market Street, San Francisco, California 94103, United States
+			</div>
+		</div>
+
+		<div class="content-horizontal-padding">
+			<h3>Introduction</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<h3 class="content-horizontal-padding">Open Hours</h3>
+		<div class="list list-inset">
+			<label class="item item-input item-stacked-label" ng-repeat="day in vm.openHours">
+				<span class="input-label">{{day.name}}</span>
+				<span class="data">{{day.times.join(" / ")}}</span>
+			</label>
+		</div>
+
+		<div class="list card">
+			<a href="tel:{{vm.phoneNumber}}" class="item item-icon-left">
+				<i class="icon ion-ios-telephone"></i>
+				Call us
+			</a>
+
+			<a class="item item-icon-left" ng-click="vm.sendEmail()">
+				<i class="icon ion-email"></i>
+				Send us and Email
+			</a>
+
+			<a href="#" class="item item-icon-left" ng-click="vm.getDirections()">
+				<i class="icon ion-compass"></i>
+				Find us / Get directions
+			</a>
+
+			<a ng-click="vm.openFacebookPage()" class="item item-icon-left">
+				<i class="icon ion-social-facebook"></i>
+				Visit us on Facebook
+			</a>
+
+		</div>
+
+	</ion-content>
+</ion-view>

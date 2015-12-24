@@ -1,0 +1,151 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 11,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebc1",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "LED ceiling spotlight with 3 spots, silver-colour dimmable",
+			"body": "The flush-mount installation means that this modern light fixture takes up less space than a traditional chandelier. This arresting brushed nickel light fixture creates a style of its own.",
+			"tags": ["nickel", "3-light"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/50190615/",
+			"price" : "£85.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888c2",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Ceiling spotlight with 5 spots",
+			"body": "This ceiling lighting features five lights with white marble glass for ample illumination perfect for any room in your home.",
+			"tags": ["nickel", "5-light"],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/00304493/",
+			"price" : "£19.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dc3",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Floor lamp",
+			"body": "This handmade lamp will make a subtle and versatile addition to any setting. With a smooth appearance and fabric shade to provide plenty of modern appeal, this lamp will beautifully light up any room.",
+			"tags": ["fabric","handmade"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/10184174/",
+			"price" : "€6.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fc4",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Marine Signal Tripod Floor Lamp - Hand Made Replica",
+			"body": "Avion Innovative tripod lamps are hand made replicas of designs from the early to mid 20th century and inspired by the classic golden age of Hollywood. Seen then on grand cruise ships and those commissioned in the 1940's by the US and Royal Navy for communication, Morse code and marine navigation. Today they are on interior decorator's top 10 list as awesome accents in home theater rooms, offices, yacht clubs and nautically themed restaurants.",
+			"tags": ["steel", "telescopic"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/24095737/Marine-Signal-Tripod-Floor-Lamp-Hand-Made-Replica-contemporary-floor-lamps",
+			"price" : "$187.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddc5",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Pendant lamp",
+			"body": "This pendant in polished glass provides abundant light to your home, while adding style and interest.",
+			"tags": ["white", "bell"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/00037980/",
+			"price" : "£5.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c6",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Pendant lamp, bamboo, brown",
+			"body": "Close your eyes and picture your favorite city at sunset. Think dark buildings silhouetted against the ethereal glow of the fading sun, and you will see the inspiration for this bamboo pendant.",
+			"tags": ["bamboo", "brown"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/10195714/",
+			"price" : "£45.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 7,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c7",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Floor lamp, bamboo, brown",
+			"body": "A cylindrical bamboo shade brings modern flair to this table lamp. This trendy light will blend with a variety of decor motifs to brighten your bedroom, office or living area.",
+			"tags": ["bamboo", "brown"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/40226337/",
+			"price" : "£45.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c8",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Table lamp, green, frosted glass",
+			"body": "Let the natural radiance of light shine in your home with this cheer modern table lamp. This polished table lamp features a transparent glass shade positioned on a semi-transparent glass frame.",
+			"tags": ["glass", "green"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/40219544/",
+			"price" : "£12.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 9,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324c9",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "1940'S Vintage Tripod Floor Lamp - Hand Made With Teak Timber",
+			"body": "Avion Innovative tripod lamps are hand made replicas of designs from the early to mid 20th century and inspired by the classic golden age of Hollywood, and seen in movie star homes, grand hotels and those commissioned in the 1940's on board battle ships. Today they are on interior decorator's top 10 list as a trendy accent for home offices, media rooms, man caves and nautical themed restaurants.",
+			"tags": ["steel", "telescopic"],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.houzz.com/photos/24101979/1940S-Vintage-Tripod-Floor-Lamp-Hand-Made-With-Teak-Timber-contemporary-floor-lamps",
+			"price" : "$189.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 10,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732c10",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Table lamp, pink",
+			"body": "Illuminate your home or office in style with this table lamp. This light features a chrome finish and a pink linen lampshade.",
+			"tags": ["pink", "textile"],
+			"pdf" : "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/70223568/",
+			"price" : "£16.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 11,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732c11",
+			"thumb": "http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder-thumb.png",
+			"title": "Small Ocean Mist Chandelier",
+			"body": "This bright art glass chandelier makes a statement with 60 hand blown stems.",
+			"tags": ["4-bulbs"],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.houzz.com/photos/25300417/Small-Ocean-Mist-Chandelier-contemporary-chandeliers",
+			"price" : "$1,990.00",
+			"pictures": [
+				"http://{{BUCKET}}.s3.amazonaws.com/mobile-apps/{{PATH}}/assets/cat-placeholder.png"
+			]
+		}
+	]
+}

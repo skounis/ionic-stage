@@ -1,0 +1,93 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ea1",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-1-thumb.png",
+			"title": "Dante Carpet Tile - Imbue Collection, Red",
+			"body": "[53.8 sq ft/box] - Red / 19.7x19.7 - Manufactured with partially recycled materials, the Dante Imbue Collection has been engineered to perform. Offering superior tuft binds, fire resistant latex, and two thermoplastic layers for moisture resistance and dimensional stability, these carpet tiles have been designed to last.",
+			"tags": ["traditional", "red"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/17466359/Dante-Carpet-Tile-Imbue-Collection-Red-traditional-carpet-tiles",
+			"price" : "$115.13",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-1-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-1-2.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888a2",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-2-thumb.png",
+			"title": "Kaleen Astronomy Collection Rug",
+			"body": "Astronomy is a collection of incredible designs that are out of this world! These fine rugs are hand tufted using only the finest 100% virgin wool and are available in a selection beautiful transitional designs. The collection offers an array of fashionable colors to meet all your decorating needs. Hand crafted in India.",
+			"tags": ["wool", "contemporary"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/23951964/Kaleen-Astronomy-Collection-Rug-contemporary-area-rugs",
+			"price" : "$636.75",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-2-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-2-2.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4da3",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-3-thumb.png",
+			"title": "Braid Rules EXTRA LARGE, Grey, 59'x83'",
+			"body": "This is a medim pile hand knotted rug made with braided felt sheets - a rare relic fabric making technique known for its longevity, dust, heat and moisture resistance. Made in India with 100-percent wool this rug is soft to touch and cushiony on the feet, easy to hang & looks great as Wall Art ! Eco Friendly - this product is made from natural biodegradable fibers.",
+			"tags": ["wool", "cotton", "grey"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/6076509/Braid-Rules-EXTRA-LARGE-Grey-59x83-contemporary-area-rugs",
+			"price" : "$582.00",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-3-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-3-2.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fa4",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-4-thumb.png",
+			"title": "8' x 10' Andes Jute Area Rug",
+			"body": "TJute brings a magnificent, chunky texture to any space. These rugs are expertly handloom-woven by skilled weavers who employ a variety of traditional techniques to create these simply beautiful styles. Jute fibers exhibit naturally anti-static, insulating and moisture regulating properties.",
+			"tags": ["tropical", "brown gold"],
+			"pdf" : "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/pdf/cat-a-2.pdf",
+			"url" :"http://www.houzz.com/photos/39077631/8-x-10-Andes-Jute-Area-Rug-tropical-area-rugs",
+			"price" : "$350.67",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-4-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-4-2.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-4-3.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728dda5",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-5-thumb.png",
+			"title": "High Pile Shag Rug Carpet, 30' x 60', Burgundy",
+			"body": "Add a bold pop of style with the High Pile Shag Rug by Lavish Home. This mid-century modern rug is made of super plush polyester chenille that feels great under your feet. It's solid color makes it a great central piece for any room. Featuring a non-slip backing.",
+			"tags": ["burgundy", "polyester "],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.houzz.com/photos/39790377/High-Pile-Shag-Rug-Carpet-30-x-60-Burgundy-contemporary-area-rugs",
+			"price" : "$36.95",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-5-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-5-2.png"
+			]
+		}, {
+			"id": 8,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc7324a8",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-8-thumb.png",
+			"title": "Oriental Weavers Kaleidoscope Distressed Abstract Multi/Gray Rug",
+			"body": "Kaleidoscope by Oriental Weavers is a new machine-woven collection of textured polypropylene. Designs showcase bright, vibrant colors such as sunshine yellow, tangerine, hot pink and bright poppy while ultramarine blue, citron and chartreuse round out the assortment giving the playful colors more drama.",
+			"tags": ["polypropylene", "red"],
+			"pdf" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"url" : "http://www.houzz.com/photos/35551307/Oriental-Weavers-Kaleidoscope-Distressed-Abstract-Multi-Gray-Rug-contemporary-hall-and-stair-runners",
+			"price" : "$128.11",
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-8-1.png",
+				"http://skounis.s3.amazonaws.com/mobile-apps/catalogue-demo/assets/cat-a-8-2.png"
+			]
+		}
+	]
+}

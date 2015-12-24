@@ -1,0 +1,25 @@
+<ion-view view-title="Service">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-link" ng-click="vm.readMore()"></button>
+	</ion-nav-buttons>
+
+	<ion-content has-header="true">
+
+		<ion-slide-box>
+			<ion-slide ng-repeat="pic in vm.service.pictures">
+				<div class="box blue"><img ng-src="{{pic}}"/></div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="content-inner">
+			<h1>{{vm.service.title}}</h1>
+			<p>{{vm.service.body}}</p>
+		</div>
+
+		<div class="padding-horizontal">
+			<button class="button button-block button-positive" ng-click="vm.readMore()">
+				<i class="icon ion-link"></i> Read more
+			</button>
+		</div>
+	</ion-content>
+</ion-view>

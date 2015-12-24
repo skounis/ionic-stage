@@ -1,0 +1,10 @@
+{
+  "name": "date.format",
+  "description": "A date formatting library for JavaScript",
+  "main": "date.format.js",
+  "version": "1.2.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiger-seo/date.format"
+  }
+}
