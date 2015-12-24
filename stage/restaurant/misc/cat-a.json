@@ -1,0 +1,60 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 4,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ea1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-1-thumb.jpg",
+			"title": "Mozzarella sticks",
+			"body": "Extra delicious Mozzarella cheese sticks, mixed with zucchini and potatoes coated with flavorful herbs. Served with a side of marinara sauce for dipping.",
+			"tags": ["mozzarella", "appetizer"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/17466359/Dante-Carpet-Tile-Imbue-Collection-Red-traditional-carpet-tiles",
+			"price" : "$12",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888a2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-2-thumb.jpg",
+			"title": "Sweet and Spicy Turkey",
+			"body": "Strawberry jam and tomatoes combination makes turkey perfect for a light and appetizing snack.",
+			"tags": ["Strawberry", "turkey"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/23951964/Kaleen-Astronomy-Collection-Rug-contemporary-area-rugs",
+			"price" : "$13",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4da3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-3-thumb.jpg",
+			"title": "Cheesy Rosemary Monkey Bread Rolls",
+			"body": "Rosemary, garlic and cheese make these monkey bread rolls perfect with any meal.",
+			"tags": ["cheese", "garlic", "rolls"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/6076509/Braid-Rules-EXTRA-LARGE-Grey-59x83-contemporary-area-rugs",
+			"price" : "$11",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-3-1.jpg"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fa4",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-4-thumb.jpg",
+			"title": "Sticks variety",
+			"body": "A variety of vegetable and beef sticks will keep the balance for a healthy yet tasteful starter.",
+			"tags": ["beef", "vegetables"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-2.pdf",
+			"url" :"http://www.houzz.com/photos/39077631/8-x-10-Andes-Jute-Area-Rug-tropical-area-rugs",
+			"price" : "$18",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-a-4-1.jpg"
+			]
+		}
+	]
+}

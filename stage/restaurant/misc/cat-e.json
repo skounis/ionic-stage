@@ -1,0 +1,47 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 3,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ee1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-1-thumb.jpg",
+			"title": "Mixed Vegetable Salad with Lime Dressing",
+			"body": "This raw mixed vegetable salad takes the green leaves out of the mix and focuses more on the topping vegetables.",
+			"tags": ["raw", "vegetables"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.ikea.com/ie/en/products/decoration/wall-stickers/sl%C3%A4tthult-decoration-stickers-poppy-art-50103005/",
+			"price" : "€11.50",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888e2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-2-thumb.jpg",
+			"title": "Raspberry Avocado Salad With Honey Raspberry Vinaigrette",
+			"body": "Features a delicious medley of fresh mandarin oranges, walnuts, avocados and raspberries drizzled with a thick honey raspberry vinaigrette for extra sweetness.",
+			"tags": ["oranges", "raspberry", "avocado"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.ikea.com/ie/en/products/decoration/wall-stickers/sl%C3%A4tthult-decoration-stickers-computer-games-art-90228174/",
+			"price" : "€13.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4de3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-3-thumb.jpg",
+			"title": "Lettuce Salad with Garlic Croutons",
+			"body": "This salad has a fresh crunch due to different kinds of lettuce, garlic croutons and nuts.",
+			"tags": ["lettuce", "croutons"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.ikea.com/ie/en/products/decoration/wall-stickers/sl%C3%A4tthult-decoration-stickers-magnolia-art-40186124/",
+			"price" : "€11.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-e-3-1.jpg"
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+<ion-view view-title="Categories">
+	<ion-content>
+
+		<div ng-repeat="category in vm.categories">
+			<div class="card" ng-click="vm.showProducts(category)">
+				<div class="item item-text-wrap item-thumbnail-left">
+					<img ng-src="{{category.thumb}}">
+					<h2>{{category.title}}</h2>
+					<p>{{category.desc}}</p>
+				</div>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

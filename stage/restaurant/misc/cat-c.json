@@ -1,0 +1,47 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 3,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebc1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-1-thumb.jpg",
+			"title": "Plum layered dessert",
+			"body": "A delicious dessert which is low in both fat and sugar.",
+			"tags": ["healthy", "plum"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/50190615/",
+			"price" : "£9",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888c2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-2-thumb.jpg",
+			"title": "Chocolate, raspberry and vanilla cake",
+			"body": "Chocolate, raspberry and vanilla cake with almond sponge, raspberry coulis and raspberry sorbet.",
+			"tags": ["chocolate", "raspberry"],
+			"pdf" : "http://issuu.com/spyroslangkos/docs/linkedin-sophguide-020314-pdf-eng",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/00304493/",
+			"price" : "£7",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dc3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-3-thumb.jpg",
+			"title": "Strawberry heaven",
+			"body": "Crispy base smothered with a layer of light mousse is then perfectly complemented by a layer of dreamy strawberry puree.",
+			"tags": ["strawberry","layered"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.ikea.com/gb/en/catalog/products/10184174/",
+			"price" : "£9.00",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-c-3-1.jpg"
+			]
+		}
+	]
+}

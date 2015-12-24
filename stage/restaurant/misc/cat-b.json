@@ -1,0 +1,73 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 5,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4eb1",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-1-thumb.jpg",
+			"title": "Maisonry - Hudson Vineyard",
+			"body": "This light straw colored Sauvignon Blanc from Napa opens with a mild grapefruit bouquet with a hint of melon, butter and oak.",
+			"tags": ["blanc", "sauvignon"],
+			"pdf" : "http://issuu.com/besthomesmagazine/docs/bhm002_issuu",
+			"url" : "http://www.houzz.com/photos/14053757/Mastercraft-Wood-Pedestal-Set-For-Your-Decor-Items-rustic-home-decor",
+			"price" : "$17",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888b2",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-2-thumb.jpg",
+			"title": "Espresso coffee",
+			"body": "Classic italian espresso made with blends of 80% arabica and 20% robusta. Served with cinnamon cookies.",
+			"tags": ["coffee", "espresso"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-1.pdf",
+			"url" : "http://www.houzz.com/photos/36946891/Alen-Industrial-Pendant-Light-industrial-pendant-lighting",
+			"price" : "$7",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4db3",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-3-thumb.jpg",
+			"title": "Raspberry Lemonade",
+			"body": "Raspberries will add just the slightest tangy flavor to the tart lemonade.",
+			"tags": ["raspberries", "lemonade"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/41060339/Blas-Coffee-Table-industrial-coffee-tables",
+			"price" : "$10",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-3-1.jpg"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fb4",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-4-thumb.jpg",
+			"title": "Crozes hermitage - Cave de Tain",
+			"body": "A wine with structure, a complete maturity of the grapes and final notes of blackcurrant, cherry and spice.",
+			"tags": ["wine", "blackcurrant", "cherry"],
+			"pdf" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/pdf/cat-a-2.pdf",
+			"url" : "http://www.houzz.com/photos/32671001/Reed-Coffee-Table-industrial-coffee-tables",
+			"price" : "$11",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-4-1.jpg"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddb5",
+			"thumb": "http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-5-thumb.jpg",
+			"title": "Gimlet cocktail",
+			"body": "The Gimlet cocktail is a small, sharp drink with gin and lime juice that is perfect all year round.",
+			"tags": ["gin", "lime"],
+			"pdf" : "http://issuu.com/dibiaggiony/docs/katalog",
+			"url" : "http://www.houzz.com/photos/34786728/Nevil-Side-Table-industrial-side-tables-and-end-tables",
+			"price" : "$14",
+			"pictures": [
+				"http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/assets/cat-b-5-1.jpg"
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+<ion-view view-title="Favorites">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-paper-airplane"
+			ng-click="vm.sendFavorites()"
+			ng-disabled="vm.items.length === 0"></button>
+	</ion-nav-buttons>
+
+	<ion-content has-header="true" class="has-extended-footer">
+		<ion-list can-swipe="true" ng-if="vm.items.length > 0">
+			<ion-item ng-repeat="item in vm.items" class="item-thumbnail-left item-text-wrap" ng-click="vm.showProductDetails(item)">
+				<img ng-src="{{item.thumb}}" />
+				<h2>{{item.name}}</h2>
+				<p>{{item.description | limitTo: 80 }}{{item.description.length > 80 ? '...' : ''}}</p>
+
+				<ion-option-button class="button-assertive" ng-click="vm.deleteItem(item)">
+					Delete
+				</ion-option-button>
+			</ion-item>
+		</ion-list>
+
+		<h3 style="text-align: center;" ng-if="vm.items.length === 0">No favorite items</h3>
+	</ion-content>
+
+	<div class="bar bar-footer bar-stable extended-footer" ng-click="vm.sendFavorites()" ng-if="vm.items.length > 0">
+		<div>
+			<div class="title">
+				<i class="icon ion-paper-airplane"></i>
+				Ask a question
+			</div>
+			<div class="subtitle">Swipe to the left to remove</div>
+		</div>
+	</div>
+</ion-view>
