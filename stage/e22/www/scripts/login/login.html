@@ -6,10 +6,10 @@
 			<ion-list class="list-inset">
 				<p class="assertive" ng-if="vm.error">Ce code membre n'extiste pas.</p>
 				<label class="item item-input">
-					<input type="text" placeholder="Email ou Téléphone" ng-model="vm.code" />
+					<input type="text" placeholder="Email ou Téléphone" ng-model="vm.email" />
 				</label>
 				<label class="item item-input">
-					<input type="email" placeholder="Numéro de carte" ng-model="vm.email" />
+					<input type="text" placeholder="Numéro de carte" ng-model="vm.code" />
 				</label>
 				<ion-item class="login-button">
 					<button class="button button-block button-royal" ng-click="vm.login()">Valider</button>

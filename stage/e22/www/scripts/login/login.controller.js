@@ -5,26 +5,32 @@
 		.module('catalogue.login')
 		.controller('LoginController', LoginController);
 
-	LoginController.$inject = ['$state', 'loginService'];
+	LoginController.$inject = ['$state', 'authService'];
 
 	/* @ngInject */
-	function LoginController($state, loginService) {
+	function LoginController($state, authService) {
 		var vm = angular.extend(this, {
 			login: login,
 			error: false,
-			code: ''
+			code: '',
+			email: ''
 		});
 
 		// ******************************************************
 
 		function login() {
-			loginService.validate(vm.code).then(function(isValid) {
-				if (isValid) {
-					$state.go('app.home');
-				} else {
-					vm.error = true;
-				}
-			});
+			authService.login(vm.email, vm.code)
+				.then(function(isValid) {
+					if (isValid) {
+						vm.code = null;
+						vm.email = null;
+						$state.go('app.home');
+					} else {
+						vm.error = true;
+					}
+				}, function() {
+						vm.error = true;
+				});
 		}
 	}
 })();

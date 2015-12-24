@@ -5,12 +5,13 @@
 		.module('catalogue.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$state'];
+	HomeController.$inject = ['$state', 'authService'];
 
 	/* @ngInject */
-	function HomeController($state) {
+	function HomeController($state, authService) {
 		var vm = angular.extend(this, {
-			showCatalog: showCatalog
+			showCatalog: showCatalog,
+			user: authService.getUser()
 		});
 
 		(function activate() {

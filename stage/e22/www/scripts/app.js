@@ -36,7 +36,7 @@ angular.module('catalogue', [
 ])
 	.value('_', window._)
 
-	.run(function ($ionicPlatform, $rootScope) {
+	.run(function ($ionicPlatform, $rootScope, authService, $state) {
 		$ionicPlatform.ready(function () {
 			// Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
 			// for form inputs)
@@ -47,6 +47,11 @@ angular.module('catalogue', [
 			if (window.StatusBar) {
 				// org.apache.cordova.statusbar required
 				StatusBar.styleDefault();
+			}
+			
+			var user = authService.getUser();
+			if (user) {
+				$state.go('app.home');
 			}
 		});
 	})

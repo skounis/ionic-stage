@@ -5,11 +5,20 @@
 		.module('catalogue.menu')
 		.controller('MenuController', MenuController);
 
-	MenuController.$inject = [];
+	MenuController.$inject = ['authService', '$state', '$ionicSideMenuDelegate'];
 
 	/* @ngInject */
-	function MenuController() {
+	function MenuController(authService, $state, $ionicSideMenuDelegate) {
 		var vm = angular.extend(this, {
+			logout: logout
 		});
+
+		// ********************************************************
+
+		function logout() {
+			$ionicSideMenuDelegate.toggleLeft();
+			authService.logout();
+			$state.go('welcome');
+		}
 	}
 })();
