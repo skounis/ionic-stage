@@ -23,3 +23,6 @@ Now open your app by typing:
 ```
 heroku open
 ```
+# References
+## Credits
+* iPhone mockup by [Pixeden](http://www.pixeden.com/psd-mock-up-templates/iphone-6-psd-vector-mockup)
