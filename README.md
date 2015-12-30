@@ -23,6 +23,7 @@ Now open your app by typing:
 ```
 heroku open
 ```
+
 ### Hints
 You may have sever local branches where different Ionic Apps are installed and staged. You could push in heroku only the local branch you need to demonstrate at a given time.
 
@@ -31,3 +32,7 @@ $ git push heroku yourbranch:master
 ```
 
 See https://devcenter.heroku.com/articles/git#deploying-code
+
+# References
+## Credits
+* iPhone mockup by [Pixeden](http://www.pixeden.com/psd-mock-up-templates/iphone-6-psd-vector-mockup)
