@@ -5,12 +5,20 @@
 		.module('catalogue.menu')
 		.controller('MenuController', MenuController);
 
-	MenuController.$inject = ['categories'];
+	MenuController.$inject = ['menuService'];
 
 	/* @ngInject */
-	function MenuController(categories) {
+	function MenuController(menuService) {
 		var vm = angular.extend(this, {
-			categories: categories
+			// categories: categories
 		});
+
+		(function activate() {
+			menuService.getCategoriesMenuItem().then(function(result){
+				vm.categories = result;
+			});
+		})();
+
+
 	}
 })();

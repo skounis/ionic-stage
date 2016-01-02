@@ -12,11 +12,11 @@
 					abstract: true,
 					templateUrl: 'scripts/menu/menu.html',
 					controller: 'MenuController as vm',
-					resolve: {
-						categories: function(menuService) {
-							return menuService.getCategoriesMenuItem();
-						}
-					}
+					// resolve: {
+					// 	categories: function(menuService) {
+					// 		return menuService.getCategoriesMenuItem();
+					// 	}
+					// }
 				});
 		});
 })();
