@@ -5,19 +5,29 @@
 		.module('catalogue.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$state', 'products', 'categories', 'businessInfo'];
+	HomeController.$inject = ['$state', 'homeService', '$ionicSlideBoxDelegate'];
 
 	/* @ngInject */
-	function HomeController($state, products, categories, businessInfo) {
+	function HomeController($state, homeService, $ionicSlideBoxDelegate) {
 		var vm = angular.extend(this, {
-			categories: categories,
-			products: products,
+			// categories: categories,
+			// products: products,
 			showProducts: showProducts,
-			showProductDetails: showProductDetails,
-			storeName: businessInfo.storeName
+			showProductDetails: showProductDetails
+			// storeName: businessInfo.storeName
 		});
 
 		(function activate() {
+			homeService.getFeaturedCategories().then(function(result){
+				vm.categories = result;
+				$ionicSlideBoxDelegate.update();
+			});
+			homeService.getFeaturedProducts().then(function(result){
+				vm.products = result;
+			});
+			homeService.getBusiness().then(function(result){
+				vm.storeName = result.storeName;
+			});
 		})();
 
 		// ******************************************************

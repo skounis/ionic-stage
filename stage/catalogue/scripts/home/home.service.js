@@ -12,7 +12,7 @@
 		var service = {
 			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
-			getBusiness: dataService.getBusiness
+			getBusiness: getBusiness
 		};
 		return service;
 
@@ -24,6 +24,10 @@
 
 		function getFeaturedProducts() {
 			return dataService.getFeaturedProducts();
+		}
+
+		function getBusiness(){
+			return dataService.getBusiness();
 		}
 	}
 
