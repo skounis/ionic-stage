@@ -38,7 +38,6 @@
 
 		function sendEmail() {
 			$cordovaEmailComposer.isAvailable().then(function() {
-				alert('$cordovaEmailComposer available')
 				var email = {
 					to: businessInfo.email,
 					subject: 'Cordova Icons',
@@ -46,17 +45,6 @@
 				};
 
 				$cordovaEmailComposer.open(email);
-			}, function(){
-				alert('No $cordovaEmailComposer available');
-
-				var email = {
-					to: businessInfo.email,
-					subject: 'Cordova Icons',
-					body: 'How are you? Nice greetings from Leipzig'
-				};
-
-				$cordovaEmailComposer.open(email);
-				
 			});
 		}
 
