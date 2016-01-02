@@ -15,6 +15,12 @@
 							return config;
 						}
 
+						// Make the request protocol agonistic
+						var re = /^http(s)?:\/\//gmi;
+						var subst = '//';
+
+						config.url = config.url.replace(re, subst);
+
 						var isOnline = getNetworkStatus();
 
 						if (isOnline) {
