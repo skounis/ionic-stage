@@ -1,0 +1,25 @@
+<ion-view view-title="My Style">
+	<ion-content>
+		<ion-refresher
+			pulling-text="Pull to refresh..."
+			on-refresh="vm.doRefresh()">
+		</ion-refresher>
+		<div class="card" ng-repeat="gallery in vm.galleries">
+			<div class="item item-avatar">
+				<img ng-src="{{gallery.teaser}}">
+				<h2>{{gallery.title}}</h2>
+				<p>{{gallery.location}}</p>
+			</div>
+
+			<div class="item item-image">
+				<img ng-src="{{gallery.teaser}}">
+			</div>
+
+			<a class="item item-icon-left" href="#/app/gallery-preview/{{gallery.id}}">
+				<i class="icon ion-arrow-right-c"></i>
+				Read more
+			</a>
+		</div>
+
+	</ion-content>
+</ion-view>

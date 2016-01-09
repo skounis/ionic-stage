@@ -1,0 +1,11 @@
+<ion-view view-title="Gallery">
+	<ion-content>
+		<ion-slide-box active-slide="vm.pictureIndex" show-pager="false">
+			<ion-slide ng-repeat="picture in vm.pictures">
+				<div class="box blue">
+					<img ng-src="{{picture.path}}"/>
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+	</ion-content>
+</ion-view>

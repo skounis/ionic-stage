@@ -1,0 +1,16 @@
+<ion-view view-title="Gallery preview">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-plus" ng-click="vm.add()"></button>
+	</ion-nav-buttons>
+	<ion-content>
+		<div class="row" ng-repeat="pictures in vm.groupedPictures">
+			<div class="col col-33" ng-repeat="picture in pictures">
+				<div class="card" ng-click="vm.navigateToFullGalleryView(picture)">
+					<div class="item item-image">
+						<img ng-src="{{picture.thumbPath || picture.path}}">
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

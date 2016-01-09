@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title></title>
+
+	<!-- build:css styles/vendor.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+	<link href="styles/main.css" rel="stylesheet">
+
+	<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+	<link href="styles/ionic.app.css" rel="stylesheet">
+	-->
+
+	<!-- ionic/angularjs js -->
+	<!-- build:js scripts/vendor.js -->
+	<!-- bower:js -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/ionic/js/ionic.js"></script>
+	<script src="bower_components/ionic/js/ionic-angular.js"></script>
+	<script src="bower_components/angular-websocket/angular-websocket.min.js"></script>
+	<script src="bower_components/ngCordova/dist/ng-cordova.js"></script>
+	<script src="bower_components/lodash/lodash.js"></script>
+	<script src="bower_components/angular-base64/angular-base64.js"></script>
+	<script src="bower_components/moment/moment.js"></script>
+	<script src="bower_components/angular-moment/angular-moment.js"></script>
+	<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+	<script src="bower_components/firebase/firebase.js"></script>
+	<script src="bower_components/angularfire/dist/angularfire.js"></script>
+	<script src="bower_components/ng-cordova-oauth/dist/ng-cordova-oauth.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- cordova script (this will be a 404 during development) -->
+	<script src="cordova.js"></script>
+
+	<!-- your app's js -->
+	<!-- build:js scripts/scripts.js -->
+	<script src="scripts/chats/chats.module.js"></script>
+	<script src="scripts/common/common.module.js"></script>
+	<script src="scripts/empty/empty.module.js"></script>
+	<script src="scripts/feedback/feedback.module.js"></script>
+	<script src="scripts/galleries/galleries.module.js"></script>
+	<script src="scripts/home/home.module.js"></script>
+	<script src="scripts/infrastructure/infrastructure.module.js"></script>
+	<script src="scripts/menu/menu.module.js"></script>
+	<script src="scripts/app.js"></script>
+	<script src="scripts/chats/auth/chats-login.controller.js"></script>
+	<script src="scripts/chats/room/chat-room.controller.js"></script>
+	<script src="scripts/chats/rooms/chat-rooms.controller.js"></script>
+	<script src="scripts/chats/services/chat-messages.service.js"></script>
+	<script src="scripts/chats/services/chat-rooms.service.js"></script>
+	<script src="scripts/chats/services/chats-auth.service.js"></script>
+	<script src="scripts/common/directives/gmaps/gmaps.directive.js"></script>
+	<script src="scripts/common/services/extenal-apps.service.js"></script>
+	<script src="scripts/common/services/html-to-plain-text.service.js"></script>
+	<script src="scripts/common/services/position.service.js"></script>
+	<script src="scripts/config/internet-connectivity.js"></script>
+	<script src="scripts/config/spinner.js"></script>
+	<script src="scripts/configuration.js"></script>
+	<script src="scripts/empty/empty.controller.js"></script>
+	<script src="scripts/feedback/feedback.controller.js"></script>
+	<script src="scripts/feedback/feedback.service.js"></script>
+	<script src="scripts/galleries/galleries.controller.js"></script>
+	<script src="scripts/galleries/galleries.service.js"></script>
+	<script src="scripts/galleries/gallery-preview.controller.js"></script>
+	<script src="scripts/galleries/gallery.controller.js"></script>
+	<script src="scripts/home/home-data.service.js"></script>
+	<script src="scripts/home/home.controller.js"></script>
+	<script src="scripts/home/menu-items.service.js"></script>
+	<script src="scripts/infrastructure/services/camera.service.js"></script>
+	<script src="scripts/infrastructure/services/firebase-db.service.js"></script>
+	<script src="scripts/menu/menu.controller.js"></script>
+	<!-- endbuild -->
+  </head>
+
+  <body ng-app="starter">
+	<ion-nav-view></ion-nav-view>
+  </body>
+</html>
