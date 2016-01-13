@@ -1,0 +1,15 @@
+<ion-view view-title="Article">
+	<ion-content>
+
+		<ion-slide-box>
+			<ion-slide ng-repeat="pic in vm.news.pictures">
+				<div class="box blue"><img ng-src="{{pic}}"/></div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="content-inner">
+			<h1>{{vm.news.title}}</h1>
+			<p>{{vm.news.body}}</p>
+		</div>
+	</ion-content>
+</ion-view>

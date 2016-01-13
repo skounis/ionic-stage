@@ -6,17 +6,18 @@
 		.controller('GalleryPreviewController', GalleryPreviewController);
 
 	GalleryPreviewController.$inject = [
-		'$state', '$stateParams', '_', 'galleriesService', '$ionicActionSheet', 'cameraService', '$q'];
+		'$state', '_', 'galleriesService', '$ionicActionSheet', 'cameraService', '$q'];
 
 	/* @ngInject */
 	function GalleryPreviewController(
-			$state, $stateParams, _, galleriesService, $ionicActionSheet, cameraService, $q) {
-		var galleryId = parseInt($stateParams.galleryId, 10);
+			$state, _, galleriesService, $ionicActionSheet, cameraService, $q) {
 		var pictures = [];
 
 		var vm = angular.extend(this, {
 			groupedPictures: [],
 			navigateToFullGalleryView: navigateToFullGalleryView,
+			filterByCategory: filterByCategory,
+			selectedCategory: 'All',
 			add: add
 		});
 
@@ -26,18 +27,31 @@
 
 		// ********************************************************************
 
-		function loadGallery() {
-			galleriesService.get(galleryId)
-				.then(function(gallery) {
-					pictures = gallery.pictures;
-					vm.groupedPictures = _.chunk(gallery.pictures, 3);
+		function loadGallery(category) {
+			var cat = category || 'All';
+
+			galleriesService.get()
+				.then(function(galleryPictures) {
+					// pictures = galleryPictures;
+					pictures = _.filter(galleryPictures, function(picture){
+						return cat === 'All' || picture.category === cat;
+					});
+					vm.groupedPictures = _.chunk(pictures, 3);
+
+					if (!vm.categories) {
+						vm.categories = galleriesService.getCategories(pictures);
+					}
 				});
+		}
+
+		function filterByCategory(category) {
+			vm.selectedCategory = category;
+			loadGallery(category);
 		}
 
 		function navigateToFullGalleryView(picture) {
 			var pictureIndex = _.indexOf(pictures, picture);
 			$state.go('app.gallery', {
-				galleryId: galleryId,
 				pictureIndex: pictureIndex
 			});
 		}
@@ -49,7 +63,7 @@
 				cameraService.getPhoto({
 					sourceType: source
 				}).then(function (fileUri) {
-					galleriesService.add(galleryId, fileUri);
+					galleriesService.add(fileUri);
 					loadGallery();
 				});
 			}

@@ -9,23 +9,17 @@
 
 	/* @ngInject */
 	function menuItems() {
-		var data = [
-		// {
-		// 	title: 'Home',
-		// 	path: 'home',
-		// 	icon: 'ion-ios-home'
-		// }, {
-		// 	title: 'Feedback',
-		// 	path: 'feedback',
-		// 	icon: 'ion-images'
-		// },
-		{
+		var data = [{
 			title: 'My Style',
-			path: 'galleries',
+			path: 'gallery-preview',
 			icon: 'ion-images'
 		}, {
-			title: 'Chat',
-			path: 'chats-login',
+			title: 'Stylists',
+			path: 'empty/Stylists',
+			icon: 'ion-android-apps'
+		}, {
+			title: 'Chats',
+			path: 'chat-rooms',
 			icon: 'ion-chatbubbles'
 		}];
 

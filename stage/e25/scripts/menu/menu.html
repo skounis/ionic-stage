@@ -14,7 +14,7 @@
 
 	<ion-side-menu side="left">
 		<ion-header-bar class="bar-stable">
-			<h1 class="title">Left</h1>
+			<h1 class="title">{{vm.authService.user && vm.authService.user.displayName}}</h1>
 		</ion-header-bar>
 		<ion-content>
 			<ion-list>
@@ -22,16 +22,13 @@
 					Home
 				</ion-item>
 				<ion-item class="item-divider">
-					My Clothes
-				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/galleries">
 					My Style
 				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/empty/Style Set">
-					Style Set
+				<ion-item nav-clear menu-close href="#/app/gallery-preview">
+					Style Repository
 				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/empty/Manage my Clothe Sets">
-					Manage my Clothe Sets
+				<ion-item nav-clear menu-close href="#/app/empty/Style Bundles">
+					Style Bundles
 				</ion-item>
 
 				<ion-item class="item-divider">
@@ -40,22 +37,34 @@
 				<ion-item nav-clear menu-close href="#/app/empty/Personal Stylist">
 					Personal Stylist
 				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/chats-login">
-					Chat rooms
+				<ion-item nav-clear menu-close href="#/app/chat-rooms">
+					Chats
 				</ion-item>
 
 				<ion-item class="item-divider">
 					About Me
 				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/empty/My Style">
-					My Style
+				<ion-item nav-clear menu-close href="#/app/empty/My Body Type">
+					My Body Type
 				</ion-item>
 				<ion-item nav-clear menu-close href="#/app/empty/Preferred Brands">
 					Preferred Brands
 				</ion-item>
-				<ion-item nav-clear menu-close href="#/app/empty/My Body Type">
-					My Body Type
+
+				<ion-item class="item-divider">
+					Settings
 				</ion-item>
+				<ion-item nav-clear menu-close href="#/app/empty/Preferences">
+					Preferences
+				</ion-item>
+				<ion-item nav-clear menu-close href="#/app/empty/Credits">
+					Credits
+				</ion-item>
+				<ion-item class="item-icon-left" nav-clear menu-close ng-click="vm.logout()">
+					<i class="icon ion-log-out"></i>
+					Log out
+				</ion-item>
+
 			</ion-list>
 		</ion-content>
 	</ion-side-menu>

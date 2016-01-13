@@ -10429,35 +10429,38 @@ img {
   color: orangered !important;
 }
 
-/*
- * Home
- */
-.home-hello {
-  position: relative;
+.card.col.home h1, .card.col.home h2 {
+  text-align: center;
 }
 
-.home img {
-  display: inherit;
+.empty-message {
+  top: 200px;
+  position: fixed;
+  padding: 16px;
+  text-align: center;
 }
 
-.home-hello .item {
+.gallery-preview p.tag {
   position: absolute;
-  left: 0;
-  right: 0;
   bottom: 0;
-  margin: 0;
-  border: 0;
-  background: rgba(255, 255, 255, 0.6);
+  right: 0;
+  background: whitesmoke;
+  padding: 0px 3px;
+  border-radius: 3px;
 }
 
-.home-hello > img {
-  display: block;
+/* wide-as-needed */
+.gallery-preview .categories-filter {
+  overflow: scroll;
+  white-space: nowrap;
 }
 
-.card.col.home h1 {
-  text-align: center;
+.gallery-preview .filter-button {
+  padding: 5px;
+  border: 0px;
 }
 
-.card.col.home h2 {
-  text-align: center;
+.gallery-preview .filter-button.active-filter-button {
+  font-style: italic;
+  font-weight: 700;
 }

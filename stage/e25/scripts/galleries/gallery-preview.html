@@ -1,13 +1,24 @@
-<ion-view view-title="Gallery preview">
+<ion-view view-title="Style Repository" class="gallery-preview">
 	<ion-nav-buttons side="right">
 		<button class="button button-clear icon ion-plus" ng-click="vm.add()"></button>
 	</ion-nav-buttons>
 	<ion-content>
+		<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="categories-filter">
+			<span ng-repeat="category in vm.categories">
+				<button class="button button-light filter-button"
+				ng-click="vm.filterByCategory(category)"
+				ng-class="{'active-filter-button': category === vm.selectedCategory}">
+				{{category}}
+				</button>
+			</span>
+		</ion-scroll>
+
 		<div class="row" ng-repeat="pictures in vm.groupedPictures">
 			<div class="col col-33" ng-repeat="picture in pictures">
 				<div class="card" ng-click="vm.navigateToFullGalleryView(picture)">
 					<div class="item item-image">
 						<img ng-src="{{picture.thumbPath || picture.path}}">
+						<p class="tag">{{picture.category}}</p>
 					</div>
 				</div>
 			</div>

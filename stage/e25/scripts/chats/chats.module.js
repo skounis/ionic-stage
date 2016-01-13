@@ -8,15 +8,6 @@
 		])
 		.config(function($stateProvider) {
 			$stateProvider
-				.state('app.chats-login', {
-					url: '/chats-login',
-					views: {
-						'menuContent': {
-							templateUrl: 'scripts/chats/auth/chats-login.html',
-							controller: 'ChatsLoginController as vm'
-						}
-					}
-				})
 				.state('app.chat-rooms', {
 					url: '/chat-rooms',
 					views: {

@@ -1,14 +1,7 @@
 <ion-view view-title="Home">
 	<ion-content>
-		<div class="home-hello">
-			<img src="http://lorempixel.com/1024/768/"/>
-			<div class="item item-text-wrap">
-				<h1>Personal Stylist</h1>
-				Welcome to your mobile personal stylists.
-			</div>
-		</div>
 
-		<div ng-repeat="e in vm.entries" ng-if="$index%2==0" class="row">
+		<div ng-repeat="e in vm.entries" ng-if="$index % 2 == 0" class="row">
 
 			<div class="card col home">
 				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index].path}}">
@@ -17,13 +10,30 @@
 				</a>
 			</div>
 
-			<div class="card col home">
+			<div class="card col home" ng-style="{ 'visibility': !!vm.entries[$index + 1] ? 'visible' : 'hidden' }">
 				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index + 1].path}}">
 					<h1><i class="icon {{vm.entries[$index + 1].icon}}"></i></h1>
 					<h2>{{vm.entries[$index + 1].title}}</h2>
 				</a>
 			</div>
 
+		</div>
+
+		<div ng-repeat="news in vm.newsList" class="row">
+			<div class="card col">
+				<div class="item">
+					<h2>{{news.title}}</h2>
+				</div>
+
+				<div class="item item-image">
+					<img ng-src="{{news.thumb}}">
+				</div>
+
+				<a class="item item-icon-left" href="#/app/news/{{news.id}}">
+					<i class="icon ion-arrow-right-c"></i>
+					Read more
+				</a>
+			</div>
 		</div>
 
 		<div class="list card">

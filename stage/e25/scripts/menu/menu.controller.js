@@ -5,10 +5,17 @@
 		.module('mystyle.menu')
 		.controller('MenuController', MenuController);
 
-	MenuController.$inject = ['chatsAuthService'];
+	MenuController.$inject = ['authService', '$rootScope'];
 
 	/* @ngInject */
-	function MenuController(chatsAuthService) {
+	function MenuController(authService, $rootScope) {
+		angular.extend(this, {
+			authService: authService,
+			logout: logout
+		});
 
+		function logout() {
+			authService.signOut();
+		}
 	}
 })();

@@ -5,10 +5,10 @@
 		.module('mystyle.chats')
 		.factory('chatMessagesService', chatMessagesService);
 
-	chatMessagesService.$inject = ['$q', '$firebaseArray', 'firebaseDb', 'chatRoomsService', 'chatsAuthService'];
+	chatMessagesService.$inject = ['$q', '$firebaseArray', 'firebaseDb', 'chatRoomsService', 'authService'];
 
 	/* @ngInject */
-	function chatMessagesService($q, $firebaseArray, firebaseDb, chatRoomsService, chatsAuthService) {
+	function chatMessagesService($q, $firebaseArray, firebaseDb, chatRoomsService, authService) {
 		var selectedRoomId;
 		var messages;
 
@@ -66,7 +66,7 @@
 		}
 
 		function send(message) {
-			var from = chatsAuthService.user;
+			var from = authService.user;
 			console.log('sending message from :' + from.displayName + ' & message is ' + message);
 			if (from && message) {
 				var chatMessage = {

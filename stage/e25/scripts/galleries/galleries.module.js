@@ -7,17 +7,8 @@
 		])
 		.config(function($stateProvider) {
 			$stateProvider
-				.state('app.galleries', {
-					url: '/galleries',
-					views: {
-						'menuContent': {
-							templateUrl: 'scripts/galleries/galleries.html',
-							controller: 'GalleriesController as vm'
-						}
-					}
-				})
 				.state('app.gallery-preview', {
-					url: '/gallery-preview/:galleryId',
+					url: '/gallery-preview',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/galleries/gallery-preview.html',
@@ -26,7 +17,7 @@
 					}
 				})
 				.state('app.gallery', {
-					url: '/gallery/:galleryId/:pictureIndex',
+					url: '/gallery/:pictureIndex',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/galleries/gallery.html',

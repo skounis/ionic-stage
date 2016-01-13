@@ -11,59 +11,43 @@
 	function galleriesService($http, $q, localStorageService, _) {
 		var key = 'gallery';
 
-		var url = '//skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/galleries.json';
-		var result = [];
+		var url = '//skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/galleries-flat.json';
+		var gallery;
 
 		var service = {
-			all: all,
 			get: get,
+			getCategories: getCategories,
 			add: add
 		};
 		return service;
 
 		// ******************************************************************
 
-		function all() {
-			var deferred = $q.defer();
-
-			$http.get(url)
-				.success(function(data, status, headers, config) {
-					// this callback will be called asynchronously
-					// when the response is available
-					result = data.result;
-					deferred.resolve(result);
-				})
-				.error(function(data, status, headers, config) {
-					// called asynchronously if an error occurs
-					// or server returns response with an error status.
-					console.log('ERROR (Galleries):' + status);
-					deferred.reject();
+		function get() {
+			var promise;
+			if (!gallery) {
+				promise = $http.get(url).then(function(response) {
+					gallery = response.data.result;
+					return gallery;
 				});
-
-			return deferred.promise;
-		}
-
-		function get(galleryId) {
-			var gallery;
-			for (var i = 0; i < result.length; i++) {
-				if (result[i].id === galleryId) {
-					gallery = result[i];
-					break;
-				}
+			} else {
+				promise = $q.when(gallery);
 			}
 
-			gallery = angular.copy(gallery);
-			gallery.pictures = gallery.pictures.concat(getPicturesFromLocalStorage(galleryId))
+			return promise.then(function(gallery) {
+				var pictures = angular.copy(gallery);
+				pictures = pictures.concat(getPicturesFromLocalStorage())
 
-			_.each(gallery.pictures, function(picture) {
-				if (picture.path.indexOf('http') !== 0) {
-					var fixedPath = fixUrlForImage(picture.path);
-					picture.path = fixedPath;
-					picture.thumbPath = fixedPath;
-				}
+				_.each(pictures, function(picture) {
+					if (picture.path.indexOf('http') !== 0) {
+						var fixedPath = fixUrlForImage(picture.path);
+						picture.path = fixedPath;
+						picture.thumbPath = fixedPath;
+					}
+				});
+
+				return pictures;
 			});
-
-			return $q.when(gallery);
 		}
 
 		function fixUrlForImage(imageName) {
@@ -72,24 +56,28 @@
 			return trueOrigin;
 		}
 
-		function add(galleryId, url) {
-			var pictures = getPicturesFromLocalStorage(galleryId);
+		function add(url) {
+			var pictures = getPicturesFromLocalStorage();
 			pictures.push({
 				path: url
 			});
-			setPicturesToLocalStorage(galleryId, pictures);
+			setPicturesToLocalStorage(pictures);
 		}
 
-		function getPicturesFromLocalStorage(galleryId) {
-			return localStorageService.get(getKey(galleryId)) || [];
+		function getCategories(pictures) {
+			var categories = _.map(pictures, function (business) {
+				return business.category;
+			});
+			categories = ['All'].concat(_.sortBy(_.unique(categories)));
+			return categories;
+		};
+
+		function getPicturesFromLocalStorage() {
+			return localStorageService.get(key) || [];
 		}
 
-		function setPicturesToLocalStorage(galleryId, pictures) {
-			return localStorageService.set(getKey(galleryId), pictures);
-		}
-
-		function getKey(galleryId) {
-			return key + ':' + galleryId;
+		function setPicturesToLocalStorage(pictures) {
+			return localStorageService.set(key, pictures);
 		}
 	}
 })();

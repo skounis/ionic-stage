@@ -5,10 +5,12 @@
 		.module('mystyle.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['menuItems', 'homeDataService', 'externalAppsService', '$cordovaEmailComposer', '$cordovaAppRate'];
+	HomeController.$inject = [
+		'menuItems', 'homeDataService', 'externalAppsService', '$cordovaEmailComposer', '$cordovaAppRate', 'newsService'];
 
 	/* @ngInject */
-	function HomeController(menuItems, homeDataService, externalAppsService, $cordovaEmailComposer, $cordovaAppRate) {
+	function HomeController(
+			menuItems, homeDataService, externalAppsService, $cordovaEmailComposer, $cordovaAppRate, newsService) {
 		var vm = angular.extend(this, {
 			entries: menuItems,
 			phoneNumber: homeDataService.phoneNumber,
@@ -17,6 +19,17 @@
 			openFacebookPage: openFacebookPage,
 			rateThisAppNow: rateThisAppNow
 		});
+
+		(function activate() {
+			loadNews();
+		})();
+		// *******************************************************
+
+		function loadNews() {
+			newsService.all().then(function(news) {
+				vm.newsList = news;
+			});
+		}
 
 		function getDirections() {
 			externalAppsService.openMapsApp(homeDataService.officeLocation);
