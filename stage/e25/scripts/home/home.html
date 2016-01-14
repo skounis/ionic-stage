@@ -10,7 +10,7 @@
 				</a>
 			</div>
 
-			<div class="card col home" ng-style="{ 'visibility': !!vm.entries[$index + 1] ? 'visible' : 'hidden' }">
+			<div class="card col home" ng-if="!!vm.entries[$index + 1]">
 				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index + 1].path}}">
 					<h1><i class="icon {{vm.entries[$index + 1].icon}}"></i></h1>
 					<h2>{{vm.entries[$index + 1].title}}</h2>

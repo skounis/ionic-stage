@@ -11,6 +11,7 @@
 	/* @ngInject */
 	function GalleryController(
 			$stateParams, galleriesService, $ionicSlideBoxDelegate) {
+		var category = $stateParams.category;
 		var pictureIndex = parseInt($stateParams.pictureIndex, 10) || 0;
 
 		var vm = angular.extend(this, {
@@ -24,7 +25,7 @@
 		// ********************************************************************
 
 		function loadGallery() {
-			galleriesService.get()
+			galleriesService.get(category)
 				.then(function(pictures) {
 					vm.pictures = pictures;
 					$ionicSlideBoxDelegate.update();

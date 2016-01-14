@@ -2,6 +2,6 @@
 
  angular.module('config', [])
 
-.constant('ENV', {name:'development',firebaseUrl:'barebone-ionic.firebaseio.com'})
+.constant('ENV', {name:'development',firebaseUrl:'my-style.firebaseio.com'})
 
 ;

@@ -6,14 +6,16 @@
 		.controller('GalleryPreviewController', GalleryPreviewController);
 
 	GalleryPreviewController.$inject = [
-		'$state', '_', 'galleriesService', '$ionicActionSheet', 'cameraService', '$q'];
+		'$state', '_', 'galleriesService', '$ionicActionSheet', 'cameraService', '$q', 'categories', 'chooseCategoryModal'];
 
 	/* @ngInject */
 	function GalleryPreviewController(
-			$state, _, galleriesService, $ionicActionSheet, cameraService, $q) {
+			$state, _, galleriesService, $ionicActionSheet, cameraService, $q, categories, chooseCategoryModal) {
+		chooseCategoryModal.scope.categories = categories;
 		var pictures = [];
 
 		var vm = angular.extend(this, {
+			categories: categories,
 			groupedPictures: [],
 			navigateToFullGalleryView: navigateToFullGalleryView,
 			filterByCategory: filterByCategory,
@@ -28,19 +30,11 @@
 		// ********************************************************************
 
 		function loadGallery(category) {
-			var cat = category || 'All';
-
-			galleriesService.get()
+			category = category || vm.selectedCategory;
+			galleriesService.get(category)
 				.then(function(galleryPictures) {
-					// pictures = galleryPictures;
-					pictures = _.filter(galleryPictures, function(picture){
-						return cat === 'All' || picture.category === cat;
-					});
+					pictures = galleryPictures;
 					vm.groupedPictures = _.chunk(pictures, 3);
-
-					if (!vm.categories) {
-						vm.categories = galleriesService.getCategories(pictures);
-					}
 				});
 		}
 
@@ -52,18 +46,36 @@
 		function navigateToFullGalleryView(picture) {
 			var pictureIndex = _.indexOf(pictures, picture);
 			$state.go('app.gallery', {
-				pictureIndex: pictureIndex
+				pictureIndex: pictureIndex,
+				category: vm.selectedCategory
 			});
 		}
 
-		function add() {
-			getImageSource().then(getPhoto);
+		function chooseCategory(source) {
+			var defer = $q.defer();
 
-			function getPhoto(source) {
+			chooseCategoryModal.show();
+			chooseCategoryModal.scope.chooseCategory = function(category) {
+				chooseCategoryModal.hide();
+				defer.resolve({
+					fileUri: source,
+					category: category
+				});
+			};
+			return defer.promise;
+		}
+
+		function add() {
+			getImageSource()
+				.then(getPhoto);
+
+			function getPhoto(picture) {
 				cameraService.getPhoto({
-					sourceType: source
-				}).then(function (fileUri) {
-					galleriesService.add(fileUri);
+					sourceType: picture.source
+				})
+				.then(chooseCategory)
+				.then(function(picture) {
+					galleriesService.add(picture.fileUri, picture.category);
 					loadGallery();
 				});
 			}

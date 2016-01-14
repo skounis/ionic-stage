@@ -14,10 +14,20 @@
 							templateUrl: 'scripts/galleries/gallery-preview.html',
 							controller: 'GalleryPreviewController as vm'
 						}
+					},
+					resolve: {
+						categories: function(galleriesService) {
+							return galleriesService.getCategories();
+						},
+						chooseCategoryModal: function($ionicModal, $rootScope) {
+							return $ionicModal.fromTemplateUrl('scripts/galleries/choose-category.html', {
+								scope: $rootScope.$new()
+							});
+						}
 					}
 				})
 				.state('app.gallery', {
-					url: '/gallery/:pictureIndex',
+					url: '/gallery/:pictureIndex?category',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/galleries/gallery.html',

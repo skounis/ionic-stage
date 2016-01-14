@@ -1,0 +1,13 @@
+<ion-modal-view>
+	<ion-header-bar class="bar bar-header bar-positive">
+		<h1 class="title">Choose category</h1>
+		<button class="button button-clear button-primary" ng-click="hide()">Cancel</button>
+	</ion-header-bar>
+	<ion-content class="padding">
+		<div class="list">
+			<ion-item ng-repeat="category in categories" ng-click="chooseCategory(category)" ng-if="category">
+				{{category}}
+			</ion-item>
+		</div>
+	</ion-content>
+</ion-modal-view>
