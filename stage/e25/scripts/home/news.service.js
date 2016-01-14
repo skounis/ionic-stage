@@ -10,7 +10,7 @@
 	/* @ngInject */
 	function newsService($http, $q, _) {
 		var newsList;
-		var url = '//skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/feed.json';
+		var url = 'https://skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/feed.json';
 
 		var service = {
 			all: all,

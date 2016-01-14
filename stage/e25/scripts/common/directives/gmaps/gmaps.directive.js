@@ -51,7 +51,7 @@ angular.module('gMaps', [])
 				console.log('map: start loading js gmaps');
 				var script = $window.document.createElement('script');
 				script.type = 'text/javascript';
-				script.src = '//maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&callback=InitMapCb';
+				script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&callback=InitMapCb';
 				$window.document.body.appendChild(script);
 			}
 
