@@ -20,6 +20,7 @@
 			navigateToFullGalleryView: navigateToFullGalleryView,
 			filterByCategory: filterByCategory,
 			selectedCategory: 'All',
+			favorite: favorite,
 			add: add
 		});
 
@@ -65,13 +66,17 @@
 			return defer.promise;
 		}
 
+		function favorite(picture){
+			picture.favorite = !picture.favorite;
+		}
+
 		function add() {
 			getImageSource()
 				.then(getPhoto);
 
-			function getPhoto(picture) {
+			function getPhoto(source) {
 				cameraService.getPhoto({
-					sourceType: picture.source
+					sourceType: source
 				})
 				.then(chooseCategory)
 				.then(function(picture) {
@@ -86,7 +91,8 @@
 				$ionicActionSheet.show({
 					buttons: [
 						{ text: 'Camera' },
-						{ text: 'Library' }
+						{ text: 'Library' },
+						{ text: 'WereLO Discover' }
 					],
 					titleText: 'Choose image source',
 					cancelText: 'Cancel',

@@ -4,22 +4,22 @@
 	</ion-nav-buttons>
 	<ion-content>
 		<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="categories-filter">
-			<span ng-repeat="category in vm.categories">
+			<span ng-repeat="category in vm.categories" class="button-wrapper">
 				<button class="button button-light filter-button"
 				ng-click="vm.filterByCategory(category)"
 				ng-class="{'active-filter-button': category === vm.selectedCategory}">
 				{{category}}
 				</button>
+				<span class="button-separator"> &middot; </span>
 			</span>
 		</ion-scroll>
 
 		<div class="row" ng-repeat="pictures in vm.groupedPictures">
-			<div class="col col-33" ng-repeat="picture in pictures">
-				<div class="card" ng-click="vm.navigateToFullGalleryView(picture)">
-					<div class="item item-image">
-						<img ng-src="{{picture.thumbPath || picture.path}}">
-						<p class="tag">{{picture.category}}</p>
-					</div>
+			<div class="col col-50" ng-repeat="picture in pictures">
+				<div class="item item-image">
+					<img ng-src="{{picture.thumbPath || picture.path}}" ng-click="vm.navigateToFullGalleryView(picture)">
+					<p class="favorite" ng-click="vm.favorite(picture)"><i class="icon ion-ios-heart" ng-class="{balanced: picture.favorite}"></i></p>
+					<p class="tag">{{picture.category}}</p>
 				</div>
 			</div>
 		</div>

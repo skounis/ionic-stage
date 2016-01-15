@@ -11,7 +11,7 @@
 	function galleriesService($http, $q, localStorageService, _) {
 		var key = 'gallery';
 
-		var url = 'https://skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/galleries-flat.json';
+		var url = '//skounis-dev.s3.amazonaws.com/mystyle-ionic-e25/galleries-flat.json';
 		var gallery;
 		var categories;
 

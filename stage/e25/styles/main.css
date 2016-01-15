@@ -10440,6 +10440,16 @@ img {
   text-align: center;
 }
 
+.gallery-preview p.favorite {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0px 3px;
+  border-radius: 3px;
+  font-size: 36px;
+  z-index: 100;
+}
+
 .gallery-preview p.tag {
   position: absolute;
   bottom: 0;
@@ -10447,12 +10457,22 @@ img {
   background: whitesmoke;
   padding: 0px 3px;
   border-radius: 3px;
+  z-index: 100;
 }
 
 /* wide-as-needed */
 .gallery-preview .categories-filter {
   overflow: scroll;
   white-space: nowrap;
+}
+
+.gallery-preview .button-separator {
+  display: inline-block;
+  padding: 16px 0;
+}
+
+.gallery-preview .button-wrapper:last-of-type .button-separator {
+  display: none;
 }
 
 .gallery-preview .filter-button {
