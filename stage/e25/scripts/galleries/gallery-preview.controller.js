@@ -92,7 +92,7 @@
 					buttons: [
 						{ text: 'Camera' },
 						{ text: 'Library' },
-						{ text: 'WereLO Discover' }
+						{ text: 'WereLo Discover' }
 					],
 					titleText: 'Choose image source',
 					cancelText: 'Cancel',
