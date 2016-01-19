@@ -39,7 +39,7 @@
 				if (member) {
 					localStorageService.set('user', {
 						name: member.firstname + ' ' +member.name,
-						points: member.cumulPoint
+						points: member.nbPoint //member.cumulPoint
 					});
 					return true;
 				}
