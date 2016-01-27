@@ -33,6 +33,7 @@ angular.module('catalogue', [
 	'catalogue.wordpress',
 	'catalogue.drupal',
 	'catalogue.favorites',
+	'catalogue.terms',
 ])
 	.value('_', window._)
 
@@ -48,7 +49,7 @@ angular.module('catalogue', [
 				// org.apache.cordova.statusbar required
 				StatusBar.styleDefault();
 			}
-			
+
 			var user = authService.getUser();
 			if (user) {
 				$state.go('app.home');

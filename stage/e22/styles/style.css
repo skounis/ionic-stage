@@ -244,8 +244,8 @@ ion-footer-bar.bar-transparent button{
 
 .shops .slider-slide .shops-wrapper img.logo{
   width: 31%;
-  width: 100px;
-  padding-top: 140px;
+  width: 240px;
+  padding-top: 60px;
 }
 
 .shops .slider-slide .shops-wrapper p.category{
@@ -276,15 +276,20 @@ ion-footer-bar.bar-transparent button{
 }
 
 /* == Articles / Univers == */
-.articles{}
+.articles{
+  background: #000;
+}
 
 .articles .item,
 .article .header {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  height: 31vh;
+
 }
 
 
@@ -349,7 +354,7 @@ ion-view.featured{
 .featured .header p{
   text-align: center;
   font-family: 'Roboto-Light';
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .featured .header{
@@ -420,8 +425,11 @@ ion-view.featured-details{
 }
 
 
-
-
+/* == Terms == */
+.terms{ }
+ion-view.terms{
+  background: #000;
+}
 
 /* == Map == */
 
