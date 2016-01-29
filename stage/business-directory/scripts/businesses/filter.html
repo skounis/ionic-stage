@@ -1,0 +1,25 @@
+<ion-modal-view>
+	<ion-header-bar>
+		<h1 class="title">Sort and Filters</h1>
+		<div class="buttons">
+			<button
+					class="button button-clear icon ion-checkmark"
+					ng-click="vm.applyFilters()"
+					style="color: #444;"></button>
+		</div>
+	</ion-header-bar>
+	<ion-content>
+		<div class="list">
+			<ion-item class="item-divider">Sort by</ion-item>
+			<ion-radio name="sortBy" ng-model="vm.sortBy" ng-value="'name'">Name</ion-radio>
+			<ion-radio name="sortBy" ng-model="vm.sortBy" ng-value="'distance'">Distance</ion-radio>
+
+			<ion-item class="item-divider">Show category</ion-item>
+			<ion-radio
+					name="category"
+					ng-repeat="category in vm.categories"
+					ng-model="vm.selectedCategory"
+					ng-value="'{{category}}'">{{category}}</ion-radio>
+		</div>
+	</ion-content>
+</ion-modal-view>

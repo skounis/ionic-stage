@@ -5,10 +5,10 @@
 		.module('restaurant.home')
 		.factory('homeService', homeService);
 
-	homeService.$inject = ['$cordovaGeolocation', '$q', 'geolib', 'convert', 'dataService'];
+	homeService.$inject = ['dataService'];
 
 	/* @ngInject */
-	function homeService($cordovaGeolocation, $q, geolib, convert, dataService) {
+	function homeService(dataService) {
 		var service = {
 			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,

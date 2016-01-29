@@ -1,0 +1,30 @@
+<ion-view view-title="Directory" class="businesses">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-android-options" ng-click="vm.showFilter()"></button>
+	</ion-nav-buttons>
+
+	<ion-content ng-init="vm.search = ''">
+		<ion-scroll zooming="true" direction="x" scrollbar-x="false" class="categories-filter">
+			<span ng-repeat="category in vm.categories">
+				<button class="button button-light filter-button"
+					ng-click="vm.filterByCategory(category)"
+					ng-class="{'active-filter-button': category === vm.selectedCategory}">
+					{{category}}
+				</button>
+			</span>
+		</ion-scroll>
+		<div class="item search-box">
+			<input type="text" placeholder="Search" ng-model="vm.search" />
+		</div>
+		<div class="item item-thumbnail-left item-text-wrap"
+			ng-click="vm.navigate(business.guid)"
+			ng-repeat="business in vm.businesses | filter: { name: vm.search } | orderBy: vm.sortBy">
+			<img ng-src="{{business.logo}}">
+			<h2>{{business.name}}</h2>
+			<span class="distance">{{business.distance}}</span>
+			<h3>{{business.category}}</h3>
+			<p>{{business.description | limitTo: 140 }}{{business.description.length > 140 ? '...' : ''}}</p>
+		</div>
+
+	</ion-content>
+</ion-view>

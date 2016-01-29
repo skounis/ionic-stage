@@ -16,12 +16,7 @@
 							templateUrl: 'scripts/contact-us/contact-us.html',
 							controller: 'ContactUsController as vm'
 						}
-					},
-					resolve: {
-						businessInfo: function(contactUsService){
-							return contactUsService.getBusiness();
-						}
-          }
+					}
 				});
 		});
 })();

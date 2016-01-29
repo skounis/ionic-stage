@@ -25,7 +25,7 @@
 				</a>
 			</div>
 
-			<div class="card col home">
+			<div class="card col home" ng-if="!!vm.categories[$index + 1]">
 				<a class="item item-text-wrap" ng-click="vm.showProducts(vm.categories[$index + 1])">
 					<h1><i class="{{vm.categories[$index + 1].icon}}"></i></h1>
 					<h2>{{vm.categories[$index + 1].title}}</h2>

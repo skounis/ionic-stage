@@ -17,7 +17,7 @@
 
 		// ********************************************************************
 
-		newsService.all(function(data){
+		newsService.all().then(function(data) {
 			vm.articles = data;
 		});
 

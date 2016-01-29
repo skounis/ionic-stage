@@ -1,0 +1,242 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebb",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "New York",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b88895",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "Denver",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4d4f",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "London",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fe7",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "Berlin",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728dd37",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "Athens",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}, {
+			"id": 6,
+			"guid": "b3119483-5125-4f6c-89a3-849ebc732447",
+			"teaser": "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-teaser.jpg",
+			"title": "SED UT PERSPICIATIS",
+			"location": "Paris",
+			"body": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"pictures": [
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/01-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/02-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/03-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/04-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/05-thumb.jpg"
+				},
+				{
+					"caption" : "sed do eiusmod tempor incididunt",
+					"path" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06.jpg",
+					"thumbPath" : "http://skounis-dev.s3.amazonaws.com/mobile-apps/business-directory/assets/galleries/architecture/06-thumb.jpg"
+				}
+			]
+		}
+	]
+}

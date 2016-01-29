@@ -1,0 +1,256 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 4,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1y4aa3b2-c059-4fa7-a751-9bca735e4ee1",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-1-thumb.jpg",
+			"title": "Κλασικό με Σουβλάκι Χοιρινό",
+			"body": "σε πίτα ή λαγάνα, με πατάτα, ντομάτα, κέτσαπ, μουστάρδα, κρεμμύδι και 2 τεμ. σουβλάκι χοιρινό.",
+			"tags": ["σάντουιτς", "σουβλάκι χοιρινό"],
+			"standardOptions":[
+				{
+					"name": "Πατάτα",
+					"selected": true
+				},
+				{
+					"name": "Ντομάτα",
+					"selected": true
+				},
+				{
+					"name": "Κέτσαπ",
+					"selected": true
+				},
+				{
+					"name": "Μουστάρδα",
+					"selected": true
+				},
+				{
+					"name": "Κρεμμύδι",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Τζατζίκι",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Τυροσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Μελιτζανοσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Πίτα Μεγάλο",
+				"value": "$2.90"
+			},
+			{
+				"name": "Πίτα Μικρό",
+				"value": "$1.90"
+			},
+			{
+				"name": "Λαγάνα Μεγάλο",
+				"value": "$2.90"
+			},
+			{
+				"name": "Λαγάνα Μικρό",
+				"value": "$1.90"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "1y4aa3b2-c059-789x-0mme0-9bca735e4ee1",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-2-thumb.jpg",
+			"title": "Κλασικό με Κοτοσουβλάκι",
+			"body": "σε πίτα ή λαγάνα, με πατάτα, ντομάτα, κέτσαπ, μουστάρδα, κρεμμύδι και 2 τεμ. κοτοσουβλάκι.",
+			"tags": ["σάντουιτς", "σουβλάκι χοιρινό"],
+			"standardOptions":[
+				{
+					"name": "Πατάτα",
+					"selected": true
+				},
+				{
+					"name": "Ντομάτα",
+					"selected": true
+				},
+				{
+					"name": "Κέτσαπ",
+					"selected": true
+				},
+				{
+					"name": "Μουστάρδα",
+					"selected": true
+				},
+				{
+					"name": "Κρεμμύδι",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Τζατζίκι",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Τυροσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Μελιτζανοσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				}
+			],
+			"price" : [
+				{
+					"name": "Πίτα Μεγάλο",
+					"value": "$2.90"
+				},
+				{
+					"name": "Πίτα Μικρό",
+					"value": "$1.90"
+				},
+				{
+					"name": "Λαγάνα Μεγάλο",
+					"value": "$2.90"
+				},
+				{
+					"name": "Λαγάνα Μικρό",
+					"value": "$1.90"
+				}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "000er2fn5-94d6-4fec-a1c3-c48d80b888e2",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-3-thumb.jpg",
+			"title": "Κλασικό με Λουκάνικο",
+			"body": "σε πίτα ή λαγάνα, με πατάτα, ντομάτα, κέτσαπ, μουστάρδα, κρεμμύδι και 1 τεμ. λουκάνικο.",
+			"tags": ["σάντουιτς", "λουκάνικο"],
+			"standardOptions":[
+				{
+					"name": "Πατάτα",
+					"selected": true
+				},
+				{
+					"name": "Ντομάτα",
+					"selected": true
+				},
+				{
+					"name": "Κέτσαπ",
+					"selected": true
+				},
+				{
+					"name": "Μουστάρδα",
+					"selected": true
+				},
+				{
+					"name": "Κρεμμύδι",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Τζατζίκι",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Τυροσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Μελιτζανοσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				}
+			],
+			"price" : [
+				{
+					"name": "Πίτα Μεγάλο",
+					"value": "$2.90"
+				},
+				{
+					"name": "Πίτα Μικρό",
+					"value": "$1.90"
+				},
+				{
+					"name": "Λαγάνα Μεγάλο",
+					"value": "$2.90"
+				},
+				{
+					"name": "Λαγάνα Μικρό",
+					"value": "$1.90"
+				}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-3-1.jpg"
+			]
+		}, {
+			"id": 4,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4de3",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-4-thumb.jpg",
+			"title": "Πονηρό σε Πίτα με Κοτοσουβλάκι",
+			"body": "Νοστημιά που σερβίρεται σε πίτα με κοτοσουβλάκι.",
+			"tags": ["κοτοσουβλάκι", "πονηρό"],
+			"standardOptions":[
+				{
+					"name": "Πατάτα",
+					"selected": true
+				},
+				{
+					"name": "Ντομάτα",
+					"selected": true
+				},
+				{
+					"name": "Σως πονηρή",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Τζατζίκι",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Τυροσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				},
+				{
+					"name": "Μελιτζανοσαλάτα",
+					"selected": false,
+					"value": "0.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$1.90"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-e-4-1.jpg"
+			]
+		}
+	]
+}

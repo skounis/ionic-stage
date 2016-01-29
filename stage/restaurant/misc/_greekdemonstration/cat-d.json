@@ -1,0 +1,108 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 5,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ed1",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-1-thumb.jpg",
+			"title": "Πατάτα",
+			"body": "φρεσκοτηγανισμένη.",
+			"tags": ["πατάτα", "τηγανητή"],
+			"standardOptions":[],
+			"extraOptions": [],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$1.80"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-1-1.jpg"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888d2",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-2-thumb.jpg",
+			"title": "Πατάτα της Μαμάς",
+			"body": "στο φούρνο παραδοσιακή.",
+			"tags": ["πατάτα", "φούρνου"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Φρεσκοτριμμένο τυράκι",
+					"selected": false,
+					"value": "0.70"
+				}
+			],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$1.30"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-2-1.jpg"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dd3",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-3-thumb.jpg",
+			"title": "Λαγάνα",
+			"body": "Μισή φρέσκια λαγάνα.",
+			"tags": ["λαγάνα"],
+			"standardOptions":[],
+			"extraOptions": [],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$0.50"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-3-1.jpg"
+			]
+		}, {
+			"id": 4,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddd5",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-4-thumb.jpg",
+			"title": "Πίτα",
+			"body": "παραδοσιακή στα κάρβουνα.",
+			"tags": ["πίτα"],
+			"standardOptions":[],
+			"extraOptions": [],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$0.40"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-4-1.jpg"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-88mq-ba68-22454728ddd5",
+			"thumb": "http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-5-thumb.jpg",
+			"title": "Σως... Πονηρή",
+			"body": "ιδανική για κοτόπουλο.",
+			"tags": ["σως"],
+			"standardOptions":[],
+			"extraOptions": [],
+			"price" : [
+			{
+				"name": "Κανονικό",
+				"value": "$1.70"
+			},
+			{
+				"name": "Μικρό",
+				"value": "$0.70"
+			}
+			],
+			"pictures": [
+				"http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_greekdemonstration/assets/cat-d-5-1.jpg"
+			]
+		}
+	]
+}

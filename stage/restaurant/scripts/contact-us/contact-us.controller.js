@@ -6,31 +6,41 @@
 		.controller('ContactUsController', ContactUsController);
 
 	ContactUsController.$inject = [
-		'businessInfo', 'externalAppsService', '$cordovaEmailComposer', 'openHoursService'];
+		'contactUsService', 'externalAppsService', '$cordovaEmailComposer', 'openHoursService'];
 
 	/* @ngInject */
-	function ContactUsController(businessInfo, externalAppsService, $cordovaEmailComposer, openHoursService) {
-
+	function ContactUsController(contactUsService, externalAppsService, $cordovaEmailComposer, openHoursService) {
+		var businessInfo;
 		var vm = angular.extend(this, {
-			storeName: businessInfo.storeName,
-			address: businessInfo.address,
-			desc: businessInfo.desc,
-			phoneNumber: businessInfo.phoneNumber,
+			storeName: '',
+			address: '',
+			desc: '',
+			phoneNumber: '',
 			getDirections: getDirections,
 			sendEmail: sendEmail,
 			openFacebookPage: openFacebookPage,
 			openInstagramPage: openInstagramPage,
 			openTwitterPage: openTwitterPage,
 			openPinterestPage: openPinterestPage,
-			openHours: []
+			openHours: openHoursService.getOpenHours()
 		});
 
-
 		(function activate() {
-			vm.openHours = openHoursService.getOpenHours();
+			loadBusinessInfo();
 		})();
 
 		// **********************************************************************
+
+		function loadBusinessInfo() {
+			contactUsService.getBusiness()
+				.then(function(business) {
+					businessInfo = business;
+					vm.storeName = business.storeName;
+					vm.address = business.address;
+					vm.desc = business.desc;
+					vm.phoneNumber = business.phoneNumber;
+				});
+		}
 
 		function getDirections() {
 			externalAppsService.openMapsApp(businessInfo.officeLocation);

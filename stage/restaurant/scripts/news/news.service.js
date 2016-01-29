@@ -5,11 +5,11 @@
 		.module('restaurant.news')
 		.factory('newsService', newsService);
 
-	newsService.$inject = ['$http', '$q'];
+	newsService.$inject = ['$http', '$q', 'dataService'];
 
 	/* @ngInject */
-	function newsService($http, $q) {
-		var url = 'http://skounis.s3.amazonaws.com/mobile-apps/local-business/news.json';
+	function newsService($http, $q, dataService) {
+
 		var result = [];
 
 		var service = {
@@ -21,20 +21,13 @@
 		// *******************************************************
 
 		// http://stackoverflow.com/questions/17533888/s3-access-control-allow-origin-header
-		function all(callback){
-			$http.get(url)
-				.success(function(data, status, headers, config) {
-					// this callback will be called asynchronously
-					// when the response is available
-					result = data.result;
-					callback(result);
-				})
-				.error(function(data, status, headers, config) {
-					// called asynchronously if an error occurs
-					// or server returns response with an error status.
-					console.log('ERROR (News):' + status);
-					callback(result);
+		function all() {
+			return dataService.getNewsUrl().then(function(url) {
+				return $http.get(url).then(function(response) {
+					result = response.data.result;
+					return result;
 				});
+			});
 		}
 
 		function get(articleId) {

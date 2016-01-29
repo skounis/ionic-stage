@@ -5,9 +5,16 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('restaurant', [
 	'ionic',
-	'config',
 	'ionic.service.core',
 	'ionic.service.push',
+
+	'ngCordova',
+	'ionic-toast',
+	'LocalStorageModule',
+
+	'config',
+	'restaurant.restaurant-cart',
+	'restaurant.restaurant-delivery',
 	'restaurant.categories',
 	'restaurant.products',
 	'restaurant.news',
@@ -19,11 +26,7 @@ angular.module('restaurant', [
 	'restaurant.wordpress',
 	'restaurant.drupal',
 	'restaurant.favorites',
-
-	'LocalStorageModule',
-	'gMaps',
-	'ngCordova',
-	'ionic-toast'
+	'gMaps'
 ])
 
 .value('_', window._)

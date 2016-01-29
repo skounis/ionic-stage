@@ -11,16 +11,11 @@
 	function externalAppsService($window) {
 		var service = {
 			openExternalUrl: openExternalUrl,
-			openPdf: openPdf,
 			openMapsApp: openMapsApp
 		};
 		return service;
 
 		// ****************************************************************
-
-		function openPdf(url) {
-			openExternalUrl(url);
-		}
 
 		function openExternalUrl(url) {
 			$window.open(url, '_system', 'location=yes');

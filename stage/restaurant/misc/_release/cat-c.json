@@ -1,0 +1,194 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ebc1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Sweet Plum Crepe",
+			"body": "Curabitur magna lectus, ullamcorper sed molestie in, facilisis sed libero. Morbi eleifend quam nunc, nec porttitor arcu varius a. Aliquam id dolor sem.",
+			"tags": ["ullamcorper", "facilisis"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888c2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Strawberry and Vanilla Cake",
+			"body": "Aliquam erat volutpat. Mauris interdum leo nec felis lacinia facilisis. Nunc ut pulvinar purus. Sed augue lacus, consequat in augue sed, interdum finibus libero. Proin tempus vitae dui sit amet hendrerit.",
+			"tags": ["erat", "interdum"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Caramelized apples",
+					"selected": false,
+					"value": "4.50"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "4",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dc3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chocolate and Caramel Cake",
+			"body": "Vestibulum posuere lacinia ante a tristique. Aenean vitae lobortis augue. Vivamus et dolor tempus sapien rhoncus congue. Integer ut suscipit nibh, at luctus velit. Donec ut iaculis dui.",
+			"tags": ["posuere","tristique"],
+			"standardOptions":[
+				{
+					"name": "Chocolate syrup",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh strawberries",
+					"selected": false,
+					"value": "4"
+				},
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "8897hdm-c059-4fa7-a751-9bca735e4ebc1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Lemon Flavored Creme Brulee",
+			"body": "Curabitur magna lectus, ullamcorper sed molestie in, facilisis sed libero. Morbi eleifend quam nunc, nec porttitor arcu varius a. Aliquam id dolor sem.",
+			"tags": ["ullamcorper", "facilisis"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Sparkling wine",
+					"selected": true,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888c2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Layered Fruits with Caramelized Biscuits",
+			"body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vitae leo vel erat dictum dignissim.",
+			"tags": ["penatibus", "natoque"],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "4",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "5",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dc3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Fruit Tarte",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+			"tags": ["blandit","neque"],
+			"standardOptions":[
+				{
+					"name": "Chocolate syrup",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh strawberries",
+					"selected": true,
+					"value": "4"
+				},
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}
+	]
+}

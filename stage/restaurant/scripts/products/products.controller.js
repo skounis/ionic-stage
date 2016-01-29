@@ -5,17 +5,17 @@
 		.module('restaurant.products')
 		.controller('ProductsController', ProductsController);
 
-	ProductsController.$inject = ['$scope', '$state', 'productsService'];
+	ProductsController.$inject = ['$state', 'productsService'];
 
 	/* @ngInject */
-	function ProductsController($scope, $state, productsService) {
+	function ProductsController($state, productsService) {
 		var categoryId = $state.params.categoryId;
 		var categoryName = $state.params.categoryName;
 
 		var vm = angular.extend(this, {
 			products: [],
-			doRefresh: doRefresh,
 			showProductDetails: showProductDetails,
+			showCart: showCart,
 			category: categoryName
 		});
 
@@ -25,15 +25,13 @@
 
 		// ******************************************************
 
+		function showCart() {
+			$state.go('app.restaurant-cart');
+		}
+
 		function loadProducts() {
 			return productsService.all(categoryId).then(function(data) {
 				vm.products = data;
-			});
-		}
-
-		function doRefresh() {
-			loadProducts().then(function() {
-				$scope.$broadcast('scroll.refreshComplete');
 			});
 		}
 

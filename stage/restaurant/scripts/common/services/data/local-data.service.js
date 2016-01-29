@@ -13,6 +13,7 @@
 		var categoriesUrl = urlPrefix + 'categories.json';
 		var featuredProductsUrl = urlPrefix + 'featured.json';
 		var businessUrl = urlPrefix + 'business.json';
+		var newsUrl = urlPrefix + 'news.json';
 		var categories = [];
 		var featuredProducts = [];
 		var products = {};
@@ -24,7 +25,8 @@
 			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
 			getFeaturedProduct: getFeaturedProduct,
-			getBusiness: getBusiness
+			getBusiness: getBusiness,
+			getNewsUrl: getNewsUrl
 		};
 
 		return service;
@@ -34,6 +36,12 @@
 				var business = response.data.result;
 				return business;
 			});
+		}
+
+		function getNewsUrl() {
+			if (newsUrl) {
+				return $q.when(newsUrl);
+			}
 		}
 
 		function getCategories() {
@@ -61,6 +69,13 @@
 			});
 			return $http.get(category.url).then(function(response) {
 				products[categoryGuid] = response.data.result;
+				_.each(products[categoryGuid], function(product) {
+					// We do not need this touch. price should always coming with a currency property 
+					// _.each(product.price, function(price) {
+					// 	price.currency = price.value[0];
+					// 	price.value = parseFloat(price.value.substring(1));
+					// });
+				});
 				return products[categoryGuid];
 			});
 		}

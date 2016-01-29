@@ -9,9 +9,10 @@
 
 	/* @ngInject */
 	function remoteDataService($http, $q, _) {
-		var categoriesUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/categories.json';
-		var featuredProductsUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/featured.json';
-		var businessUrl = 'http://skounis-dev.s3.amazonaws.com/mobile-apps/restaurant-ionic/business.json';
+		var categoriesUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/categories.json';
+		var featuredProductsUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/featured.json';
+		var businessUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/business.json';
+		var newsUrl = 'http://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/news.json';
 		var categories = [];
 		var featuredProducts;
 		var products = {};
@@ -23,10 +24,15 @@
 			getFeaturedCategories: getFeaturedCategories,
 			getFeaturedProducts: getFeaturedProducts,
 			getFeaturedProduct: getFeaturedProduct,
-			getBusiness: getBusiness
+			getBusiness: getBusiness,
+			getNewsUrl: getNewsUrl
 		};
 
 		return service;
+
+		function getNewsUrl() {
+			return $q.when(newsUrl);
+		}
 
 		function getBusiness(){
 			return $http.get(businessUrl).then(function(response) {

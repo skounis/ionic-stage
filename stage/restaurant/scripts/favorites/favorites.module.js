@@ -13,12 +13,7 @@
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/favorites/favorites.html',
-							controller: 'FavoritesController as vm',
-							resolve: {
-								businessInfo: function(favoritesService){
-									return favoritesService.getBusiness();
-								}
-							}
+							controller: 'FavoritesController as vm'
 						}
 					}
 				});

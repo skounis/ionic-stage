@@ -6,22 +6,27 @@
 		.controller('ProductController', ProductController);
 
 	ProductController.$inject = [
-		'$scope', '$stateParams', '$state', 'product', 'externalAppsService',
-		'favoritesService', 'ionicToast'];
+		'$scope', '$stateParams', '$state', 'product', 'favoritesService',
+			'ionicToast', 'restaurantCartService', '_'];
 
 	/* @ngInject */
-	function ProductController($scope, $stateParams, $state, product,
-		externalAppsService, favoritesService, ionicToast) {
+	function ProductController($scope, $stateParams, $state, product, favoritesService,
+			ionicToast, restaurantCartService, _) {
 
 		var categoryId = $stateParams.categoryId;
+		product = angular.copy(product);
 
 		var vm = angular.extend(this, {
 			product: product,
-			buy: buy,
-			openPdf: openPdf,
+			selectedPrice: product.price[0],
+			addToCart: addToCart,
 			isInFavorites: favoritesService.isInFavorites(product.guid),
-			showFavorites: showFavorites,
-			toggleFavorites: toggleFavorites
+			showCart: showCart,
+			toggleFavorites: toggleFavorites,
+			hasStandardOptions: false,
+			hasExtraOptions: false,
+
+
 		});
 
 
@@ -30,21 +35,44 @@
 				if (vm.product) {
 					vm.isInFavorites = favoritesService.isInFavorites(vm.product.guid);
 				}
+				if (vm.product.standardOptions && vm.product.standardOptions.length > 0) {
+					return $scope.hasStandardOptions = true;
+				}
+				if (vm.product.extraOptions && vm.product.extraOptions.length > 0) {
+					return $scope.hasExtraOptions = true;
+				}
 			});
 		})();
 
 		// **********************************************
 
-		function showFavorites() {
-			$state.go('app.favorites');
+		function showCart() {
+			$state.go('app.restaurant-cart');
 		}
 
-		function buy() {
-			externalAppsService.openExternalUrl(vm.product.url);
+		function addToCart() {
+			restaurantCartService.addToCart({
+				name: vm.product.title,
+				price: vm.selectedPrice.value,
+				currency: vm.selectedPrice.currency,
+				size: vm.selectedPrice.name,
+				picture: vm.product.pictures[0],
+				description: vm.product.body,
+				options:  getSelectedOptions(vm.product.standardOptions).concat(getSelectedOptions(vm.product.extraOptions)),
+			});
 		}
 
-		function openPdf() {
-			externalAppsService.openPdf(vm.product.pdf);
+		function getSelectedOptions(options) {
+			var selectedOptions = _.filter(options, function(option) {
+				return option.selected;
+			});
+
+			return _.map(selectedOptions, function(option) {
+				return {
+					name: option.name,
+					value: option.value || 0
+				};
+			});
 		}
 
 		function toggleFavorites() {

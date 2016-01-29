@@ -5,10 +5,11 @@
 		.module('restaurant.favorites')
 		.controller('FavoritesController', FavoritesController);
 
-	FavoritesController.$inject = ['businessInfo', '$state', 'favoritesService', 'favoritesSenderService'];
+	FavoritesController.$inject = ['$state', 'favoritesService', 'favoritesSenderService'];
 
 	/* @ngInject */
-	function FavoritesController(businessInfo, $state, favoritesService, favoritesSenderService) {
+	function FavoritesController($state, favoritesService, favoritesSenderService) {
+		var businessInfo;
 		var vm = angular.extend(this, {
 			items: [],
 			deleteItem: deleteItem,
@@ -18,9 +19,17 @@
 
 		(function activate() {
 			loadItems();
+			loadBusinessInfo();
 		})();
 
 		// ********************************************************************
+
+		function loadBusinessInfo() {
+			favoritesService.getBusiness()
+				.then(function(business) {
+					businessInfo = business;
+				});
+		}
 
 		function loadItems() {
 			vm.items = favoritesService.getAll();
@@ -32,6 +41,7 @@
 		}
 
 		function sendFavorites() {
+			debugger;
 			favoritesSenderService.sendFavorites(businessInfo.email, vm.items);
 		}
 

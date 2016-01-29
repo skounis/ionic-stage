@@ -5,22 +5,47 @@
 		.module('restaurant.home')
 		.controller('HomeController', HomeController);
 
-	HomeController.$inject = ['$state', 'products', 'categories', 'businessInfo'];
+	HomeController.$inject = ['$state', 'homeService', '$ionicSlideBoxDelegate'];
 
 	/* @ngInject */
-	function HomeController($state, products, categories, businessInfo) {
+	function HomeController($state, homeService, $ionicSlideBoxDelegate) {
 		var vm = angular.extend(this, {
-			categories: categories,
-			products: products,
+			categories: [],
+			products: [],
 			showProducts: showProducts,
 			showProductDetails: showProductDetails,
-			storeName: businessInfo.storeName
+			storeName: ''
 		});
 
 		(function activate() {
+			loadProducts();
+			loadCategories();
+			loadBusinessInfo();
 		})();
 
 		// ******************************************************
+
+		function loadProducts() {
+			homeService.getFeaturedProducts()
+				.then(function(products) {
+					vm.products = products;
+					$ionicSlideBoxDelegate.update();
+				});
+		}
+
+		function loadCategories() {
+			homeService.getFeaturedCategories()
+				.then(function(categories) {
+					vm.categories = categories;
+				});
+		}
+
+		function loadBusinessInfo() {
+			homeService.getBusiness()
+				.then(function(businessInfo) {
+					vm.storeName = businessInfo.storeName;
+				});
+		}
 
 		function showProductDetails(product) {
 			$state.go('app.featured-product', {
