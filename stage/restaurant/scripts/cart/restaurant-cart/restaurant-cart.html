@@ -1,0 +1,36 @@
+<ion-view view-title="Restaurant cart" cache-view="false">
+	<ion-content class="has-extended-footer">
+		<ion-list can-swipe="true">
+			<ion-item ng-repeat="item in vm.items" class="item-thumbnail-left item-text-wrap">
+				<img ng-src="{{item.picture}}" />
+				<h2>{{item.name}}</h2>
+				<p>{{item.description | limitTo: 80 }}{{item.description.length > 80 ? '...' : ''}}</p>
+				<p class="text-right">{{item.price | currency : item.currency : 2 }} x {{item.quantity}} {{item.size}}</p>
+
+				<p class="text-right" ng-repeat="option in item.options" style="font-style: italic;">
+					{{option.name}}: {{option.value | currency : item.currency : 2 }}
+				</p>
+
+				<p class="text-right" style="font-weight: 500;">
+					Total: {{vm.getItemTotal(item) | currency : item.currency : 2 }}
+				</p>
+
+				<ion-option-button class="button-balanced" ng-click="vm.changeQuantity(item)">
+					Change quantity
+				</ion-option-button>
+				<ion-option-button class="button-assertive" ng-click="vm.deleteItem(item)">
+					Delete
+				</ion-option-button>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+	<div class="bar bar-footer bar-calm extended-footer" ng-click="vm.proceedToPayment()">
+		<div ng-if="vm.currency">
+			<div class="title">Proceed to payment</div>
+			<div class="subtitle">Total: {{vm.total | currency : vm.currency : 2 }}</div>
+		</div>
+		<div ng-if="!vm.currency" class="title">
+			Cart is empty
+		</div>
+	</div>
+</ion-view>

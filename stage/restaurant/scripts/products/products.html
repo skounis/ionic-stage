@@ -1,0 +1,34 @@
+<ion-view view-title="{{vm.category}}">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-ios-cart" ng-click="vm.showCart()"></button>
+	</ion-nav-buttons>
+
+	<ion-content>
+		<div ng-repeat="p in vm.products" ng-if="$index%2 == 0" class="row colums-two">
+			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index].guid)">
+				<div class="item item-image">
+					<img ng-src="{{vm.products[$index].thumb}}">
+				</div>
+
+				<a class="item">
+					<h3>{{vm.products[$index].title}}</h3>
+					<h4>{{vm.products[$index].price[0].value | currency : vm.products[$index].price[0].currency : 2}}</h4>
+				</a>
+			</div>
+
+			<div ng-style="{'visibility': !!vm.products[$index + 1] ? 'visible' : 'hidden'}" class="card col"
+				ng-click="vm.showProductDetails(vm.products[$index + 1].guid)">
+				<div class="item item-image">
+					<img ng-src="{{vm.products[$index + 1].thumb}}">
+				</div>
+
+				<a class="item">
+					<h3>{{vm.products[$index + 1].title}}</h3>
+					<h4>{{vm.products[$index + 1].price[0].value | currency : vm.products[$index + 1].price[0].currency : 2}}</h4>
+				</a>
+			</div>
+
+		</div>
+
+	</ion-content>
+</ion-view>

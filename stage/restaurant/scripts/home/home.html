@@ -1,0 +1,53 @@
+<ion-view view-title="Home">
+	<ion-content>
+		<ion-slide-box>
+			<ion-slide ng-repeat="product in vm.products">
+				<div class="box blue home-hello" ng-click="vm.showProductDetails(product)">
+					<img ng-src="{{product.pictures[0]}}"/>
+					<div class="item">
+						<h2>{{product.title}}</h2>
+					</div>
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<!--
+		 | http://stackoverflow.com/questions/27239735/ionic-framwork-gridlayout-with-multiple-rows-and-column-on-which-buttons-placed
+		 | http://stackoverflow.com/questions/23779773/angularjs-loops-and-formatting/23780288#23780288
+		 -->
+		<h1 class="padding-left padding-right">{{vm.storeName}}</h1>
+		<div ng-repeat="e in vm.categories" ng-if="$index%2==0" class="row colums-two">
+
+			<div class="card col home">
+				<a class="item item-text-wrap" ng-click="vm.showProducts(vm.categories[$index])"">
+					<h1><i class="{{vm.categories[$index].icon}}"></i></h1>
+					<h2>{{vm.categories[$index].title}}</h2>
+				</a>
+			</div>
+
+			<div class="card col home" ng-if="!!vm.categories[$index + 1]">
+				<a class="item item-text-wrap" ng-click="vm.showProducts(vm.categories[$index + 1])">
+					<h1><i class="{{vm.categories[$index + 1].icon}}"></i></h1>
+					<h2>{{vm.categories[$index + 1].title}}</h2>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="list card col">
+				<a href="#/app/map" href="" class="item item-icon-left">
+					<i class="icon ion-map"></i>
+					Map
+				</a>
+
+				<a href="#/app/contact-us" class="item item-icon-left">
+					<i class="icon ion-ios-information"></i>
+					Contact us
+				</a>
+			</div>
+		</div>
+
+
+	</ion-content>
+</ion-view>

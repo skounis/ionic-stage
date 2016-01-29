@@ -1,0 +1,53 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 5,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Appetizers",
+			"desc": "Donec feugiat justo sapien. Etiam tempus lacus ut sem laoreet venenatis. Suspendisse velit ipsum, accumsan eu imperdiet sit amet, auctor non lacus.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/cat-a.json",
+			"featured": true,
+			"icon": "icon ion-stop"
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Sides",
+			"desc": "Nam laoreet libero quam. Sed erat dolor, posuere ac posuere id, bibendum ut sapien. Ut semper mollis suscipit.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/cat-b.json",
+			"featured": true,
+			"icon": "icon ion-soup-can"
+		}, {
+			"id": 3,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Desserts",
+			"desc": "Nullam eget scelerisque neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed et condimentum lectus.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/cat-c.json",
+			"featured": true,
+			"icon": "icon ion-lightbulb"
+		}, {
+			"id": 4,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Main Course",
+			"desc": "Curabitur sodales hendrerit lorem ac congue. Nulla laoreet consequat augue, ut pretium mauris cursus facilisis. Donec sodales laoreet erat semper dignissim.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/cat-d.json",
+			"featured": true,
+			"icon": "icon ion-help-buoy"
+		}, {
+			"id": 5,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Salads",
+			"desc": "Duis in est vel mauris vestibulum dignissim. Quisque justo tellus, auctor et orci vel, hendrerit congue orci. Integer a iaculis ex. Pellentesque ut purus congue.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/cat-e.json",
+			"featured": true,
+			"icon": "icon ion-paintbucket"
+		}
+	]
+}

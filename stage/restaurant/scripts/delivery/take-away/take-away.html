@@ -1,0 +1,17 @@
+<ion-view view-title="Take away">
+	<ion-content id="take-away-map-view">
+		<gmaps ng-if="!!vm.location"
+			center="vm.location.origin"
+			zoom="vm.location.zoom"
+			markers="vm.location.markers"> 
+		</gmaps>
+
+		<div class="content-inner">
+			<h1>{{vm.restaurant.name}}</h1>
+			<p>{{vm.restaurant.address}}</p>
+		</div>
+	</ion-content>
+	<div class="bar bar-footer bar-calm" ng-click="vm.confirm()">
+		<div class="title">Confirm</div>
+	</div>
+</ion-view>

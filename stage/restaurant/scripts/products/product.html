@@ -1,0 +1,75 @@
+<ion-view>
+	<ion-nav-title>Product</ion-nav-title>
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-ios-cart" ng-click="vm.showCart()"></button>
+	</ion-nav-buttons>
+
+	<ion-content has-header="true">
+
+		<ion-slide-box>
+			<ion-slide ng-repeat="pic in vm.product.pictures">
+				<div class="box blue"><img ng-src="{{pic}}"/></div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="content-inner">
+			<h3>{{vm.product.title}}</h3>
+			<p><i class="icon ion-pricetags"></i> {{vm.product.tags.join(', ')}}</p>
+			<p class="padding-vertical">{{vm.product.body}}</p>
+
+			<div ng-if="hasStandardOptions || hasExtraOptions">
+				<h4>Options and Extras</h4>
+				<p>Select the options you want to be included in this item.</p>
+			</div>
+
+			<ion-list>
+				<div class="item item-divider" ng-if="vm.product.standardOptions.length > 0">
+					Options
+				</div>
+				<ion-item class="item-toggle" ng-repeat="option in vm.product.standardOptions">
+					{{option.name}}
+					<label class="toggle">
+						<input type="checkbox" ng-model="option.selected">
+						<div class="track">
+							<div class="handle"></div>
+						</div>
+					</label>
+				</ion-item>
+
+				<div class="item item-divider" ng-if="vm.product.extraOptions.length > 0">
+					Extras
+				</div>
+				<ion-item class="item-toggle" ng-repeat="option in vm.product.extraOptions">
+					{{option.name}}: {{option.value | currency : (option.currency || '$') : 2}}
+					<label class="toggle">
+						<input type="checkbox" ng-model="option.selected">
+						<div class="track">
+							<div class="handle"></div>
+						</div>
+					</label>
+				</ion-item>
+			</ion-list>
+			<h4>Size and prices</h4>
+			<p>Select an option and add it in your cart.</p>
+			<ion-radio
+					ng-repeat="price in vm.product.price"
+					ng-model="vm.selectedPrice" ng-value="price">
+				{{price.name}}: {{price.value | currency : price.currency : 2}}
+			</ion-radio>
+		</div>
+
+		<div class="row">
+			<div class="col col-50">
+				<a class="button button-block" ng-click="vm.addToCart()">
+					<i class="icon ion-ios-cart"></i> Add to cart
+				</a>
+			</div>
+			<div class="col col-50">
+				<a class="button button-block" ng-click="vm.toggleFavorites()">
+					<i class="icon ion-ios-star" ng-class="{ 'balanced': vm.isInFavorites }"></i>
+					Add to favorites
+				</a>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
