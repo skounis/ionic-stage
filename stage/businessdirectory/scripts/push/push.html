@@ -1,0 +1,23 @@
+<ion-view view-title="Push">
+	<ion-content class="padding">
+		<button class="button button-block button-dark" ng-click="vm.identifyUser()">
+			Identify a user
+		</button>
+
+		<button class="button button-block button-positive" ng-disabled="!vm.identified" ng-click="vm.registerDevice()">
+			Register for Push
+		</button>
+
+		<div class="list">
+			<div class="item item-input-inset">
+				<label class="item-input-wrapper">
+					<input type="text" ng-disabled="!vm.registered" placeholder="Message" ng-model="vm.message" >
+				</label>
+				<button class="button button-small" ng-disabled="!vm.registered || !vm.message" ng-click="vm.sendMessage()">
+					Send
+				</button>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>

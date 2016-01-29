@@ -1,0 +1,35 @@
+<ion-view view-title="Products">
+	<ion-content>
+		<div ng-repeat="p in vm.products" ng-if="$index%2==0" class="row">
+			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index].id)">
+				<div class="item">
+					<h2>{{vm.products[$index].title}}</h2>
+				</div>
+
+				<div class="item item-image">
+					<img ng-src="{{vm.products[$index].thumb}}">
+				</div>
+
+				<a class="item">
+					<div class="align-right">{{vm.products[$index].price}}</div>
+				</a>
+			</div>
+
+			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index + 1].id)">
+				<div class="item">
+					<h2>{{vm.products[$index + 1].title}}</h2>
+				</div>
+
+				<div class="item item-image">
+					<img ng-src="{{vm.products[$index + 1].thumb}}">
+				</div>
+
+				<a class="item">
+					<div class="align-right">{{vm.products[$index + 1].price}}</div>
+				</a>
+			</div>
+
+		</div>
+
+	</ion-content>
+</ion-view>

@@ -1,0 +1,50 @@
+<ion-view view-title="Home">
+	<ion-content>
+		<div class="home-hello">
+			<img src="http://lorempixel.com/1024/768/"/>
+			<div class="item item-text-wrap">
+				<h1>ABC Corp Inc.</h1>
+				50 Market Street, San Francisco, California 94103, United States
+			</div>
+		</div>
+
+		<!--
+		 | http://stackoverflow.com/questions/27239735/ionic-framwork-gridlayout-with-multiple-rows-and-column-on-which-buttons-placed
+		 | http://stackoverflow.com/questions/23779773/angularjs-loops-and-formatting/23780288#23780288
+		 -->
+
+		<div class="list card">
+			<a href="#/app/contact-us" class="item item-icon-left">
+				<i class="icon ion-ios-time-outline"></i>
+				It's {{::vm.currentDateTime}} and we are
+				<span ng-if="vm.isBusinessOpen" class="balanced">Open</span>
+				<span ng-if="!vm.isBusinessOpen" class="assertive">Close</span>
+			</a>
+
+			<a href="#" href="" ng-click="vm.getDirections()" class="item item-icon-left">
+				<i class="icon ion-navigate"></i>
+				<span>You are <span ng-if="!!vm.distance">{{vm.distance}}</span> away. Get directions</span>
+			</a>
+		</div>
+
+
+		<div ng-repeat="e in vm.entries" ng-if="$index%2==0" class="row">
+
+			<div class="card col home">
+				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index].path}}">
+					<h1><i class="{{vm.entries[$index].icon}}"></i></h1>
+					<h2>{{vm.entries[$index].title}}</h2>
+				</a>
+			</div>
+
+			<div class="card col home">
+				<a class="item item-text-wrap" href="#/app/{{vm.entries[$index + 1].path}}">
+					<h1><i class="{{vm.entries[$index + 1].icon}}"></i></h1>
+					<h2>{{vm.entries[$index + 1].title}}</h2>
+				</a>
+			</div>
+
+		</div>
+
+	</ion-content>
+</ion-view>

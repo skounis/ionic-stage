@@ -1,0 +1,31 @@
+<ion-view view-title="Catalog">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear fa fa-file-pdf-o" ng-click="vm.openPdf()" ng-if="!!vm.catalog.pdf"></button>
+	</ion-nav-buttons>
+
+	<ion-content has-header="true">
+
+		<ion-slide-box>
+			<ion-slide ng-repeat="pic in vm.catalog.pictures">
+				<div class="box blue"><img ng-src="{{pic}}"/></div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="content-inner">
+			<h1>{{vm.catalog.title}}</h1>
+			<p>{{vm.catalog.body}}</p>
+		</div>
+
+		<div class="padding-horizontal" ng-if="!!vm.catalog.url">
+			<button class="button button-block button-positive" ng-click="vm.openUrl()">
+				View online
+			</button>
+		</div>
+
+		<div class="padding-horizontal" ng-if="!!vm.catalog.pdf">
+			<button class="button button-block button-positive" ng-click="vm.openPdf()">
+				Download PDF
+			</button>
+		</div>
+	</ion-content>
+</ion-view>
