@@ -1,0 +1,196 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 5,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4eb1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Dressed Feta Cheese",
+			"body": "Phasellus eu nulla id ex ornare tempor. Sed egestas turpis eu nisi aliquet, nec eleifend urna egestas.",
+			"tags": ["nulla", "ornare"],
+			"standardOptions":[
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				},
+				{
+					"name": "Olive Oil",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh rosemary leaves",
+					"selected": false,
+					"value": "0.5"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888b2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken and Onion Mix",
+			"body": "Aliquam non augue eget libero vulputate facilisis nec vitae neque.",
+			"tags": ["augue"],
+			"standardOptions":[
+				{
+					"name": "Chicken",
+					"selected": true
+				},
+				{
+					"name": "Chili",
+					"selected": true
+				},
+				{
+					"name": "Paprika",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "5",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4db3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Baked Mushrooms",
+			"body": "Cras ullamcorper imperdiet purus ac luctus. Morbi ut ligula ligula. Donec nec lacinia ante. Curabitur eleifend vestibulum nisl vestibulum pulvinar.",
+			"tags": ["ullamcorper", "purus"],
+			"standardOptions":[
+				{
+					"name": "Garlic",
+					"selected": true
+				},
+				{
+					"name": "Thyme",
+					"selected": true
+				},
+				{
+					"name": "Parmesan",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Onions",
+					"selected": false,
+					"value": "1.50"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "10",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fb4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Feta Cheese Dip",
+			"body": "Cras in molestie nisi, eu iaculis sem. Vivamus pulvinar sollicitudin maximus. Duis placerat feugiat sodales.",
+			"tags": ["molestie", "iaculis"],
+			"standardOptions":[
+				{
+					"name": "Peppers",
+					"selected": true
+				},
+				{
+					"name": "Yogurt",
+					"selected": true
+				},
+				{
+					"name": "Garlic",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Olives",
+					"selected": false,
+					"value": "2"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "6",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddb5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Vegetable MIx",
+			"body": "Phasellus at dolor porta, interdum nisi sit amet, tincidunt turpis. Donec rhoncus finibus lacinia.",
+			"tags": ["dolor", "amet"],
+			"standardOptions":[
+				{
+					"name": "Red Peppers",
+					"selected": true
+				},
+				{
+					"name": "Zuchini",
+					"selected": true
+				},
+				{
+					"name": "Eggplant",
+					"selected": true
+				},
+				{
+					"name": "Garlic",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "14",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}
+	]
+}

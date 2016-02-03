@@ -1,0 +1,355 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 8,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ea1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Cretan Ntakos",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae interdum ante. Quisque a augue elit. Sed id dolor id est scelerisque porttitor eget a ligula. Ut dapibus feugiat purus tempus maximus.",
+			"tags": ["amet", "adipiscing"],
+			"standardOptions":[
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Cucumber",
+					"selected": false,
+					"value": "1.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "8",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "12",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888a2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Golder Cauliflower",
+			"body": "Donec et quam ultrices, maximus urna quis, elementum neque. Phasellus eu ultrices odio, in venenatis erat. Curabitur feugiat ut tellus non feugiat.",
+			"tags": ["ultrices", "venenatis"],
+			"standardOptions":[
+				{
+					"name": "Tomato sauce",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4da3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Shrimp Rolls",
+			"body": "Donec euismod mattis finibus. In finibus risus vitae tortor varius, eu ornare erat sodales. Nullam ut dignissim mauris.",
+			"tags": ["euismod", "finibus", "ornare"],
+			"standardOptions":[
+				{
+					"name": "Celery",
+					"selected": true
+				},
+				{
+					"name": "Corn",
+					"selected": true
+				},
+				{
+					"name": "Butter",
+					"selected": true
+				},
+				{
+					"name": "Rice",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Mayonnaise",
+					"selected": true,
+					"value": "2.10"
+				},
+				{
+					"name": "Lemon sauce",
+					"selected": false,
+					"value": "3.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "11",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "205f2dd0-35e8-450c-9577-bb71be487fa4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Grilled Potatoes",
+			"body": "Cras porttitor, metus a facilisis lacinia, dui tortor mollis quam, vitae laoreet lectus nulla nec dui. Donec congue ultricies dolor, non pharetra est rhoncus non. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et purus orci.",
+			"tags": ["porttitor", "lacinia"],
+			"standardOptions":[
+				{
+					"name": "Spicy sauce",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Mustard",
+					"selected": true,
+					"value": "2"
+				},
+				{
+					"name": "Papprika sauce",
+					"selected": false,
+					"value": "2"
+				},
+				{
+					"name": "Hot red pepper flakes",
+					"selected": true,
+					"value": "0.5"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "10",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "18",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+					"id": 5,
+					"guid": "861d3f45-28ce-fu00-80e5-e98fafee4da3",
+					"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+					"title": "Cheesy Rosemary Rolls",
+					"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+					"tags": ["magna", "scelerisque", "risus"],
+					"standardOptions":[
+						{
+							"name": "Garlic",
+							"selected": true
+						},
+						{
+							"name": "Rosemary",
+							"selected": false
+						},
+						{
+							"name": "Eggs",
+							"selected": true
+						},
+						{
+							"name": "Cheese blend",
+							"selected": true
+						}
+					],
+					"extraOptions": [
+						{
+							"name": "Butter",
+							"selected": true,
+							"value": "2.10"
+						},
+						{
+							"name": "Tomato sauce",
+							"selected": false,
+							"value": "3.20"
+						}
+					],
+					"price" : [
+					{
+						"name": "Single",
+						"value": "6",
+						"currency": "$"
+					}, {
+						"name": "Double",
+						"value": "11",
+						"currency": "$"
+					}
+					],
+					"pictures": [
+						"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+					]
+			}, {
+							"id": 6,
+							"guid": "86unm0f45-28ce-fu00-80e5-e98fafee4da3",
+							"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+							"title": "Crispy Turkey Bites",
+							"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+							"tags": ["bibendum", "scelerisque"],
+							"standardOptions":[
+								{
+									"name": "Strawberry jam",
+									"selected": true
+			  			  },
+								{
+									"name": "Tomatoes",
+									"selected": true
+								},
+								{
+									"name": "Basil",
+									"selected": true
+								},
+								{
+									"name": "Red pepper jelly",
+									"selected": true
+								}
+							],
+							"extraOptions": [
+								{
+									"name": "Cheddar",
+									"selected": false,
+									"value": "3.80"
+								},
+								{
+									"name": "Raspberry hot sauce",
+									"selected": false,
+									"value": "4"
+								}
+							],
+							"price" : [
+							{
+								"name": "Single",
+								"value": "8",
+								"currency": "$"
+							}, {
+								"name": "Double",
+								"value": "13.50",
+								"currency": "$"
+							}
+							],
+							"pictures": [
+								"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+							]
+			}, {
+							"id": 7,
+							"guid": "8687bhs015-28ce-fu00-80e5-e98fafee4da3",
+							"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+							"title": "Dolmades",
+							"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+							"tags": ["bibendum", "scelerisque"],
+							"standardOptions":[
+								{
+									"name": "Onions",
+									"selected": true
+			  			  },
+								{
+									"name": "Lemon juice",
+									"selected": true
+								},
+								{
+									"name": "Parsley",
+									"selected": true
+								},
+								{
+									"name": "Dill",
+									"selected": true
+								}
+							],
+							"extraOptions": [
+								{
+									"name": "Yogurt sauce",
+									"selected": false,
+									"value": "3.80"
+								}
+							],
+							"price" : [
+							{
+								"name": "Standard",
+								"value": "9",
+								"currency": "$"
+							}, {
+								"name": "Large",
+								"value": "14",
+								"currency": "$"
+							}
+							],
+							"pictures": [
+								"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+							]
+			}, {
+							"id": 8,
+							"guid": "86unm0f45-09iio-99br-80e5-e98fafebbza3",
+							"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+							"title": "Juicy Crepes",
+							"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+							"tags": ["bibendum", "scelerisque"],
+							"standardOptions":[
+								{
+									"name": "Onions",
+									"selected": true
+			  			  },
+								{
+									"name": "Tomatoes",
+									"selected": true
+								},
+								{
+									"name": "Mayonnaise",
+									"selected": true
+								},
+								{
+									"name": "Chicken",
+									"selected": true
+								}
+							],
+							"price" : [
+							{
+								"name": "Single",
+								"value": "7",
+								"currency": "$"
+							}, {
+								"name": "Double",
+								"value": "13",
+								"currency": "$"
+							}
+							],
+							"pictures": [
+								"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+							]
+			}
+	]
+}

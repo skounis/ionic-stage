@@ -1,0 +1,271 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ed1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Filet Steak",
+			"body": "Quisque turpis nisl, convallis vel lacus ac, laoreet condimentum ligula. Praesent ac maximus augue.",
+			"tags": ["nisl", "lacus"],
+			"standardOptions":[
+				{
+					"name": "Steamed asparagus",
+					"selected": true
+				},
+				{
+					"name": "Potatoes",
+					"selected": true
+				},
+				{
+					"name": "Carrots",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Red wine sauce",
+					"selected": false,
+					"value": "4.50"
+				},
+				{
+					"name": "Black pepper sauce",
+					"selected": false,
+					"value": "4"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "10",
+				"currency": "$"
+			},
+			{
+				"name": "Medium",
+				"value": "13",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "15",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888d2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "King's Beef",
+			"body": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed in dolor pretium, finibus ligula vel, posuere leo.",
+			"tags": ["taciti", "conubia"],
+			"standardOptions":[
+				{
+					"name": "Mushrooms",
+					"selected": true
+				},
+				{
+					"name": "Baby potatoes",
+					"selected": true
+				},
+				{
+					"name": "Baby carrots",
+					"selected": true
+				},
+				{
+					"name": "Zucchini",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Balsamic sauce",
+					"selected": true,
+					"value": "3.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "55",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4dd3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken Sticks",
+			"body": "Ut dapibus feugiat purus tempus maximus. Donec et quam ultrices, maximus urna quis, elementum neque.",
+			"tags": ["feugiat"],
+			"standardOptions":[
+				{
+					"name": "Peppers",
+					"selected": true
+				},
+				{
+					"name": "Bacon",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Red pepper flakes",
+					"selected": false,
+					"value": "1.20"
+				},
+				{
+					"name": "Spicy mayo sauce",
+					"selected": false,
+					"value": "3"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "13",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "15",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "4e0d6228-1ffc-46d4-ba68-22454728ddd5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Crawfish",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+			"tags": ["risus"],
+			"standardOptions":[
+				{
+					"name": "Lemon juice",
+					"selected": true
+				},
+				{
+					"name": "Rice",
+					"selected": false
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Parsley sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "16",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "18",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "4e0d6yb8-1ffc-990n2-88ns-22454728ddd5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Salmon Fillet",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+			"tags": ["risus"],
+			"standardOptions":[
+				{
+					"name": "Asparagus",
+					"selected": true
+				},
+				{
+					"name": "Spinach",
+					"selected": true
+				},
+				{
+					"name": "Lemon juice",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Parsley sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "11",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "0092by64-1ffc-990n2-ppnq-2245498dd9m",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Souvlaki",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+			"tags": ["imperdiet"],
+			"standardOptions":[
+				{
+					"name": "Lettuce",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				},
+				{
+					"name": "Mayo sauce",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Dill sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}
+	]
+}

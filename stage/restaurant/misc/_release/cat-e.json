@@ -1,0 +1,257 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 6,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca735e4ee1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Greek Traditional Salad",
+			"body": "Cras in molestie nisi, eu iaculis sem. Vivamus pulvinar sollicitudin maximus. Duis placerat feugiat sodales. Phasellus at dolor porta, interdum nisi sit amet, tincidunt turpis. Donec rhoncus finibus lacinia.",
+			"tags": ["nisi", "pulvinar"],
+			"standardOptions":[
+				{
+					"name": "Feta cheese",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				},
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7.50",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 2,
+			"guid": "6630fb89-94d6-4fec-a1c3-c48d80b888e2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Italian Caprese Salad",
+			"body": "Features a delicious medley of fresh mandarin oranges, walnuts, avocados and raspberries drizzled with a thick honey raspberry vinaigrette for extra sweetness.",
+			"tags": ["oranges", "raspberry", "avocado"],
+			"standardOptions":[
+				{
+					"name": "Mozzarella",
+					"selected": true
+				},
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Basil",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7.50",
+				"currency": "$"
+			}, {
+				"name": "large",
+				"value": "9.50",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 3,
+			"guid": "861d3f45-28ce-4b10-80e5-e98fafee4de3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken Salad with Arugula",
+			"body": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed in dolor pretium, finibus ligula vel, posuere leo.",
+			"tags": ["sociosqu", "litora"],
+			"standardOptions":[
+				{
+					"name": "Pine Nuts",
+					"selected": true
+				},
+				{
+					"name": "Capers",
+					"selected": true
+				},
+				{
+					"name": "Arugula",
+					"selected": true
+				},
+				{
+					"name": "Strawberries",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Almonds",
+					"selected": false,
+					"value": "1.90"
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "11",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "13.70",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 4,
+			"guid": "9457720m-28ce-4b10-80e5-e98fafee4de3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Quinoa Salad with Cucumber",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+			"tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				},
+				{
+					"name": "Shallots",
+					"selected": true
+				},
+				{
+					"name": "Parsley",
+					"selected": true
+				},
+				{
+					"name": "Mint",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "10",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 5,
+			"guid": "9457720m-28ce-4b10-80e5-88ngtw590mcbt",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Radish Salad With Herbs",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+			"tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Onion",
+					"selected": true
+				},
+				{
+					"name": "Lime juice",
+					"selected": true
+				},
+				{
+					"name": "Orange juice",
+					"selected": true
+				},
+				{
+					"name": "Apple cider",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "11",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, {
+			"id": 6,
+			"guid": "9457720m-77vp-4b10-80e5-9887hghwoou",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Tabbouleh Salad With Quinoa",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+			"tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Garlic",
+					"selected": true
+				},
+				{
+					"name": "Lemon juice",
+					"selected": true
+				},
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				},
+				{
+					"name": "Mint",
+					"selected": true
+				},
+				{
+					"name": "Parsley",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "9.50",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "11.70",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}
+	]
+}

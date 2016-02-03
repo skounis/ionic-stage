@@ -1,0 +1,32 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"result": {
+		"storeName": "High Street Restaurant",
+		"address": "50 Market Street, San Francisco, California 94103, United States",
+		"desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"phoneNumber": "+306973216110",
+		"email": "skounis@gmail.com",
+		"officeLocation": "37.7736854,-122.421034",
+		"facebookPage": "https://www.facebook.com/ionicframework",
+		"instagramPage": "https://instagram.com/phonegap/",
+		"twitterPage": "https://twitter.com/titemplates/",
+		"pinterestPage": "https://www.pinterest.com/",
+		"map": {
+			"origin": {
+					"latitude" : 37.407,
+					"longitude" : -122.1
+			},
+			"zoomLevel": 15,
+			"annotations" : [{
+					"title" : "Molestie et wisi.",
+					"latitude" : 37.407,
+					"longitude" : -122.1
+			}, {
+					"title" : "Ullamcorper eros.",
+					"latitude" : 37.41,
+					"longitude" : -122.1
+			}]
+		}
+	}
+}
