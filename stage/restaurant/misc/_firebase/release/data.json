@@ -1,0 +1,1337 @@
+{
+  "business" : {
+    "storeName": "High Street Restaurant",
+    "address": "50 Market Street, San Francisco, California 94103, United States",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "phoneNumber": "+306973216110",
+    "email": "skounis@gmail.com",
+    "officeLocation": "37.7736854,-122.421034",
+    "facebookPage": "https://www.facebook.com/ionicframework",
+    "instagramPage": "https://instagram.com/phonegap/",
+    "twitterPage": "https://twitter.com/titemplates/",
+    "pinterestPage": "https://www.pinterest.com/",
+    "map": {
+      "origin": {
+          "latitude" : 37.407,
+          "longitude" : -122.1
+    },
+    "zoomLevel": 15,
+    "annotations" : [{
+      "title" : "Molestie et wisi.",
+      "latitude" : 37.407,
+      "longitude" : -122.1
+      }, {
+      "title" : "Ullamcorper eros.",
+      "latitude" : 37.41,
+      "longitude" : -122.1
+      }]
+    }
+  },
+  "news" : {
+    "1d4aa3b2-c059-4fa7-a751-9bca735e4ebb" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"picture": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png",
+			"title": "WISI CONSEQUAT SIT ZZRIL.",
+			"body": "Ut vulputate te dolor ipsum nonummy, dolore enim accumsan veniam duis, nibh veniam at nulla. Adipiscing, dolore dolor lobortis et qui, consequat ea tation iusto qui, tation velit minim. \n\nDelenit elit, feugait nibh illum diam vulputate, feugiat erat et velit veniam, tation ea. Consequat magna et, iriure delenit zzril vel ea, eum amet ut autem consequat, tincidunt. \n\nAliquam adipiscing vero dolore, magna ut vel et veniam, iriure odio ullamcorper erat vulputate, facilisi dolore hendrerit in accumsan, accumsan illum iriure quis nibh, nisl vulputate nostrud enim. Commodo, lorem luptatum erat ut elit, blandit dolor eu adipiscing ipsum, dolor.",
+			"tags": ["FEUGAIT", "VEL", "NULLA"]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b88895" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"picture": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png",
+			"title": "DOLORE MAGNA FACILISIS AMET.",
+			"body": "Nostrud et vel nulla praesent luptatum, ea zzril dolore zzril autem, nostrud illum hendrerit te. In, tation iusto autem diam illum, nulla iriure in nostrud veniam, te nonummy odio. \n\nVulputate dolor, qui vero ullamcorper facilisis ut, aliquam lorem luptatum laoreet illum, vulputate eum. Amet hendrerit feugait, amet in tincidunt nulla vulputate, ullamcorper ea volutpat illum dolore, erat. \n\nAmet nostrud te in, illum praesent feugait delenit eros, tincidunt tation qui vel luptatum, elit eu.",
+			"tags": ["AUTEM", "LUPTATUM", "EU"]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4d4f" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"picture": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png",
+			"title": "DOLOR NIBH AD QUIS VEL.",
+			"body": "In iusto et ullamcorper dolore dolor, duis dolor feugiat dignissim ad, qui illum facilisi tation. Velit, wisi ullamcorper tation dignissim dolore, luptatum sit delenit vero lobortis, duis vel erat. \n\nVeniam consectetuer, nulla magna eum feugait eu, eros accumsan vel augue accumsan, nulla dignissim. Dolore facilisi nulla, ullamcorper magna duis hendrerit feugait, dolor luptatum sed ut quis, ex. \n\nZzril tincidunt sit at, facilisi nostrud at diam ea, aliquip consequat luptatum veniam facilisi, zzril wisi duis lobortis iriure, sed vel accumsan consequat.",
+			"tags": ["NULLA", "IN", "VENIAM"]
+		}, "205f2dd0-35e8-450c-9577-bb71be487fe7" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"picture": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png",
+			"title": "UT CONSECTETUER NISL VELIT.",
+			"body": "Erat consequat blandit enim lobortis erat, eu vel sit elit diam, consequat nibh nibh adipiscing. Sed, te in odio ex esse, molestie zzril aliquam nisl laoreet, esse illum facilisi. \n\nTe lorem, consequat ad facilisis erat elit, et dolore nostrud sit aliquip, consequat nisl. Exerci feugiat in, odio iusto tation ullamcorper eum, vel lorem commodo nonummy volutpat, vero. \n\nVero vel feugiat commodo, euismod nonummy et suscipit sit, consequat ex illum consequat dignissim, esse feugiat tation eu laoreet, dolor te laoreet volutpat feugait, ut elit.",
+			"tags": ["IUST", "DOLORE", "QUI"]
+		}, "4e0d6228-1ffc-46d4-ba68-22454728dd37" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"picture": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png",
+			"title": "DIGNISSIM UT COMMODO WISI.",
+			"body": "Te eu dolore ullamcorper nulla aliquip, vero dignissim facilisis lorem diam, te ullamcorper esse tation. Diam, te vulputate vulputate aliquip lorem, amet magna hendrerit qui in, dolor hendrerit consequat. \n\nVero ad, vero nulla facilisi minim eu, molestie ea sit dolor zzril, facilisis autem. Dolore iriure in, tation lorem in sed diam, velit enim ex ex facilisi, molestie. \n\nNostrud praesent laoreet ut, tation elit commodo dolore odio, esse et diam accumsan dolor, ut nostrud dolore blandit vero, quis zzril dolor blandit quis, molestie vero esse amet. Et, euismod ut ut hendrerit ipsum, eum.",
+			"tags": ["ERAT", "ACCUMSAN", "FEUGIAT"]
+		}
+  },
+  "categories" : {
+    "1d4aa3b2-c059-4fa7-a751-9bca735e4et1" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Appetizers",
+			"desc": "Donec feugiat justo sapien. Etiam tempus lacus ut sem laoreet venenatis. Suspendisse velit ipsum, accumsan eu imperdiet sit amet, auctor non lacus.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_demonstration/cat-a.json",
+			"featured": true,
+			"icon": "icon ion-stop"
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888t2" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Sides",
+			"desc": "Nam laoreet libero quam. Sed erat dolor, posuere ac posuere id, bibendum ut sapien. Ut semper mollis suscipit.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_demonstration/cat-b.json",
+			"featured": true,
+			"icon": "icon ion-soup-can"
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888t3" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Desserts",
+			"desc": "Nullam eget scelerisque neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed et condimentum lectus.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_demonstration/cat-c.json",
+			"featured": true,
+			"icon": "icon ion-lightbulb"
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888t4" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Main Course",
+			"desc": "Curabitur sodales hendrerit lorem ac congue. Nulla laoreet consequat augue, ut pretium mauris cursus facilisis. Donec sodales laoreet erat semper dignissim.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_demonstration/cat-d.json",
+			"featured": true,
+			"icon": "icon ion-help-buoy"
+		}, "1d4aa3b2-c059-4fa7-a751-9bca735e4et5" : {
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Salads",
+			"desc": "Duis in est vel mauris vestibulum dignissim. Quisque justo tellus, auctor et orci vel, hendrerit congue orci. Integer a iaculis ex. Pellentesque ut purus congue.",
+			"url" : "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_demonstration/cat-e.json",
+			"featured": true,
+			"icon": "icon ion-paintbucket"
+		}
+  },
+  "menuItems" : {
+    "1d4aa3b2-c059-4fa7-a751-9bca735e4ea1" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Cretan Ntakos",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae interdum ante. Quisque a augue elit. Sed id dolor id est scelerisque porttitor eget a ligula. Ut dapibus feugiat purus tempus maximus.",
+      "isFeatured": false,
+      "tags": ["amet", "adipiscing"],
+			"standardOptions":[
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Cucumber",
+					"selected": false,
+					"value": "1.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "8",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "12",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+    }, "6630fb89-94d6-4fec-a1c3-c48d80b888a2" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Golder Cauliflower",
+			"body": "Donec et quam ultrices, maximus urna quis, elementum neque. Phasellus eu ultrices odio, in venenatis erat. Curabitur feugiat ut tellus non feugiat.",
+      "isFeatured": false,
+      "tags": ["ultrices", "venenatis"],
+			"standardOptions":[
+				{
+					"name": "Tomato sauce",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4da3" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Shrimp Rolls",
+			"body": "Donec euismod mattis finibus. In finibus risus vitae tortor varius, eu ornare erat sodales. Nullam ut dignissim mauris.",
+      "isFeatured": true,
+      "tags": ["euismod", "finibus", "ornare"],
+			"standardOptions":[
+				{
+					"name": "Celery",
+					"selected": true
+				},
+				{
+					"name": "Corn",
+					"selected": true
+				},
+				{
+					"name": "Butter",
+					"selected": true
+				},
+				{
+					"name": "Rice",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Mayonnaise",
+					"selected": true,
+					"value": "2.10"
+				},
+				{
+					"name": "Lemon sauce",
+					"selected": false,
+					"value": "3.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "11",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "205f2dd0-35e8-450c-9577-bb71be487fa4" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Grilled Potatoes",
+			"body": "Cras porttitor, metus a facilisis lacinia, dui tortor mollis quam, vitae laoreet lectus nulla nec dui. Donec congue ultricies dolor, non pharetra est rhoncus non. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et purus orci.",
+      "isFeatured": false,
+      "tags": ["porttitor", "lacinia"],
+			"standardOptions":[
+				{
+					"name": "Spicy sauce",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Mustard",
+					"selected": true,
+					"value": "2"
+				},
+				{
+					"name": "Papprika sauce",
+					"selected": false,
+					"value": "2"
+				},
+				{
+					"name": "Hot red pepper flakes",
+					"selected": true,
+					"value": "0.5"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "10",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "18",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-fu00-80e5-e98fafee4da3" : {
+        "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+  			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+  			"title": "Cheesy Rosemary Rolls",
+  			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+        "isFeatured": false,
+        "tags": ["magna", "scelerisque", "risus"],
+  			"standardOptions":[
+  				{
+  					"name": "Garlic",
+  					"selected": true
+  				},
+  				{
+  					"name": "Rosemary",
+  					"selected": false
+  				},
+  				{
+  					"name": "Eggs",
+  					"selected": true
+  				},
+  				{
+  					"name": "Cheese blend",
+  					"selected": true
+  				}
+  			],
+  			"extraOptions": [
+  				{
+  					"name": "Butter",
+  					"selected": true,
+  					"value": "2.10"
+  				},
+  				{
+  					"name": "Tomato sauce",
+  					"selected": false,
+  					"value": "3.20"
+  				}
+  			],
+  			"price" : [
+  			{
+  				"name": "Single",
+  				"value": "6",
+  				"currency": "$"
+  			}, {
+  				"name": "Double",
+  				"value": "11",
+  				"currency": "$"
+  			}
+  			],
+  			"pictures": [
+  				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+  			]
+  	}, "86unm0f45-28ce-fu00-80e5-e98fafee4da3" : {
+        "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+				"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+				"title": "Crispy Turkey Bites",
+				"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+        "isFeatured": false,
+        "tags": ["bibendum", "scelerisque"],
+				"standardOptions":[
+					{
+						"name": "Strawberry jam",
+						"selected": true
+  			  },
+					{
+						"name": "Tomatoes",
+						"selected": true
+					},
+					{
+						"name": "Basil",
+						"selected": true
+					},
+					{
+						"name": "Red pepper jelly",
+						"selected": true
+					}
+				],
+				"extraOptions": [
+					{
+						"name": "Cheddar",
+						"selected": false,
+						"value": "3.80"
+					},
+					{
+						"name": "Raspberry hot sauce",
+						"selected": false,
+						"value": "4"
+					}
+				],
+				"price" : [
+				{
+					"name": "Single",
+					"value": "8",
+					"currency": "$"
+				}, {
+					"name": "Double",
+					"value": "13.50",
+					"currency": "$"
+				}
+				],
+				"pictures": [
+					"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+				]
+  	}, "8687bhs015-28ce-fu00-80e5-e98fafee4da3" : {
+        "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+				"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+				"title": "Dolmades",
+				"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+        "isFeatured": false,
+        "tags": ["bibendum", "scelerisque"],
+				"standardOptions":[
+					{
+						"name": "Onions",
+						"selected": true
+  			  },
+					{
+						"name": "Lemon juice",
+						"selected": true
+					},
+					{
+						"name": "Parsley",
+						"selected": true
+					},
+					{
+						"name": "Dill",
+						"selected": true
+					}
+				],
+				"extraOptions": [
+					{
+						"name": "Yogurt sauce",
+						"selected": false,
+						"value": "3.80"
+					}
+				],
+				"price" : [
+				{
+					"name": "Standard",
+					"value": "9",
+					"currency": "$"
+				}, {
+					"name": "Large",
+					"value": "14",
+					"currency": "$"
+				}
+				],
+				"pictures": [
+					"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+				]
+  	}, "86unm0f45-09iio-99br-80e5-e98fafebbza3" : {
+        "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et1",
+				"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+				"title": "Juicy Crepes",
+				"body": "Mauris sagittis rhoncus justo, vel bibendum nibh ultrices iaculis. Pellentesque ac facilisis mauris. Donec a tortor non ante pharetra pharetra nec ac augue. Nulla mollis lacinia est.",
+        "isFeatured": false,
+        "tags": ["bibendum", "scelerisque"],
+				"standardOptions":[
+					{
+						"name": "Onions",
+						"selected": true
+  			  },
+					{
+						"name": "Tomatoes",
+						"selected": true
+					},
+					{
+						"name": "Mayonnaise",
+						"selected": true
+					},
+					{
+						"name": "Chicken",
+						"selected": true
+					}
+				],
+				"price" : [
+				{
+					"name": "Single",
+					"value": "7",
+					"currency": "$"
+				}, {
+					"name": "Double",
+					"value": "13",
+					"currency": "$"
+				}
+				],
+				"pictures": [
+					"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+				]
+  	}, "1d4aa3b2-c059-4fa7-a751-9bca735e4eb1" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Dressed Feta Cheese",
+			"body": "Phasellus eu nulla id ex ornare tempor. Sed egestas turpis eu nisi aliquet, nec eleifend urna egestas.",
+      "isFeatured": false,
+      "tags": ["nulla", "ornare"],
+			"standardOptions":[
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				},
+				{
+					"name": "Olive Oil",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh rosemary leaves",
+					"selected": false,
+					"value": "0.5"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888b2" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken and Onion Mix",
+			"body": "Aliquam non augue eget libero vulputate facilisis nec vitae neque.",
+      "isFeatured": true,
+      "tags": ["augue"],
+			"standardOptions":[
+				{
+					"name": "Chicken",
+					"selected": true
+				},
+				{
+					"name": "Chili",
+					"selected": true
+				},
+				{
+					"name": "Paprika",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "5",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4db3" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Baked Mushrooms",
+			"body": "Cras ullamcorper imperdiet purus ac luctus. Morbi ut ligula ligula. Donec nec lacinia ante. Curabitur eleifend vestibulum nisl vestibulum pulvinar.",
+      "isFeatured": false,
+      "tags": ["ullamcorper", "purus"],
+			"standardOptions":[
+				{
+					"name": "Garlic",
+					"selected": true
+				},
+				{
+					"name": "Thyme",
+					"selected": true
+				},
+				{
+					"name": "Parmesan",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Onions",
+					"selected": false,
+					"value": "1.50"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "10",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "205f2dd0-35e8-450c-9577-bb71be487fb4" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Feta Cheese Dip",
+			"body": "Cras in molestie nisi, eu iaculis sem. Vivamus pulvinar sollicitudin maximus. Duis placerat feugiat sodales.",
+      "isFeatured": false,
+      "tags": ["molestie", "iaculis"],
+			"standardOptions":[
+				{
+					"name": "Peppers",
+					"selected": true
+				},
+				{
+					"name": "Yogurt",
+					"selected": true
+				},
+				{
+					"name": "Garlic",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Olives",
+					"selected": false,
+					"value": "2"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "6",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "4e0d6228-1ffc-46d4-ba68-22454728ddb5" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t2",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Vegetable MIx",
+			"body": "Phasellus at dolor porta, interdum nisi sit amet, tincidunt turpis. Donec rhoncus finibus lacinia.",
+      "isFeatured": false,
+      "tags": ["dolor", "amet"],
+			"standardOptions":[
+				{
+					"name": "Red Peppers",
+					"selected": true
+				},
+				{
+					"name": "Zuchini",
+					"selected": true
+				},
+				{
+					"name": "Eggplant",
+					"selected": true
+				},
+				{
+					"name": "Garlic",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "14",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "1d4aa3b2-c059-4fa7-a751-9bca735e4ebc1" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Sweet Plum Crepe",
+			"body": "Curabitur magna lectus, ullamcorper sed molestie in, facilisis sed libero. Morbi eleifend quam nunc, nec porttitor arcu varius a. Aliquam id dolor sem.",
+      "isFeatured": false,
+      "tags": ["ullamcorper", "facilisis"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888c2" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Strawberry and Vanilla Cake",
+			"body": "Aliquam erat volutpat. Mauris interdum leo nec felis lacinia facilisis. Nunc ut pulvinar purus. Sed augue lacus, consequat in augue sed, interdum finibus libero. Proin tempus vitae dui sit amet hendrerit.",
+      "isFeatured": false,
+      "tags": ["erat", "interdum"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Caramelized apples",
+					"selected": false,
+					"value": "4.50"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "4",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "7",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4dc3" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chocolate and Caramel Cake",
+			"body": "Vestibulum posuere lacinia ante a tristique. Aenean vitae lobortis augue. Vivamus et dolor tempus sapien rhoncus congue. Integer ut suscipit nibh, at luctus velit. Donec ut iaculis dui.",
+      "isFeatured": true,
+      "tags": ["posuere","tristique"],
+			"standardOptions":[
+				{
+					"name": "Chocolate syrup",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh strawberries",
+					"selected": false,
+					"value": "4"
+				},
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "8897hdm-c059-4fa7-a751-9bca735e4ebc1" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Lemon Flavored Creme Brulee",
+			"body": "Curabitur magna lectus, ullamcorper sed molestie in, facilisis sed libero. Morbi eleifend quam nunc, nec porttitor arcu varius a. Aliquam id dolor sem.",
+      "isFeatured": false,
+      "tags": ["ullamcorper", "facilisis"],
+			"standardOptions":[],
+			"extraOptions": [
+				{
+					"name": "Sparkling wine",
+					"selected": true,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "6",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888c2" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Layered Fruits with Caramelized Biscuits",
+			"body": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vitae leo vel erat dictum dignissim.",
+      "isFeatured": false,
+      "tags": ["penatibus", "natoque"],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "4",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "5",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4dc3" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t3",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Fruit Tarte",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+      "isFeatured": false,
+      "tags": ["blandit","neque"],
+			"standardOptions":[
+				{
+					"name": "Chocolate syrup",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Fresh strawberries",
+					"selected": true,
+					"value": "4"
+				},
+				{
+					"name": "Sparkling wine",
+					"selected": false,
+					"value": "7"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Normal",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "1d4aa3b2-c059-4fa7-a751-9bca735e4ed1" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Filet Steak",
+			"body": "Quisque turpis nisl, convallis vel lacus ac, laoreet condimentum ligula. Praesent ac maximus augue.",
+      "isFeatured": false,
+      "tags": ["nisl", "lacus"],
+			"standardOptions":[
+				{
+					"name": "Steamed asparagus",
+					"selected": true
+				},
+				{
+					"name": "Potatoes",
+					"selected": true
+				},
+				{
+					"name": "Carrots",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Red wine sauce",
+					"selected": false,
+					"value": "4.50"
+				},
+				{
+					"name": "Black pepper sauce",
+					"selected": false,
+					"value": "4"
+				}
+			],
+			"price" : [
+			{
+				"name": "Small",
+				"value": "10",
+				"currency": "$"
+			},
+			{
+				"name": "Medium",
+				"value": "13",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "15",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888d2" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "King's Beef",
+			"body": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed in dolor pretium, finibus ligula vel, posuere leo.",
+      "isFeatured": false,
+      "tags": ["taciti", "conubia"],
+			"standardOptions":[
+				{
+					"name": "Mushrooms",
+					"selected": true
+				},
+				{
+					"name": "Baby potatoes",
+					"selected": true
+				},
+				{
+					"name": "Baby carrots",
+					"selected": true
+				},
+				{
+					"name": "Zucchini",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Balsamic sauce",
+					"selected": true,
+					"value": "3.20"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "55",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4dd3" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken Sticks",
+			"body": "Ut dapibus feugiat purus tempus maximus. Donec et quam ultrices, maximus urna quis, elementum neque.",
+      "isFeatured": false,
+      "tags": ["feugiat"],
+			"standardOptions":[
+				{
+					"name": "Peppers",
+					"selected": true
+				},
+				{
+					"name": "Bacon",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Red pepper flakes",
+					"selected": false,
+					"value": "1.20"
+				},
+				{
+					"name": "Spicy mayo sauce",
+					"selected": false,
+					"value": "3"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "13",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "15",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "4e0d6228-1ffc-46d4-ba68-22454728ddd5" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Crawfish",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+      "isFeatured": true,
+      "tags": ["risus"],
+			"standardOptions":[
+				{
+					"name": "Lemon juice",
+					"selected": true
+				},
+				{
+					"name": "Rice",
+					"selected": false
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Parsley sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "16",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "18",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "4e0d6yb8-1ffc-990n2-88ns-22454728ddd5" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Salmon Fillet",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+      "isFeatured": false,
+      "tags": ["risus"],
+			"standardOptions":[
+				{
+					"name": "Asparagus",
+					"selected": true
+				},
+				{
+					"name": "Spinach",
+					"selected": true
+				},
+				{
+					"name": "Lemon juice",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Parsley sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "11",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "0092by64-1ffc-990n2-ppnq-2245498dd9m" : {
+      "category": "6630fb89-94d6-4fec-a1c3-c48d80b888t4",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Souvlaki",
+			"body": "Maecenas magna lacus, scelerisque vitae interdum nec, imperdiet bibendum risus. Curabitur et pretium leo, dignissim pellentesque dui.",
+      "isFeatured": false,
+      "tags": ["imperdiet"],
+			"standardOptions":[
+				{
+					"name": "Lettuce",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				},
+				{
+					"name": "Mayo sauce",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Dill sauce",
+					"selected": false,
+					"value": "3.10"
+				}
+			],
+			"price" : [
+			{
+				"name": "Single",
+				"value": "7",
+				"currency": "$"
+			}, {
+				"name": "Double",
+				"value": "13",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "1d4aa3b2-c059-4fa7-a751-9bca735e4ee1" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Greek Traditional Salad",
+			"body": "Cras in molestie nisi, eu iaculis sem. Vivamus pulvinar sollicitudin maximus. Duis placerat feugiat sodales. Phasellus at dolor porta, interdum nisi sit amet, tincidunt turpis. Donec rhoncus finibus lacinia.",
+      "isFeatured": false,
+      "tags": ["nisi", "pulvinar"],
+			"standardOptions":[
+				{
+					"name": "Feta cheese",
+					"selected": true
+				},
+				{
+					"name": "Onions",
+					"selected": true
+				},
+				{
+					"name": "Olives",
+					"selected": true
+				},
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Oregano",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7.50",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "9",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "6630fb89-94d6-4fec-a1c3-c48d80b888e2" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Italian Caprese Salad",
+			"body": "Features a delicious medley of fresh mandarin oranges, walnuts, avocados and raspberries drizzled with a thick honey raspberry vinaigrette for extra sweetness.",
+      "isFeatured": false,
+      "tags": ["oranges", "raspberry", "avocado"],
+			"standardOptions":[
+				{
+					"name": "Mozzarella",
+					"selected": true
+				},
+				{
+					"name": "Tomatoes",
+					"selected": true
+				},
+				{
+					"name": "Basil",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": "Standard",
+				"value": "7.50",
+				"currency": "$"
+			}, {
+				"name": "large",
+				"value": "9.50",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "861d3f45-28ce-4b10-80e5-e98fafee4de3" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Chicken Salad with Arugula",
+			"body": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed in dolor pretium, finibus ligula vel, posuere leo.",
+      "isFeatured": false,
+      "tags": ["sociosqu", "litora"],
+			"standardOptions":[
+				{
+					"name": "Pine Nuts",
+					"selected": true
+				},
+				{
+					"name": "Capers",
+					"selected": true
+				},
+				{
+					"name": "Arugula",
+					"selected": true
+				},
+				{
+					"name": "Strawberries",
+					"selected": true
+				}
+			],
+			"extraOptions": [
+				{
+					"name": "Almonds",
+					"selected": false,
+					"value": "1.90"
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "11",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "13.70",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "9457720m-28ce-4b10-80e5-e98fafee4de3" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Quinoa Salad with Cucumber",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+      "isFeatured": false,
+      "tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				},
+				{
+					"name": "Shallots",
+					"selected": true
+				},
+				{
+					"name": "Parsley",
+					"selected": true
+				},
+				{
+					"name": "Mint",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "10",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "9457720m-28ce-4b10-80e5-88ngtw590mcbt" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Radish Salad With Herbs",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+      "isFeatured": false,
+      "tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Onion",
+					"selected": true
+				},
+				{
+					"name": "Lime juice",
+					"selected": true
+				},
+				{
+					"name": "Orange juice",
+					"selected": true
+				},
+				{
+					"name": "Apple cider",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "11",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}, "9457720m-77vp-4b10-80e5-9887hghwoou" : {
+      "category": "1d4aa3b2-c059-4fa7-a751-9bca735e4et5",
+			"thumb": "https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder-thumb.png",
+			"title": "Tabbouleh Salad With Quinoa",
+			"body": "Mauris blandit odio eu ullamcorper vestibulum. Integer neque tortor, pretium at lectus sit amet, viverra dignissim felis.",
+      "isFeatured": false,
+      "tags": ["blandit", "ullamcorper"],
+			"standardOptions":[
+				{
+					"name": "Garlic",
+					"selected": true
+				},
+				{
+					"name": "Lemon juice",
+					"selected": true
+				},
+				{
+					"name": "Cucumber",
+					"selected": true
+				},
+				{
+					"name": "Tomato",
+					"selected": true
+				},
+				{
+					"name": "Mint",
+					"selected": true
+				},
+				{
+					"name": "Parsley",
+					"selected": true
+				}
+			],
+			"price" : [
+			{
+				"name": " Standard",
+				"value": "9.50",
+				"currency": "$"
+			}, {
+				"name": "Large",
+				"value": "11.70",
+				"currency": "$"
+			}
+			],
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/restaurant-ionic/_release/assets/cat-placeholder.png"
+			]
+		}
+  }
+}
