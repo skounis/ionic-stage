@@ -5,12 +5,10 @@
 		.module('bizdir.products')
 		.factory('productsService', productsService);
 
-	productsService.$inject = ['$http', '$q', '_'];
+	productsService.$inject = ['dataService'];
 
 	/* @ngInject */
-	function productsService($http, $q, _) {
-		var result = {};
-
+	function productsService(dataService) {
 		var service = {
 			getItems: getItems,
 			getItem: getItem
@@ -19,27 +17,12 @@
 
 		// *******************************************************
 
-		function getItems(url){
-			return $http.get(url)
-				.then(function(response) {
-					result[url] = response.data.result;
-					return result[url];
-				});
+		function getItems(businessId){
+			return dataService.getProducts(businessId);
 		}
 
-		function getItem(url, productId) {
-			var promise;
-			if (result[url]) {
-				promise = $q.when(result[url]);
-			} else {
-				promise = getItems(url);
-			}
-			
-			return promise.then(function(items) {
-				return _.find(items, function(item) {
-					return item.id === productId;
-				});
-			});
+		function getItem(businessId, productId) {
+			return dataService.getProduct(businessId, productId);
 		}
 	}
 })();

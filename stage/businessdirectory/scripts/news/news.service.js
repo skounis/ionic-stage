@@ -5,12 +5,10 @@
 		.module('bizdir.news')
 		.factory('newsService', newsService);
 
-	newsService.$inject = ['$http', '$q', '_'];
+	newsService.$inject = ['dataService'];
 
 	/* @ngInject */
-	function newsService($http, $q, _) {
-		var result = {};
-
+	function newsService(dataService) {
 		var service = {
 			getItems: getItems,
 			getItem: getItem
@@ -19,27 +17,12 @@
 
 		// *******************************************************
 
-		function getItems(url){
-			return $http.get(url)
-				.then(function(response) {
-					result[url] = response.data.result;
-					return result[url];
-				});
+		function getItems(businessId) {
+			return dataService.getArticles(businessId);
 		}
 
-		function getItem(url, articleId) {
-			var promise;
-			if (result[url]) {
-				promise = $q.when(result[url]);
-			} else {
-				promise = getItems(url);
-			}
-			
-			return promise.then(function(items) {
-				return _.find(items, function(item) {
-					return item.id === articleId;
-				});
-			});
+		function getItem(businessId, articleId) {
+			return dataService.getArticle(businessId, articleId);
 		}
 	}
 })();

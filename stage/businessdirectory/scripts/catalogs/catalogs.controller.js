@@ -9,7 +9,7 @@
 
 	/* @ngInject */
 	function CatalogsController($scope, $state, catalogsService) {
-		var url = $state.params.url;
+		var businessId = $state.params.businessId;
 
 		var vm = angular.extend(this, {
 			catalogs: [],
@@ -22,14 +22,14 @@
 		// ******************************************************
 
 		function loadCatalogs() {
-			catalogsService.getItems(url).then(function(data) {
+			catalogsService.getItems(businessId).then(function(data) {
 				vm.catalogs = data;
 			});
 		}
 
 		function openCatalog(catalogId) {
 			$state.go('app.catalog', {
-				url: url,
+				businessId: businessId,
 				catalogId: catalogId
 			});
 		}

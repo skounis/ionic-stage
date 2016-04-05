@@ -1,7 +1,7 @@
 <ion-view view-title="Services">
 	<ion-content>
 		<div ng-repeat="service in vm.services" ng-if="$index%2==0" class="row">
-			<div class="card col" ng-click="vm.showServiceDetails(vm.services[$index].id)">
+			<div class="card col" ng-click="vm.showServiceDetails(vm.services[$index].guid)">
 				<div class="item">
 					<h2>{{vm.services[$index].title}}</h2>
 				</div>
@@ -16,7 +16,7 @@
 				</div>
 			</div>
 
-			<div class="card col" ng-click="vm.showServiceDetails(vm.services[$index + 1].id)">
+			<div class="card col" ng-click="vm.showServiceDetails(vm.services[$index + 1].guid)">
 				<div class="item">
 					<h2>{{vm.services[$index + 1].title}}</h2>
 				</div>

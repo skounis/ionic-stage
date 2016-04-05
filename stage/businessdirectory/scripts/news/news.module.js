@@ -8,7 +8,7 @@
 		.config(function($stateProvider) {
 			$stateProvider
 				.state('app.articles', {
-					url: '/articles/:url',
+					url: '/businesses/:businessId/articles',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/news/articles.html',
@@ -17,7 +17,7 @@
 					}
 				})
 				.state('app.article', {
-					url: '/articles/:url/:articleId',
+					url: '/businesses/:businessId/articles/:articleId',
 					views: {
 						'menuContent': {
 							templateUrl: 'scripts/news/article.html',

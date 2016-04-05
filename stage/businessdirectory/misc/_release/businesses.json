@@ -1,0 +1,494 @@
+{
+	"id": 1,
+	"jsonrpc": "2.0",
+	"total": 8,
+	"result": [
+		{
+			"id": 1,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca73538tg5",
+			"name": "Cleveland Clinic",
+			"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+			"description": "Cleveland Clinic – a global nonprofit academic medical centre has provided world class patient care to people from around the world since 1921. As the Canadian location of the Cleveland Clinic, we help our patients’ live healthier more active lives in a state-of-the-art outpatient clinic in downtown Toronto.",
+			"category": "Healthcare",
+			"phoneNumber": "+398764123456",
+			"email": "sofia.atsalou@gmail.com",
+			"officeLocation": "37.7736854,-122.421034",
+			"facebookPage": "https://www.facebook.com/ionicframework",
+			"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/01/catalogs.json",
+			"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/01/news.json",
+			"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/01/products.json",
+			"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/01/services.json",
+			"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+			"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+			"openhours": {
+				"days": [{
+					"day": 1,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 2,
+					"openAt": 1420095600000,
+					"closeAt": 1420110000000
+				}, {
+					"day": 2,
+					"openAt": 1420124400000,
+					"closeAt": 1420138800000
+				}, {
+					"day": 3,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 4,
+					"openAt": 1420095600000,
+					"closeAt": 1420126300000
+
+				}, {
+					"day": 5,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}],
+				"zone": 3
+			},
+			"mapdata": {
+				"annotations" : [{
+						"title" : "Molestie et wisi.",
+						"latitude" : 37.794936,
+						"longitude" : -122.424957
+				}, {
+						"title" : "Ullamcorper eros.",
+						"latitude" : 37.794732,
+						"longitude" : -122.426544
+				}]
+			},
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+			],
+			"tags": ["healthcare", "medical", "laboratory", "laboratories"]
+		}, {
+					"id": 2,
+					"guid": "1d4aa3b2-c059-4fa7-a751-9bca735410i8",
+					"name": "Genesis Fertility Centre",
+					"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+					"description": "Genesis Fertility Centre is the first Canadian clinic to voluntarily undergo independent verification of success rates by IVF Reports and Fertility Authority, recognized leaders in IVF standards and patient advocacy.",
+					"category": "Healthcare",
+					"phoneNumber" : "+398764123456",
+					"email": "sofia.atsalou@gmail.com",
+					"officeLocation": "37.9164026,-121.4234639",
+					"facebookPage": "https://www.facebook.com/ionicframework",
+					"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/02/catalogs.json",
+					"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/02/news.json",
+					"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/02/products.json",
+					"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/02/services.json",
+					"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+					"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+					"openhours": {
+						"days": [{
+							"day": 1,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 2,
+							"openAt": 1420095600000,
+							"closeAt": 1420110000000
+						}, {
+							"day": 2,
+							"openAt": 1420124400000,
+							"closeAt": 1420138800000
+						}, {
+							"day": 3,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 4,
+							"openAt": 1420095600000,
+							"closeAt": 1420126300000
+
+						}, {
+							"day": 5,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}],
+						"zone": 3
+					},
+					"mapdata": {
+						"annotations" : [{
+								"title" : "Molestie et wisi.",
+								"latitude" : 37.793139,
+								"longitude" : -122.428991
+						}, {
+								"title" : "Ullamcorper eros.",
+								"latitude" : 37.791833,
+								"longitude" : -122.432317
+						}]
+					},
+					"pictures": [
+						"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+					],
+					"tags": ["healthcare", "medical", "laboratory", "laboratories"]
+		}, {
+			"id": 3,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca73538asr",
+			"name": "Home Craft",
+			"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+			"description": "Home Craft's is more than a leading retailer of home decor and gifts. At Kirkland's, our unique products create the backdrop for memorable life events, like a family dinner, a child's first birthday, a 20th wedding anniversary, or just a cozy evening indoors.",
+			"category": "Shop",
+			"phoneNumber" : "+398764123456",
+			"email": "sofia.atsalou@gmail.com",
+			"officeLocation": "37.8164026,-121.421164",
+			"facebookPage": "https://www.facebook.com/ionicframework",
+			"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/03/catalogs.json",
+			"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/03/news.json",
+			"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/03/products.json",
+			"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/03/services.json",
+			"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+			"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+			"openhours": {
+				"days": [{
+					"day": 1,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 2,
+					"openAt": 1420095600000,
+					"closeAt": 1420110000000
+				}, {
+					"day": 2,
+					"openAt": 1420124400000,
+					"closeAt": 1420138800000
+				}, {
+					"day": 3,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 4,
+					"openAt": 1420095600000,
+					"closeAt": 1420126300000
+
+				}, {
+					"day": 5,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}],
+				"zone": 3
+			},
+			"mapdata": {
+				"annotations" : [{
+						"title" : "Molestie et wisi.",
+						"latitude" : 37.796229,
+						"longitude" : -122.412221
+				}, {
+						"title" : "Ullamcorper eros.",
+						"latitude" : 37.793312,
+						"longitude" : -122.412865
+				}]
+			},
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+			],
+			"tags": ["healthcare", "medical", "laboratory", "laboratories"]
+		}, {
+					"id": 4,
+					"guid": "1d4aa3b2-c059-4fa7-a751-9bca73541po1",
+					"name": "Diagnostics Laboratories",
+					"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+					"description": "At Diagnostics Laboratories, our values are the core of who we are and what we believe in.  They inspire us to be our best every day and in everything we do in order to provide individuals, healthcare professionals and clients with the timely and accurate information they need to make informed decisions and improve patient outcomes.",
+					"category": "Healthcare",
+					"phoneNumber" : "+398764123456",
+					"email": "sofia.atsalou@gmail.com",
+					"officeLocation": "37.7889591,-122.4068924",
+					"facebookPage": "https://www.facebook.com/ionicframework",
+					"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/04/catalogs.json",
+					"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/04/news.json",
+					"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/04/products.json",
+					"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/04/services.json",
+					"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+					"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+					"openhours": {
+						"days": [{
+							"day": 1,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 2,
+							"openAt": 1420095600000,
+							"closeAt": 1420110000000
+						}, {
+							"day": 2,
+							"openAt": 1420124400000,
+							"closeAt": 1420138800000
+						}, {
+							"day": 3,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 4,
+							"openAt": 1420095600000,
+							"closeAt": 1420126300000
+
+						}, {
+							"day": 5,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}],
+						"zone": 3
+					},
+					"mapdata": {
+						"annotations" : [{
+								"title" : "Molestie et wisi.",
+								"latitude" : 37.7889591,
+								"longitude" : -122.4068924
+						}, {
+								"title" : "Ullamcorper eros.",
+								"latitude" : 37.7868542,
+								"longitude" : -122.41235749999998
+						}]
+					},
+					"pictures": [
+						"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+					],
+					"tags": ["healthcare", "medical", "laboratory", "laboratories"]
+		}, {
+			"id": 5,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca73192wan",
+			"name": "Edwards Theatres",
+			"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+			"description": "When you join us, you can sit back and relax knowing you'll enjoy a one-of-a-kind movie experience. From crystal-clear, all digital projections to custom-built sound systems and stunning 3D, our theatres will immerse you in the movies!",
+			"category": "Movie Theatres",
+			"phoneNumber" : "+398764123456",
+			"email": "sofia.atsalou@gmail.com",
+			"officeLocation": "37.78737020000001,-122.42342389999999",
+			"facebookPage": "https://www.facebook.com/ionicframework",
+			"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/05/catalogs.json",
+			"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/05/news.json",
+			"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/05/products.json",
+			"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/05/services.json",
+			"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+			"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+			"openhours": {
+				"days": [{
+					"day": 1,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 2,
+					"openAt": 1420095600000,
+					"closeAt": 1420110000000
+				}, {
+					"day": 2,
+					"openAt": 1420124400000,
+					"closeAt": 1420138800000
+				}, {
+					"day": 3,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 4,
+					"openAt": 1420095600000,
+					"closeAt": 1420126300000
+				}, {
+					"day": 5,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}],
+				"zone": 3
+			},
+			"mapdata": {
+				"annotations" : [{
+						"title" : "Molestie et wisi.",
+						"latitude" : 37.78737020000001,
+						"longitude" : -122.42342389999999
+				}, {
+						"title" : "Ullamcorper eros.",
+						"latitude" : 37.7894444,
+						"longitude" : -122.42208419999997
+				}]
+			},
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+			],
+			"tags": ["entertainment", "movie"]
+		}, {
+					"id": 6,
+					"guid": "1d4aa3b2-c059-4fa7-a751-9bca735u1097",
+					"name": "IMAX",
+					"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+					"description": "Two projectors run simultaneously to provide the perfect image with a balance of warmth and sharpness. IMAX draws you into something as close to reality as you have ever experienced. The combination of our perfectly tuned integrated sound system and our precise speaker orientation ensures you can hear a pin drop and be able to tell exactly where it landed.",
+					"category": "Movie Theatres",
+					"phoneNumber" : "+398764123456",
+					"email": "sofia.atsalou@gmail.com",
+					"officeLocation": "37.7875918,-122.42516369999998",
+					"facebookPage": "https://www.facebook.com/ionicframework",
+					"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/06/catalogs.json",
+					"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/06/news.json",
+					"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/06/products.json",
+					"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/06/services.json",
+					"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+					"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+					"openhours": {
+						"days": [{
+							"day": 1,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 2,
+							"openAt": 1420095600000,
+							"closeAt": 1420110000000
+						}, {
+							"day": 2,
+							"openAt": 1420124400000,
+							"closeAt": 1420138800000
+						}, {
+							"day": 3,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 4,
+							"openAt": 1420095600000,
+							"closeAt": 1420126300000
+						}, {
+							"day": 5,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}],
+						"zone": 3
+					},
+					"mapdata": {
+						"annotations" : [{
+								"title" : "Molestie et wisi.",
+								"latitude" : 37.7875918,
+								"longitude" : -122.42516369999998
+						}, {
+								"title" : "Ullamcorper eros.",
+								"latitude" : 37.7887371,
+								"longitude" : -122.42371279999998
+						}]
+					},
+					"pictures": [
+						"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png",
+						"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+					],
+					"tags": ["theatre", "entertainment", "movie"]
+		}, {
+			"id": 7,
+			"guid": "1d4aa3b2-c059-4fa7-a751-9bca73538taa",
+			"name": "Barley Mow",
+			"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+			"description": "Celebrating the best of Bristol's brewing scene, we've got 8 hand pulls and 10 keg lines serving a huge range of craft beers from Bristol and around the UK. Only 5 minutes walk from Temple Meads Station and Old Market, we are the best pub around by a mile! A cosy pub, great beer garden and top notch pub food, you'll wish we were at the end of your road.",
+			"category": "Drink",
+			"phoneNumber" : "+398764123456",
+			"email": "sofia.atsalou@gmail.com",
+			"officeLocation": "37.7880446,-122.42192929999999",
+			"facebookPage": "https://www.facebook.com/ionicframework",
+			"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/07/catalogs.json",
+			"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/07/news.json",
+			"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/07/products.json",
+			"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/07/services.json",
+			"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+			"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+			"openhours": {
+				"days": [{
+					"day": 1,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 2,
+					"openAt": 1420095600000,
+					"closeAt": 1420110000000
+				}, {
+					"day": 2,
+					"openAt": 1420124400000,
+					"closeAt": 1420138800000
+				}, {
+					"day": 3,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}, {
+					"day": 4,
+					"openAt": 1420095600000,
+					"closeAt": 1420126300000
+
+				}, {
+					"day": 5,
+					"openAt": 1420095600000,
+					"closeAt": 1420124400000
+				}],
+				"zone": 3
+			},
+			"mapdata": {
+				"annotations" : [{
+						"title" : "Molestie et wisi.",
+						"latitude" : 37.7880446,
+						"longitude" : -122.42192929999999
+				}, {
+						"title" : "Ullamcorper eros.",
+						"latitude" : 37.7891906,
+						"longitude" : -122.42041870000003
+				}]
+			},
+			"pictures": [
+				"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+			],
+			"tags": ["entertainment", "restaurants"]
+		}, {
+					"id": 8,
+					"guid": "1d4aa3b2-c059-4fa7-a751-9bca735410vc",
+					"name": "Wagamama",
+					"logo": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder-thumb.png",
+					"description": "In japanese, our name means ‘naughty child’, or ‘one who is wishful and determined’. A good example of that determination is the art of ‘kaizen’, meaning ‘good change’. This philosophy sits right at our heart. It shapes every dish we create, and pushes us to find better ways in all that we do. We’re restless spirits, forever creating and making things better. We’ve been practising kaizen since 1992, when we opened our first doors in london’s bloomsbury.",
+					"category": "Food",
+					"phoneNumber" : "+398764123456",
+					"email": "sofia.atsalou@gmail.com",
+					"officeLocation": "37.7975623,-122.4054395",
+					"facebookPage": "https://www.facebook.com/ionicframework",
+					"catalogs": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/08/catalogs.json",
+					"news": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/08/news.json",
+					"products": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/08/products.json",
+					"services": "https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/08/services.json",
+					"wordpress": "https://demo.titaniumtemplates.com/wordpress/?json=1",
+					"drupal": "https://demo.titaniumtemplates.com/drupal/rest/views/rest_api",
+					"openhours": {
+						"days": [{
+							"day": 1,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 2,
+							"openAt": 1420095600000,
+							"closeAt": 1420110000000
+						}, {
+							"day": 2,
+							"openAt": 1420124400000,
+							"closeAt": 1420138800000
+						}, {
+							"day": 3,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}, {
+							"day": 4,
+							"openAt": 1420095600000,
+							"closeAt": 1420126300000
+						}, {
+							"day": 5,
+							"openAt": 1420095600000,
+							"closeAt": 1420124400000
+						}],
+						"zone": 3
+					},
+					"mapdata": {
+						"annotations" : [{
+								"title" : "Molestie et wisi.",
+								"latitude" : 37.7975623,
+								"longitude" : -122.4054395
+						}, {
+								"title" : "Ullamcorper eros.",
+								"latitude" : 37.7971271,
+								"longitude" : -122.4089501999999
+						}]
+					},
+					"pictures": [
+						"https://skounis.s3.amazonaws.com/mobile-apps/business-directory/_release/assets/placeholder.png"
+					],
+					"tags": ["restaurant", "entertainment", "winner"]
+		}
+	]
+}

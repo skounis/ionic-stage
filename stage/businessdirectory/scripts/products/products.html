@@ -1,7 +1,7 @@
 <ion-view view-title="Products">
 	<ion-content>
 		<div ng-repeat="p in vm.products" ng-if="$index%2==0" class="row">
-			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index].id)">
+			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index].guid)">
 				<div class="item">
 					<h2>{{vm.products[$index].title}}</h2>
 				</div>
@@ -15,7 +15,7 @@
 				</a>
 			</div>
 
-			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index + 1].id)">
+			<div class="card col" ng-click="vm.showProductDetails(vm.products[$index + 1].guid)">
 				<div class="item">
 					<h2>{{vm.products[$index + 1].title}}</h2>
 				</div>

@@ -6,11 +6,11 @@
 		.controller('BusinessDetailsController', BusinessDetailsController);
 
 	BusinessDetailsController.$inject = [
-		'business', 'externalAppsService', 'openHoursService', 'distanceService', '$state', '$ionicHistory', 'favoriteBusinessesService', 'ionicToast'];
+		'business', 'externalAppsService', 'openHoursService', 'distanceService', '$state', 'favoriteBusinessesService', 'ionicToast'];
 
 	/* @ngInject */
 	function BusinessDetailsController(
-		business, externalAppsService, openHoursService, distanceService, $state, $ionicHistory, favoriteBusinessesService, ionicToast) {
+		business, externalAppsService, openHoursService, distanceService, $state, favoriteBusinessesService, ionicToast) {
 		var vm = angular.extend(this, {
 			currentDateTime: (new Date()).format('dddd HH:MM'),
 			business: {
@@ -19,7 +19,8 @@
 				pictures: business.pictures,
 				name: business.name,
 				category: business.category,
-				isInFavorites: favoriteBusinessesService.isInFavorites(business.guid)
+				isInFavorites: favoriteBusinessesService.isInFavorites(business.guid),
+				rating: business.rating
 			},
 			showNews: showNews,
 			showServices: showServices,
@@ -30,7 +31,8 @@
 			showDrupal: showDrupal,
 			getDirections: getDirections,
 			toggleFavorites: toggleFavorites,
-			showContactUs: showContactUs
+			showContactUs: showContactUs,
+			showReviews: showReviews
 		});
 
 		(function activate() {
@@ -50,6 +52,12 @@
 			}
 		}
 
+		function showReviews() {
+			$state.go('app.reviews', {
+				businessId: business.guid
+			});
+		}
+
 		function showContactUs() {
 			$state.go('app.contact-us', {
 				businessId: business.guid
@@ -64,25 +72,25 @@
 
 		function showProducts() {
 			$state.go('app.products', {
-				url: business.products
+				businessId: business.guid
 			});
 		}
 
 		function showNews() {
 			$state.go('app.articles', {
-				url: business.news
+				businessId: business.guid
 			});
 		}
 
 		function showServices() {
 			$state.go('app.services', {
-				url: business.services
+				businessId: business.guid
 			});
 		}
 
 		function showCatalogues() {
 			$state.go('app.catalogs', {
-				url: business.catalogs
+				businessId: business.guid
 			});
 		}
 

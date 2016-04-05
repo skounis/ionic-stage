@@ -5,12 +5,12 @@
 		.module('bizdir.catalogs')
 		.controller('CatalogController', CatalogController);
 
-	CatalogController.$inject = ['$scope', '$stateParams', 'externalAppsService', 'catalogsService'];
+	CatalogController.$inject = ['$stateParams', 'externalAppsService', 'catalogsService', '$ionicSlideBoxDelegate'];
 
 	/* @ngInject */
-	function CatalogController($scope, $stateParams, externalAppsService, catalogsService) {
-		var url = $stateParams.url;
-		var catalogId = parseInt($stateParams.catalogId);
+	function CatalogController($stateParams, externalAppsService, catalogsService, $ionicSlideBoxDelegate) {
+		var businessId = $stateParams.businessId;
+		var catalogId = $stateParams.catalogId;
 
 		var vm = angular.extend(this, {
 			catalog: null,
@@ -24,9 +24,10 @@
 		// **********************************************
 
 		function loadCatalog() {
-			catalogsService.getItem(url, catalogId)
+			catalogsService.getItem(businessId, catalogId)
 				.then(function(catalog) {
 					vm.catalog = catalog;
+					$ionicSlideBoxDelegate.update();
 				});
 		}
 

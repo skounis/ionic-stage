@@ -14,6 +14,8 @@
 				return $injector.get('localDataService');
 			case 'REMOTE':
 				return $injector.get('remoteDataService');
+			case 'FIREBASE':
+				return $injector.get('extendedFirebaseDataService');
 		}
 		
 		throw new Error('Data provider is not valid');

@@ -5,11 +5,11 @@
 		.module('bizdir.news')
 		.controller('ArticlesController', ArticlesController);
 
-	ArticlesController.$inject = ['$scope', '$state', 'newsService'];
+	ArticlesController.$inject = ['$state', 'newsService'];
 
 	/* @ngInject */
-	function ArticlesController($scope, $state, newsService) {
-		var url = $state.params.url;
+	function ArticlesController($state, newsService) {
+		var businessId = $state.params.businessId;
 
 		var vm = angular.extend(this, {
 			articles: [],
@@ -18,13 +18,13 @@
 
 		// ********************************************************************
 
-		newsService.getItems(url).then(function(data){
+		newsService.getItems(businessId).then(function(data){
 			vm.articles = data;
 		});
 
 		function navigate(articleId) {
 			$state.go('app.article', {
-				url: url, 
+				businessId: businessId,
 				articleId: articleId
 			});
 		}

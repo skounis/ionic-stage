@@ -1,0 +1,18 @@
+<ion-view view-title="Reviews">
+	<ion-nav-buttons side="right">
+		<button class="button button-clear icon ion-plus" ng-click="vm.showAddReviewView()"></button>
+	</ion-nav-buttons>
+
+	<ion-content>
+		<ion-list>
+			<ion-item class="item-text-wrap" ng-repeat="review in vm.reviews | orderBy: '-date'">
+				<h2>{{review.author}}</h2>
+				<p class="review-date">{{review.date | date : 'short'}}</p>
+				<p style="text-align: justify;">{{review.comment}}</p>
+				<div class="review-rating">
+					<rating ng-if="!!review.rate" ng-model="review.rate" readonly="true" max="5"></rating>
+				</div>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

@@ -1,7 +1,7 @@
 <ion-view view-title="News">
 	<ion-content>
 		<div ng-repeat="article in vm.articles">
-			<div class="card" ng-click="vm.navigate(article.id)">
+			<div class="card" ng-click="vm.navigate(article.guid)">
 				<div class="item item-text-wrap item-thumbnail-left">
 					<img ng-src="{{article.thumb}}">
 					<h2>{{article.title}}</h2>

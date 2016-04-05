@@ -5,12 +5,10 @@
 		.module('bizdir.catalogs')
 		.factory('catalogsService', catalogsService);
 
-	catalogsService.$inject = ['$http', '$q', '_'];
+	catalogsService.$inject = ['dataService', '$q', '_'];
 
 	/* @ngInject */
-	function catalogsService($http, $q, _) {
-		var result = {};
-
+	function catalogsService(dataService, $q, _) {
 		var service = {
 			getItems: getItems,
 			getItem: getItem
@@ -19,27 +17,12 @@
 
 		// *******************************************************
 
-		function getItems(url){
-			return $http.get(url)
-				.then(function(response) {
-					result[url] = response.data.result;
-					return result[url];
-				});
+		function getItems(businessId) {
+			return dataService.getCatalogs(businessId);
 		}
 
-		function getItem(url, catalogueId) {
-			var promise;
-			if (result[url]) {
-				promise = $q.when(result[url]);
-			} else {
-				promise = getItems(url);
-			}
-			
-			return promise.then(function(items) {
-				return _.find(items, function(item) {
-					return item.id === catalogueId;
-				});
-			});
+		function getItem(businessId, catalogId) {
+			return dataService.getCatalog(businessId, catalogId);
 		}
 	}
 })();

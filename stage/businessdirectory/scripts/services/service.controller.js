@@ -9,8 +9,8 @@
 
 	/* @ngInject */
 	function ServiceController($scope, $stateParams, servicesService, externalAppsService) {
-		var url = $stateParams.url;
-		var serviceId = parseInt($stateParams.serviceId);
+		var businessId = $stateParams.businessId;
+		var serviceId = $stateParams.serviceId;
 
 		var vm = angular.extend(this, {
 			service: null,
@@ -23,7 +23,7 @@
 		// **********************************************
 
 		function loadService() {
-			servicesService.getItem(url, serviceId).then(function(service) {
+			servicesService.getItem(businessId, serviceId).then(function(service) {
 				vm.service = service;
 			});
 		}

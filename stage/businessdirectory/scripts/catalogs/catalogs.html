@@ -1,7 +1,7 @@
 <ion-view view-title="Catalogs">
 	<ion-content>
 		<div ng-repeat="catalog in vm.catalogs" ng-if="$index%2 == 0" class="row">
-			<div class="card col" ng-click="vm.openCatalog(vm.catalogs[$index].id)">
+			<div class="card col" ng-click="vm.openCatalog(vm.catalogs[$index].guid)">
 				<div class="item item-image">
 					<img ng-src="{{vm.catalogs[$index].thumb}}">
 				</div>
@@ -12,7 +12,7 @@
 				</div>
 			</div>
 
-			<div class="card col" ng-click="vm.openCatalog(vm.catalogs[$index + 1].id)">
+			<div class="card col" ng-click="vm.openCatalog(vm.catalogs[$index + 1].guid)">
 				<div class="item item-image">
 					<img ng-src="{{vm.catalogs[$index + 1].thumb}}">
 				</div>

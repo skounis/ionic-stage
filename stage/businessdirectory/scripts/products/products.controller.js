@@ -9,7 +9,7 @@
 
 	/* @ngInject */
 	function ProductsController($scope, $state, productsService) {
-		var url = $state.params.url;
+		var businessId = $state.params.businessId;
 
 		var vm = angular.extend(this, {
 			products: [],
@@ -22,14 +22,14 @@
 		// ******************************************************
 
 		function loadProducts() {
-			productsService.getItems(url).then(function(data) {
+			productsService.getItems(businessId).then(function(data) {
 				vm.products = data;
 			});
 		}
 
 		function showProductDetails(productId) {
 			$state.go('app.product', {
-				url: url,
+				businessId: businessId,
 				productId: productId
 			});
 		}

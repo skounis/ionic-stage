@@ -9,9 +9,6 @@
 
 	/* @ngInject */
 	function businessesService(dataService, $q, _) {
-		var businesses;
-		var common;
-
 		var service = {
 			getBusinesses: getBusinesses,
 			getBusinessesByCategory: getBusinessesByCategory,
@@ -23,58 +20,24 @@
 
 		// ***************************************************************
 
-		function getCategories(businesses) {
-			var categories = _.map(businesses, function (business) {
-				return business.category;
-			});
-			categories = ['All'].concat(_.sortBy(_.unique(categories)));
-			return categories;
+		function getCategories() {
+			return dataService.getCategories();
 		};
 
 		function getBusinesses() {
-			return dataService.getBusinesses().then(function(data) {
-				businesses = data;
-				return businesses;
-			});
+			return dataService.getBusinesses();
 		}
 
 		function getBusinessesByCategory(category) {
-			var promise;
-
-			if (businesses) {
-				promise = $q.when(businesses);
-			} else {
-				promise = getBusinesses();
-			}
-
-			return promise.then(function(businesses) {
-				return _.filter(businesses, function(business) {
-					return category === 'All' || business.category === category;
-				})
-			});
+			return dataService.getBusinessesByCategory(category);
 		}
 
 		function getBusiness(businessId) {
-			var promise;
-
-			if (businesses) {
-				promise = $q.when(businesses);
-			} else {
-				promise = getBusinesses();
-			}
-
-			return promise.then(function(businesses) {
-				return _.find(businesses, function(business) {
-					return business.guid === businessId;
-				});
-			})
+			return dataService.getBusiness(businessId);
 		}
 
 		function getCommon() {
-			return dataService.getCommon().then(function(data) {
-				common = data;
-				return common;
-			});
+			return dataService.getCommon();
 		}
 	}
 })();

@@ -8,8 +8,10 @@ angular.module('bizdir', [
 	'ionic.service.push',
 	'ngCordova',
 
+	'firebase',
 	'config',
 	'gMaps',
+	'ionic.rating',
 
 	'bizdir.products',
 	'bizdir.news',
@@ -22,7 +24,8 @@ angular.module('bizdir', [
 	'bizdir.catalogs',
 	'bizdir.contact-us',
 	'bizdir.wordpress',
-	'bizdir.drupal'
+	'bizdir.drupal',
+	'bizdir.reviews'
 ])
 
 .value('_', window._)

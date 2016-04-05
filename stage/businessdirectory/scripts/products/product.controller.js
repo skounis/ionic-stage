@@ -5,12 +5,12 @@
 		.module('bizdir.products')
 		.controller('ProductController', ProductController);
 
-	ProductController.$inject = ['$scope', '$stateParams', 'productsService', 'externalAppsService'];
+	ProductController.$inject = ['$stateParams', 'productsService', 'externalAppsService'];
 
 	/* @ngInject */
-	function ProductController($scope, $stateParams, productsService, externalAppsService) {
-		var url = $stateParams.url;
-		var productId = parseInt($stateParams.productId);
+	function ProductController($stateParams, productsService, externalAppsService) {
+		var businessId = $stateParams.businessId;
+		var productId = $stateParams.productId;
 		
 		var vm = angular.extend(this, {
 			product: null,
@@ -24,9 +24,8 @@
 		// **********************************************
 
 		function loadProduct() {
-			productsService.getItem(url, productId)
+			productsService.getItem(businessId, productId)
 				.then(function(product) {
-					url: url,
 					vm.product = product;
 				});
 		}

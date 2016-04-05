@@ -9,8 +9,8 @@
 
 	/* @ngInject */
 	function ArticleController($stateParams, newsService) {
-		var url = $stateParams.url;
-		var articleId = parseInt($stateParams.articleId);
+		var businessId = $stateParams.businessId;
+		var articleId = $stateParams.articleId;
 
 		var vm = angular.extend(this, {
 			article: null
@@ -23,7 +23,7 @@
 		// ********************************************************************
 
 		function getArticle() {
-			newsService.getItem(url, articleId)
+			newsService.getItem(businessId, articleId)
 				.then(function(article) {
 					vm.article = article;
 				});
