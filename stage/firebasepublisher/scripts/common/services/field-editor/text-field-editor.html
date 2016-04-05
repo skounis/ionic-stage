@@ -1,0 +1,15 @@
+<ion-modal-view>
+	<ion-header-bar class="bar bar-header bar-positive">
+		<h1 class="title">Edit</h1>
+		<button class="button button-clear icon ion-close" ng-click="vm.close()"></button>
+	</ion-header-bar>
+
+	<ion-content class="padding">
+		<div class="list">
+			<label class="item item-input">
+				<input type="text" placeholder="{{vm.title}}" ng-model="vm.value">
+			</label>
+			<button class="button button-full button-positive" ng-click="vm.save(vm.value)">Save</button>
+		</div>
+	</ion-content>
+</ion-modal-view>

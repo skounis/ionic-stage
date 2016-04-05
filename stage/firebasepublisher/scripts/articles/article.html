@@ -1,0 +1,45 @@
+<ion-view>
+	<ion-nav-title>
+		{{vm.item.title}}
+	</ion-nav-title>
+
+	<ion-content>
+		<ion-slide-box ng-if="!!vm.item">
+			<ion-slide ng-repeat="pic in vm.item.images">
+				<div class="box blue article-slidebox">
+					<img ng-src="{{pic.url}}"/>
+					<div class="item">
+						<h1 style="margin-bottom: 0;">{{vm.item.title}}</h1>
+
+						<div class="rating-container">
+							{{vm.item.rating.value.toFixed(1)}}
+							<rating ng-model="vm.item.rating.value" readonly="true" max="5"></rating>
+							{{vm.item.rating.reviews}} {{vm.item.rating.reviews === 1 ? 'review' : 'reviews'}}
+						</div>
+						<span>{{vm.item.category.value}}{{(vm.item.tagsString ? '-' : '')}}{{vm.item.tagsString}}</span>
+
+					</div>
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+
+		<div class="content-inner" ng-if="!!vm.item">
+			<p>{{vm.item.body}}</p>
+
+			<h3>Comments</h3>
+			<ion-list>
+				<ion-item class="item-text-wrap item-borderless" ng-repeat="comment in vm.item.comments | orderBy: '-timestamp'">
+					<h2>{{comment.author}}</h2>
+					<p class="comment-date">{{comment.timestamp | date : 'short'}}</p>
+					<p style="text-align: justify;">{{comment.text}}</p>
+				</ion-item>
+			</ion-list>
+
+		</div>
+
+		<div class="padding-horizontal" ng-if="!!vm.item">
+			<button class="button button-full button-positive icon ion-chatboxes" ng-click="vm.showAddComment()"> Rate and comment</button>
+		</div>
+
+	</ion-content>
+</ion-view>

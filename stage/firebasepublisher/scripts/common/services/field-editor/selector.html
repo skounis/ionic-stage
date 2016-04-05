@@ -1,0 +1,15 @@
+<ion-modal-view>
+	<ion-header-bar class="bar bar-header bar-positive">
+		<h1 class="title">Choose</h1>
+		<button class="button button-clear icon ion-close" ng-click="vm.close()"></button>
+	</ion-header-bar>
+
+	<ion-content class="padding">
+		<ul class="list">
+			<li class="item item-icon-right" ng-repeat="item in vm.items" ng-click="vm.select(item)">
+				{{item.value}}
+				<i class="icon ion-checkmark" ng-if="item.key === vm.selectedItem.key"></i>
+			</li>
+		</ul>
+	</ion-content>
+</ion-modal-view>

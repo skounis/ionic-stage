@@ -1,0 +1,11 @@
+<ion-view view-title="Categories">
+	<ion-content has-header="true">
+
+		<ion-list ng-if="vm.items.length > 0">
+			<ion-item ng-repeat="item in vm.items" class="item-text-wrap">
+				<h2>{{item.key}}</h2>
+				<p>{{item.value}}</p>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

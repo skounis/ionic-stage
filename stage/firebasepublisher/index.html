@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+		<title></title>
+
+		<!-- build:css styles/vendor.css -->
+		<!-- bower:css -->
+		<link rel="stylesheet" href="bower_components/angular-bootstrap-calendar/dist/css/angular-bootstrap-calendar.css" />
+		<link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+		<!-- endbower -->
+		<!-- endbuild -->
+		<link rel="stylesheet" href="bower_components/ionic-rating/ionic-rating.css"/>
+		<link rel="stylesheet" href="styles/main.css">
+
+		<!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+		<link href="styles/ionic.app.css" rel="stylesheet">
+		-->
+
+		<!-- ionic/angularjs js -->
+		<!-- build:js scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/ionic/release/js/ionic.js"></script>
+		<script src="bower_components/ionic/release/js/ionic-angular.js"></script>
+		<script src="bower_components/angular-websocket/angular-websocket.min.js"></script>
+		<script src="bower_components/ngCordova/dist/ng-cordova.js"></script>
+		<script src="bower_components/lodash/lodash.js"></script>
+		<script src="bower_components/angular-base64/angular-base64.js"></script>
+		<script src="bower_components/ionic-service-core/ionic-core.js"></script>
+		<script src="bower_components/ionic-service-push/ionic-push.js"></script>
+		<script src="bower_components/moment/moment.js"></script>
+		<script src="bower_components/angular-moment/angular-moment.js"></script>
+		<script src="bower_components/firebase/firebase.js"></script>
+		<script src="bower_components/angularfire/dist/angularfire.js"></script>
+		<script src="bower_components/angular-bootstrap-calendar/dist/js/angular-bootstrap-calendar-tpls.js"></script>
+		<script src="bower_components/ng-cordova-oauth/dist/ng-cordova-oauth.js"></script>
+		<script src="bower_components/aws-sdk/dist/aws-sdk.js"></script>
+		<script src="bower_components/ionic-rating/ionic-rating.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- cordova script (this will be a 404 during development) -->
+		<script src="cordova.js"></script>
+
+		<!-- your app's js -->
+		<!-- build:js scripts/scripts.js -->
+		<script src="scripts/articles/articles.module.js"></script>
+		<script src="scripts/categories/categories.module.js"></script>
+		<script src="scripts/chats/chats.module.js"></script>
+		<script src="scripts/common/common.module.js"></script>
+		<script src="scripts/infrastructure/infrastructure.module.js"></script>
+		<script src="scripts/menu/menu.module.js"></script>
+		<script src="scripts/tags/tags.module.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/articles/article.controller.js"></script>
+		<script src="scripts/articles/articles.controller.js"></script>
+		<script src="scripts/articles/articles.service.js"></script>
+		<script src="scripts/categories/categories.controller.js"></script>
+		<script src="scripts/chats/auth/chats-login.controller.js"></script>
+		<script src="scripts/chats/room/chat-room.controller.js"></script>
+		<script src="scripts/chats/rooms/chat-rooms.controller.js"></script>
+		<script src="scripts/chats/services/chat-messages.service.js"></script>
+		<script src="scripts/chats/services/chat-rooms.service.js"></script>
+		<script src="scripts/chats/services/chats-auth.service.js"></script>
+		<script src="scripts/common/directives/file-change.directive.js"></script>
+		<script src="scripts/common/services/extenal-apps.service.js"></script>
+		<script src="scripts/config/internet-connectivity.js"></script>
+		<script src="scripts/config/spinner.js"></script>
+		<script src="scripts/configuration.js"></script>
+		<script src="scripts/infrastructure/services/fire-data.service.js"></script>
+		<script src="scripts/infrastructure/services/firebase-db.service.js"></script>
+		<script src="scripts/infrastructure/services/lists.service.js"></script>
+		<script src="scripts/menu/menu.controller.js"></script>
+		<script src="scripts/tags/tags.controller.js"></script>
+		<!-- endbuild -->
+	</head>
+
+	<body ng-app="firebase-starter">
+		<ion-nav-view></ion-nav-view>
+	</body>
+</html>
